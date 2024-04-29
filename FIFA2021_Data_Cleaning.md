@@ -1,7 +1,5 @@
 # FIFA 2021 Dataset
 
-FIFA 2021
-
 In this project I will clean the FIFA 2021 dataset I found in Kaggle: https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring/data
 
 These are the excersices I'll do:
@@ -79,76 +77,7 @@ fifa_df.head(10)
       <th>LongName</th>
       <th>playerUrl</th>
       <th>Nationality</th>
-      <th>Positions</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>↓OVA</th>
-      <th>POT</th>
-      <th>Team &amp; Contract</th>
-      <th>ID</th>
-      <th>Height</th>
-      <th>Weight</th>
-      <th>foot</th>
-      <th>BOV</th>
-      <th>BP</th>
-      <th>Growth</th>
-      <th>Joined</th>
-      <th>Loan Date End</th>
-      <th>Value</th>
-      <th>Wage</th>
-      <th>Release Clause</th>
-      <th>Attacking</th>
-      <th>Crossing</th>
-      <th>Finishing</th>
-      <th>Heading Accuracy</th>
-      <th>Short Passing</th>
-      <th>Volleys</th>
-      <th>Skill</th>
-      <th>Dribbling</th>
-      <th>Curve</th>
-      <th>FK Accuracy</th>
-      <th>Long Passing</th>
-      <th>Ball Control</th>
-      <th>Movement</th>
-      <th>Acceleration</th>
-      <th>Sprint Speed</th>
-      <th>Agility</th>
-      <th>Reactions</th>
-      <th>Balance</th>
-      <th>Power</th>
-      <th>Shot Power</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Long Shots</th>
-      <th>Mentality</th>
-      <th>Aggression</th>
-      <th>Interceptions</th>
-      <th>Positioning</th>
-      <th>Vision</th>
-      <th>Penalties</th>
-      <th>Composure</th>
-      <th>Defending</th>
-      <th>Marking</th>
-      <th>Standing Tackle</th>
-      <th>Sliding Tackle</th>
-      <th>Goalkeeping</th>
-      <th>GK Diving</th>
-      <th>GK Handling</th>
-      <th>GK Kicking</th>
-      <th>GK Positioning</th>
-      <th>GK Reflexes</th>
-      <th>Total Stats</th>
-      <th>Base Stats</th>
-      <th>W/F</th>
-      <th>SM</th>
-      <th>A/W</th>
-      <th>D/W</th>
-      <th>IR</th>
-      <th>PAC</th>
-      <th>SHO</th>
-      <th>PAS</th>
-      <th>DRI</th>
+      <th>...</th>
       <th>DEF</th>
       <th>PHY</th>
       <th>Hits</th>
@@ -160,76 +89,7 @@ fifa_df.head(10)
       <td>Lionel Messi</td>
       <td>http://sofifa.com/player/158023/lionel-messi/2...</td>
       <td>Argentina</td>
-      <td>RW ST CF</td>
-      <td>L. Messi</td>
-      <td>33</td>
-      <td>93</td>
-      <td>93</td>
-      <td>\n\n\n\nFC Barcelona\n2004 ~ 2021\n\n</td>
-      <td>158023</td>
-      <td>5'7"</td>
-      <td>159lbs</td>
-      <td>Left</td>
-      <td>93</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2004</td>
-      <td>NaN</td>
-      <td>€67.5M</td>
-      <td>€560K</td>
-      <td>€138.4M</td>
-      <td>429</td>
-      <td>85</td>
-      <td>95</td>
-      <td>70</td>
-      <td>91</td>
-      <td>88</td>
-      <td>470</td>
-      <td>96</td>
-      <td>93</td>
-      <td>94</td>
-      <td>91</td>
-      <td>96</td>
-      <td>451</td>
-      <td>91</td>
-      <td>80</td>
-      <td>91</td>
-      <td>94</td>
-      <td>95</td>
-      <td>389</td>
-      <td>86</td>
-      <td>68</td>
-      <td>72</td>
-      <td>69</td>
-      <td>94</td>
-      <td>347</td>
-      <td>44</td>
-      <td>40</td>
-      <td>93</td>
-      <td>95</td>
-      <td>75</td>
-      <td>96</td>
-      <td>91</td>
-      <td>32</td>
-      <td>35</td>
-      <td>24</td>
-      <td>54</td>
-      <td>6</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>8</td>
-      <td>2231</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>85</td>
-      <td>92</td>
-      <td>91</td>
-      <td>95</td>
+      <td>...</td>
       <td>38</td>
       <td>65</td>
       <td>\n372</td>
@@ -239,76 +99,7 @@ fifa_df.head(10)
       <td>C. Ronaldo dos Santos Aveiro</td>
       <td>http://sofifa.com/player/20801/c-ronaldo-dos-s...</td>
       <td>Portugal</td>
-      <td>ST LW</td>
-      <td>Cristiano Ronaldo</td>
-      <td>35</td>
-      <td>92</td>
-      <td>92</td>
-      <td>\n\n\n\nJuventus\n2018 ~ 2022\n\n</td>
-      <td>20801</td>
-      <td>6'2"</td>
-      <td>183lbs</td>
-      <td>Right</td>
-      <td>92</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 10, 2018</td>
-      <td>NaN</td>
-      <td>€46M</td>
-      <td>€220K</td>
-      <td>€75.9M</td>
-      <td>437</td>
-      <td>84</td>
-      <td>95</td>
-      <td>90</td>
-      <td>82</td>
-      <td>86</td>
-      <td>414</td>
-      <td>88</td>
-      <td>81</td>
-      <td>76</td>
-      <td>77</td>
-      <td>92</td>
-      <td>431</td>
-      <td>87</td>
-      <td>91</td>
-      <td>87</td>
-      <td>95</td>
-      <td>71</td>
-      <td>444</td>
-      <td>94</td>
-      <td>95</td>
-      <td>84</td>
-      <td>78</td>
-      <td>93</td>
-      <td>353</td>
-      <td>63</td>
-      <td>29</td>
-      <td>95</td>
-      <td>82</td>
-      <td>84</td>
-      <td>95</td>
-      <td>84</td>
-      <td>28</td>
-      <td>32</td>
-      <td>24</td>
-      <td>58</td>
-      <td>7</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>11</td>
-      <td>2221</td>
-      <td>464</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>89</td>
-      <td>93</td>
-      <td>81</td>
-      <td>89</td>
+      <td>...</td>
       <td>35</td>
       <td>77</td>
       <td>\n344</td>
@@ -318,76 +109,7 @@ fifa_df.head(10)
       <td>Jan Oblak</td>
       <td>http://sofifa.com/player/200389/jan-oblak/210005/</td>
       <td>Slovenia</td>
-      <td>GK</td>
-      <td>J. Oblak</td>
-      <td>27</td>
-      <td>91</td>
-      <td>93</td>
-      <td>\n\n\n\nAtlético Madrid\n2014 ~ 2023\n\n</td>
-      <td>200389</td>
-      <td>6'2"</td>
-      <td>192lbs</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>GK</td>
-      <td>2</td>
-      <td>Jul 16, 2014</td>
-      <td>NaN</td>
-      <td>€75M</td>
-      <td>€125K</td>
-      <td>€159.4M</td>
-      <td>95</td>
-      <td>13</td>
-      <td>11</td>
-      <td>15</td>
-      <td>43</td>
-      <td>13</td>
-      <td>109</td>
-      <td>12</td>
-      <td>13</td>
-      <td>14</td>
-      <td>40</td>
-      <td>30</td>
-      <td>307</td>
-      <td>43</td>
-      <td>60</td>
-      <td>67</td>
-      <td>88</td>
-      <td>49</td>
-      <td>268</td>
-      <td>59</td>
-      <td>78</td>
-      <td>41</td>
-      <td>78</td>
-      <td>12</td>
-      <td>140</td>
-      <td>34</td>
-      <td>19</td>
-      <td>11</td>
-      <td>65</td>
-      <td>11</td>
-      <td>68</td>
-      <td>57</td>
-      <td>27</td>
-      <td>12</td>
-      <td>18</td>
-      <td>437</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
-      <td>90</td>
-      <td>1413</td>
-      <td>489</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
+      <td>...</td>
       <td>52</td>
       <td>90</td>
       <td>\n86</td>
@@ -397,76 +119,7 @@ fifa_df.head(10)
       <td>Kevin De Bruyne</td>
       <td>http://sofifa.com/player/192985/kevin-de-bruyn...</td>
       <td>Belgium</td>
-      <td>CAM CM</td>
-      <td>K. De Bruyne</td>
-      <td>29</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nManchester City\n2015 ~ 2023\n\n</td>
-      <td>192985</td>
-      <td>5'11"</td>
-      <td>154lbs</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>CAM</td>
-      <td>0</td>
-      <td>Aug 30, 2015</td>
-      <td>NaN</td>
-      <td>€87M</td>
-      <td>€370K</td>
-      <td>€161M</td>
-      <td>407</td>
-      <td>94</td>
-      <td>82</td>
-      <td>55</td>
-      <td>94</td>
-      <td>82</td>
-      <td>441</td>
-      <td>88</td>
-      <td>85</td>
-      <td>83</td>
-      <td>93</td>
-      <td>92</td>
-      <td>398</td>
-      <td>77</td>
-      <td>76</td>
-      <td>78</td>
-      <td>91</td>
-      <td>76</td>
-      <td>408</td>
-      <td>91</td>
-      <td>63</td>
-      <td>89</td>
-      <td>74</td>
-      <td>91</td>
-      <td>408</td>
-      <td>76</td>
-      <td>66</td>
-      <td>88</td>
-      <td>94</td>
-      <td>84</td>
-      <td>91</td>
-      <td>186</td>
-      <td>68</td>
-      <td>65</td>
-      <td>53</td>
-      <td>56</td>
-      <td>15</td>
-      <td>13</td>
-      <td>5</td>
-      <td>10</td>
-      <td>13</td>
-      <td>2304</td>
-      <td>485</td>
-      <td>5 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>High</td>
-      <td>4 ★</td>
-      <td>76</td>
-      <td>86</td>
-      <td>93</td>
-      <td>88</td>
+      <td>...</td>
       <td>64</td>
       <td>78</td>
       <td>\n163</td>
@@ -476,76 +129,7 @@ fifa_df.head(10)
       <td>Neymar da Silva Santos Jr.</td>
       <td>http://sofifa.com/player/190871/neymar-da-silv...</td>
       <td>Brazil</td>
-      <td>LW CAM</td>
-      <td>Neymar Jr</td>
-      <td>28</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nParis Saint-Germain\n2017 ~ 2022\n\n</td>
-      <td>190871</td>
-      <td>5'9"</td>
-      <td>150lbs</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Aug 3, 2017</td>
-      <td>NaN</td>
-      <td>€90M</td>
-      <td>€270K</td>
-      <td>€166.5M</td>
-      <td>408</td>
-      <td>85</td>
-      <td>87</td>
-      <td>62</td>
-      <td>87</td>
-      <td>87</td>
-      <td>448</td>
-      <td>95</td>
-      <td>88</td>
-      <td>89</td>
-      <td>81</td>
-      <td>95</td>
-      <td>453</td>
-      <td>94</td>
-      <td>89</td>
-      <td>96</td>
-      <td>91</td>
-      <td>83</td>
-      <td>357</td>
-      <td>80</td>
-      <td>62</td>
-      <td>81</td>
-      <td>50</td>
-      <td>84</td>
-      <td>356</td>
-      <td>51</td>
-      <td>36</td>
-      <td>87</td>
-      <td>90</td>
-      <td>92</td>
-      <td>93</td>
-      <td>94</td>
-      <td>35</td>
-      <td>30</td>
-      <td>29</td>
-      <td>59</td>
-      <td>9</td>
-      <td>9</td>
-      <td>15</td>
-      <td>15</td>
-      <td>11</td>
-      <td>2175</td>
-      <td>451</td>
-      <td>5 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>5 ★</td>
-      <td>91</td>
-      <td>85</td>
-      <td>86</td>
-      <td>94</td>
+      <td>...</td>
       <td>36</td>
       <td>59</td>
       <td>\n273</td>
@@ -555,76 +139,7 @@ fifa_df.head(10)
       <td>Robert Lewandowski</td>
       <td>http://sofifa.com/player/188545/robert-lewando...</td>
       <td>Poland</td>
-      <td>ST</td>
-      <td>R. Lewandowski</td>
-      <td>31</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nFC Bayern München\n2014 ~ 2023\n\n</td>
-      <td>188545</td>
-      <td>6'0"</td>
-      <td>176lbs</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 1, 2014</td>
-      <td>NaN</td>
-      <td>€80M</td>
-      <td>€240K</td>
-      <td>€132M</td>
-      <td>423</td>
-      <td>71</td>
-      <td>94</td>
-      <td>85</td>
-      <td>84</td>
-      <td>89</td>
-      <td>407</td>
-      <td>85</td>
-      <td>79</td>
-      <td>85</td>
-      <td>70</td>
-      <td>88</td>
-      <td>407</td>
-      <td>77</td>
-      <td>78</td>
-      <td>77</td>
-      <td>93</td>
-      <td>82</td>
-      <td>420</td>
-      <td>89</td>
-      <td>84</td>
-      <td>76</td>
-      <td>86</td>
-      <td>85</td>
-      <td>391</td>
-      <td>81</td>
-      <td>49</td>
-      <td>94</td>
-      <td>79</td>
-      <td>88</td>
-      <td>88</td>
-      <td>96</td>
-      <td>35</td>
-      <td>42</td>
-      <td>19</td>
-      <td>51</td>
-      <td>15</td>
-      <td>6</td>
-      <td>12</td>
-      <td>8</td>
-      <td>10</td>
-      <td>2195</td>
-      <td>457</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>78</td>
-      <td>91</td>
-      <td>78</td>
-      <td>85</td>
+      <td>...</td>
       <td>43</td>
       <td>82</td>
       <td>\n182</td>
@@ -634,76 +149,7 @@ fifa_df.head(10)
       <td>Kylian Mbappé</td>
       <td>http://sofifa.com/player/231747/kylian-mbappe/...</td>
       <td>France</td>
-      <td>ST LW RW</td>
-      <td>K. Mbappé</td>
-      <td>21</td>
-      <td>90</td>
-      <td>95</td>
-      <td>\n\n\n\nParis Saint-Germain\n2018 ~ 2022\n\n</td>
-      <td>231747</td>
-      <td>5'10"</td>
-      <td>161lbs</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>5</td>
-      <td>Jul 1, 2018</td>
-      <td>NaN</td>
-      <td>€105.5M</td>
-      <td>€160K</td>
-      <td>€203.1M</td>
-      <td>408</td>
-      <td>78</td>
-      <td>91</td>
-      <td>73</td>
-      <td>83</td>
-      <td>83</td>
-      <td>394</td>
-      <td>92</td>
-      <td>79</td>
-      <td>63</td>
-      <td>70</td>
-      <td>90</td>
-      <td>458</td>
-      <td>96</td>
-      <td>96</td>
-      <td>92</td>
-      <td>92</td>
-      <td>82</td>
-      <td>404</td>
-      <td>86</td>
-      <td>77</td>
-      <td>86</td>
-      <td>76</td>
-      <td>79</td>
-      <td>341</td>
-      <td>62</td>
-      <td>38</td>
-      <td>91</td>
-      <td>80</td>
-      <td>70</td>
-      <td>84</td>
-      <td>100</td>
-      <td>34</td>
-      <td>34</td>
-      <td>32</td>
-      <td>42</td>
-      <td>13</td>
-      <td>5</td>
-      <td>7</td>
-      <td>11</td>
-      <td>6</td>
-      <td>2147</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>3 ★</td>
-      <td>96</td>
-      <td>86</td>
-      <td>78</td>
-      <td>91</td>
+      <td>...</td>
       <td>39</td>
       <td>76</td>
       <td>\n646</td>
@@ -713,76 +159,7 @@ fifa_df.head(10)
       <td>Alisson Ramses Becker</td>
       <td>http://sofifa.com/player/212831/alisson-ramses...</td>
       <td>Brazil</td>
-      <td>GK</td>
-      <td>Alisson</td>
-      <td>27</td>
-      <td>90</td>
-      <td>91</td>
-      <td>\n\n\n\nLiverpool\n2018 ~ 2024\n\n</td>
-      <td>212831</td>
-      <td>6'3"</td>
-      <td>201lbs</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>GK</td>
-      <td>1</td>
-      <td>Jul 19, 2018</td>
-      <td>NaN</td>
-      <td>€62.5M</td>
-      <td>€160K</td>
-      <td>€120.3M</td>
-      <td>114</td>
-      <td>17</td>
-      <td>13</td>
-      <td>19</td>
-      <td>45</td>
-      <td>20</td>
-      <td>138</td>
-      <td>27</td>
-      <td>19</td>
-      <td>18</td>
-      <td>44</td>
-      <td>30</td>
-      <td>268</td>
-      <td>56</td>
-      <td>47</td>
-      <td>40</td>
-      <td>88</td>
-      <td>37</td>
-      <td>240</td>
-      <td>64</td>
-      <td>52</td>
-      <td>32</td>
-      <td>78</td>
-      <td>14</td>
-      <td>140</td>
-      <td>27</td>
-      <td>11</td>
-      <td>13</td>
-      <td>66</td>
-      <td>23</td>
-      <td>65</td>
-      <td>50</td>
-      <td>15</td>
-      <td>19</td>
-      <td>16</td>
-      <td>439</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>91</td>
-      <td>89</td>
-      <td>1389</td>
-      <td>490</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>89</td>
+      <td>...</td>
       <td>51</td>
       <td>91</td>
       <td>\n79</td>
@@ -792,76 +169,7 @@ fifa_df.head(10)
       <td>Mohamed Salah</td>
       <td>http://sofifa.com/player/209331/mohamed-salah/...</td>
       <td>Egypt</td>
-      <td>RW</td>
-      <td>M. Salah</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>\n\n\n\nLiverpool\n2017 ~ 2023\n\n</td>
-      <td>209331</td>
-      <td>5'9"</td>
-      <td>157lbs</td>
-      <td>Left</td>
-      <td>90</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2017</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>392</td>
-      <td>79</td>
-      <td>91</td>
-      <td>59</td>
-      <td>84</td>
-      <td>79</td>
-      <td>406</td>
-      <td>90</td>
-      <td>83</td>
-      <td>69</td>
-      <td>75</td>
-      <td>89</td>
-      <td>460</td>
-      <td>94</td>
-      <td>92</td>
-      <td>91</td>
-      <td>92</td>
-      <td>91</td>
-      <td>393</td>
-      <td>80</td>
-      <td>69</td>
-      <td>85</td>
-      <td>75</td>
-      <td>84</td>
-      <td>376</td>
-      <td>63</td>
-      <td>55</td>
-      <td>91</td>
-      <td>84</td>
-      <td>83</td>
-      <td>90</td>
-      <td>122</td>
-      <td>38</td>
-      <td>43</td>
-      <td>41</td>
-      <td>62</td>
-      <td>14</td>
-      <td>14</td>
-      <td>9</td>
-      <td>11</td>
-      <td>14</td>
-      <td>2211</td>
-      <td>470</td>
-      <td>3 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>93</td>
-      <td>86</td>
-      <td>81</td>
-      <td>90</td>
+      <td>...</td>
       <td>45</td>
       <td>75</td>
       <td>\n164</td>
@@ -871,82 +179,14 @@ fifa_df.head(10)
       <td>Sadio Mané</td>
       <td>http://sofifa.com/player/208722/sadio-mane/210...</td>
       <td>Senegal</td>
-      <td>LW</td>
-      <td>S. Mané</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>\n\n\n\nLiverpool\n2016 ~ 2023\n\n</td>
-      <td>208722</td>
-      <td>5'9"</td>
-      <td>152lbs</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Jul 1, 2016</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>410</td>
-      <td>76</td>
-      <td>90</td>
-      <td>84</td>
-      <td>85</td>
-      <td>75</td>
-      <td>391</td>
-      <td>91</td>
-      <td>76</td>
-      <td>64</td>
-      <td>71</td>
-      <td>89</td>
-      <td>460</td>
-      <td>95</td>
-      <td>93</td>
-      <td>93</td>
-      <td>93</td>
-      <td>86</td>
-      <td>406</td>
-      <td>84</td>
-      <td>86</td>
-      <td>88</td>
-      <td>70</td>
-      <td>78</td>
-      <td>358</td>
-      <td>75</td>
-      <td>35</td>
-      <td>92</td>
-      <td>85</td>
-      <td>71</td>
-      <td>84</td>
-      <td>122</td>
-      <td>42</td>
-      <td>42</td>
-      <td>38</td>
-      <td>56</td>
-      <td>10</td>
-      <td>10</td>
-      <td>15</td>
-      <td>7</td>
-      <td>14</td>
-      <td>2203</td>
-      <td>469</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>94</td>
-      <td>85</td>
-      <td>80</td>
-      <td>90</td>
+      <td>...</td>
       <td>44</td>
       <td>76</td>
       <td>\n170</td>
     </tr>
   </tbody>
 </table>
+<p>10 rows × 76 columns</p>
 </div>
 
 
@@ -1470,76 +710,7 @@ fifa_df.head(10)
       <th>LongName</th>
       <th>playerUrl</th>
       <th>Nationality</th>
-      <th>Positions</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>↓OVA</th>
-      <th>POT</th>
-      <th>Team &amp; Contract</th>
-      <th>ID</th>
-      <th>Height(mts)</th>
-      <th>Weight(kg)</th>
-      <th>foot</th>
-      <th>BOV</th>
-      <th>BP</th>
-      <th>Growth</th>
-      <th>Joined</th>
-      <th>Loan Date End</th>
-      <th>Value</th>
-      <th>Wage</th>
-      <th>Release Clause</th>
-      <th>Attacking</th>
-      <th>Crossing</th>
-      <th>Finishing</th>
-      <th>Heading Accuracy</th>
-      <th>Short Passing</th>
-      <th>Volleys</th>
-      <th>Skill</th>
-      <th>Dribbling</th>
-      <th>Curve</th>
-      <th>FK Accuracy</th>
-      <th>Long Passing</th>
-      <th>Ball Control</th>
-      <th>Movement</th>
-      <th>Acceleration</th>
-      <th>Sprint Speed</th>
-      <th>Agility</th>
-      <th>Reactions</th>
-      <th>Balance</th>
-      <th>Power</th>
-      <th>Shot Power</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Long Shots</th>
-      <th>Mentality</th>
-      <th>Aggression</th>
-      <th>Interceptions</th>
-      <th>Positioning</th>
-      <th>Vision</th>
-      <th>Penalties</th>
-      <th>Composure</th>
-      <th>Defending</th>
-      <th>Marking</th>
-      <th>Standing Tackle</th>
-      <th>Sliding Tackle</th>
-      <th>Goalkeeping</th>
-      <th>GK Diving</th>
-      <th>GK Handling</th>
-      <th>GK Kicking</th>
-      <th>GK Positioning</th>
-      <th>GK Reflexes</th>
-      <th>Total Stats</th>
-      <th>Base Stats</th>
-      <th>W/F</th>
-      <th>SM</th>
-      <th>A/W</th>
-      <th>D/W</th>
-      <th>IR</th>
-      <th>PAC</th>
-      <th>SHO</th>
-      <th>PAS</th>
-      <th>DRI</th>
+      <th>...</th>
       <th>DEF</th>
       <th>PHY</th>
       <th>Hits</th>
@@ -1551,76 +722,7 @@ fifa_df.head(10)
       <td>Lionel Messi</td>
       <td>http://sofifa.com/player/158023/lionel-messi/2...</td>
       <td>Argentina</td>
-      <td>RW ST CF</td>
-      <td>L. Messi</td>
-      <td>33</td>
-      <td>93</td>
-      <td>93</td>
-      <td>\n\n\n\nFC Barcelona\n2004 ~ 2021\n\n</td>
-      <td>158023</td>
-      <td>1.70</td>
-      <td>72</td>
-      <td>Left</td>
-      <td>93</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2004</td>
-      <td>NaN</td>
-      <td>€67.5M</td>
-      <td>€560K</td>
-      <td>€138.4M</td>
-      <td>429</td>
-      <td>85</td>
-      <td>95</td>
-      <td>70</td>
-      <td>91</td>
-      <td>88</td>
-      <td>470</td>
-      <td>96</td>
-      <td>93</td>
-      <td>94</td>
-      <td>91</td>
-      <td>96</td>
-      <td>451</td>
-      <td>91</td>
-      <td>80</td>
-      <td>91</td>
-      <td>94</td>
-      <td>95</td>
-      <td>389</td>
-      <td>86</td>
-      <td>68</td>
-      <td>72</td>
-      <td>69</td>
-      <td>94</td>
-      <td>347</td>
-      <td>44</td>
-      <td>40</td>
-      <td>93</td>
-      <td>95</td>
-      <td>75</td>
-      <td>96</td>
-      <td>91</td>
-      <td>32</td>
-      <td>35</td>
-      <td>24</td>
-      <td>54</td>
-      <td>6</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>8</td>
-      <td>2231</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>85</td>
-      <td>92</td>
-      <td>91</td>
-      <td>95</td>
+      <td>...</td>
       <td>38</td>
       <td>65</td>
       <td>\n372</td>
@@ -1630,76 +732,7 @@ fifa_df.head(10)
       <td>C. Ronaldo dos Santos Aveiro</td>
       <td>http://sofifa.com/player/20801/c-ronaldo-dos-s...</td>
       <td>Portugal</td>
-      <td>ST LW</td>
-      <td>Cristiano Ronaldo</td>
-      <td>35</td>
-      <td>92</td>
-      <td>92</td>
-      <td>\n\n\n\nJuventus\n2018 ~ 2022\n\n</td>
-      <td>20801</td>
-      <td>1.88</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>92</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 10, 2018</td>
-      <td>NaN</td>
-      <td>€46M</td>
-      <td>€220K</td>
-      <td>€75.9M</td>
-      <td>437</td>
-      <td>84</td>
-      <td>95</td>
-      <td>90</td>
-      <td>82</td>
-      <td>86</td>
-      <td>414</td>
-      <td>88</td>
-      <td>81</td>
-      <td>76</td>
-      <td>77</td>
-      <td>92</td>
-      <td>431</td>
-      <td>87</td>
-      <td>91</td>
-      <td>87</td>
-      <td>95</td>
-      <td>71</td>
-      <td>444</td>
-      <td>94</td>
-      <td>95</td>
-      <td>84</td>
-      <td>78</td>
-      <td>93</td>
-      <td>353</td>
-      <td>63</td>
-      <td>29</td>
-      <td>95</td>
-      <td>82</td>
-      <td>84</td>
-      <td>95</td>
-      <td>84</td>
-      <td>28</td>
-      <td>32</td>
-      <td>24</td>
-      <td>58</td>
-      <td>7</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>11</td>
-      <td>2221</td>
-      <td>464</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>89</td>
-      <td>93</td>
-      <td>81</td>
-      <td>89</td>
+      <td>...</td>
       <td>35</td>
       <td>77</td>
       <td>\n344</td>
@@ -1709,76 +742,7 @@ fifa_df.head(10)
       <td>Jan Oblak</td>
       <td>http://sofifa.com/player/200389/jan-oblak/210005/</td>
       <td>Slovenia</td>
-      <td>GK</td>
-      <td>J. Oblak</td>
-      <td>27</td>
-      <td>91</td>
-      <td>93</td>
-      <td>\n\n\n\nAtlético Madrid\n2014 ~ 2023\n\n</td>
-      <td>200389</td>
-      <td>1.88</td>
-      <td>87</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>GK</td>
-      <td>2</td>
-      <td>Jul 16, 2014</td>
-      <td>NaN</td>
-      <td>€75M</td>
-      <td>€125K</td>
-      <td>€159.4M</td>
-      <td>95</td>
-      <td>13</td>
-      <td>11</td>
-      <td>15</td>
-      <td>43</td>
-      <td>13</td>
-      <td>109</td>
-      <td>12</td>
-      <td>13</td>
-      <td>14</td>
-      <td>40</td>
-      <td>30</td>
-      <td>307</td>
-      <td>43</td>
-      <td>60</td>
-      <td>67</td>
-      <td>88</td>
-      <td>49</td>
-      <td>268</td>
-      <td>59</td>
-      <td>78</td>
-      <td>41</td>
-      <td>78</td>
-      <td>12</td>
-      <td>140</td>
-      <td>34</td>
-      <td>19</td>
-      <td>11</td>
-      <td>65</td>
-      <td>11</td>
-      <td>68</td>
-      <td>57</td>
-      <td>27</td>
-      <td>12</td>
-      <td>18</td>
-      <td>437</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
-      <td>90</td>
-      <td>1413</td>
-      <td>489</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
+      <td>...</td>
       <td>52</td>
       <td>90</td>
       <td>\n86</td>
@@ -1788,76 +752,7 @@ fifa_df.head(10)
       <td>Kevin De Bruyne</td>
       <td>http://sofifa.com/player/192985/kevin-de-bruyn...</td>
       <td>Belgium</td>
-      <td>CAM CM</td>
-      <td>K. De Bruyne</td>
-      <td>29</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nManchester City\n2015 ~ 2023\n\n</td>
-      <td>192985</td>
-      <td>1.55</td>
-      <td>69</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>CAM</td>
-      <td>0</td>
-      <td>Aug 30, 2015</td>
-      <td>NaN</td>
-      <td>€87M</td>
-      <td>€370K</td>
-      <td>€161M</td>
-      <td>407</td>
-      <td>94</td>
-      <td>82</td>
-      <td>55</td>
-      <td>94</td>
-      <td>82</td>
-      <td>441</td>
-      <td>88</td>
-      <td>85</td>
-      <td>83</td>
-      <td>93</td>
-      <td>92</td>
-      <td>398</td>
-      <td>77</td>
-      <td>76</td>
-      <td>78</td>
-      <td>91</td>
-      <td>76</td>
-      <td>408</td>
-      <td>91</td>
-      <td>63</td>
-      <td>89</td>
-      <td>74</td>
-      <td>91</td>
-      <td>408</td>
-      <td>76</td>
-      <td>66</td>
-      <td>88</td>
-      <td>94</td>
-      <td>84</td>
-      <td>91</td>
-      <td>186</td>
-      <td>68</td>
-      <td>65</td>
-      <td>53</td>
-      <td>56</td>
-      <td>15</td>
-      <td>13</td>
-      <td>5</td>
-      <td>10</td>
-      <td>13</td>
-      <td>2304</td>
-      <td>485</td>
-      <td>5 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>High</td>
-      <td>4 ★</td>
-      <td>76</td>
-      <td>86</td>
-      <td>93</td>
-      <td>88</td>
+      <td>...</td>
       <td>64</td>
       <td>78</td>
       <td>\n163</td>
@@ -1867,76 +762,7 @@ fifa_df.head(10)
       <td>Neymar da Silva Santos Jr.</td>
       <td>http://sofifa.com/player/190871/neymar-da-silv...</td>
       <td>Brazil</td>
-      <td>LW CAM</td>
-      <td>Neymar Jr</td>
-      <td>28</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nParis Saint-Germain\n2017 ~ 2022\n\n</td>
-      <td>190871</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Aug 3, 2017</td>
-      <td>NaN</td>
-      <td>€90M</td>
-      <td>€270K</td>
-      <td>€166.5M</td>
-      <td>408</td>
-      <td>85</td>
-      <td>87</td>
-      <td>62</td>
-      <td>87</td>
-      <td>87</td>
-      <td>448</td>
-      <td>95</td>
-      <td>88</td>
-      <td>89</td>
-      <td>81</td>
-      <td>95</td>
-      <td>453</td>
-      <td>94</td>
-      <td>89</td>
-      <td>96</td>
-      <td>91</td>
-      <td>83</td>
-      <td>357</td>
-      <td>80</td>
-      <td>62</td>
-      <td>81</td>
-      <td>50</td>
-      <td>84</td>
-      <td>356</td>
-      <td>51</td>
-      <td>36</td>
-      <td>87</td>
-      <td>90</td>
-      <td>92</td>
-      <td>93</td>
-      <td>94</td>
-      <td>35</td>
-      <td>30</td>
-      <td>29</td>
-      <td>59</td>
-      <td>9</td>
-      <td>9</td>
-      <td>15</td>
-      <td>15</td>
-      <td>11</td>
-      <td>2175</td>
-      <td>451</td>
-      <td>5 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>5 ★</td>
-      <td>91</td>
-      <td>85</td>
-      <td>86</td>
-      <td>94</td>
+      <td>...</td>
       <td>36</td>
       <td>59</td>
       <td>\n273</td>
@@ -1946,76 +772,7 @@ fifa_df.head(10)
       <td>Robert Lewandowski</td>
       <td>http://sofifa.com/player/188545/robert-lewando...</td>
       <td>Poland</td>
-      <td>ST</td>
-      <td>R. Lewandowski</td>
-      <td>31</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nFC Bayern München\n2014 ~ 2023\n\n</td>
-      <td>188545</td>
-      <td>1.83</td>
-      <td>79</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 1, 2014</td>
-      <td>NaN</td>
-      <td>€80M</td>
-      <td>€240K</td>
-      <td>€132M</td>
-      <td>423</td>
-      <td>71</td>
-      <td>94</td>
-      <td>85</td>
-      <td>84</td>
-      <td>89</td>
-      <td>407</td>
-      <td>85</td>
-      <td>79</td>
-      <td>85</td>
-      <td>70</td>
-      <td>88</td>
-      <td>407</td>
-      <td>77</td>
-      <td>78</td>
-      <td>77</td>
-      <td>93</td>
-      <td>82</td>
-      <td>420</td>
-      <td>89</td>
-      <td>84</td>
-      <td>76</td>
-      <td>86</td>
-      <td>85</td>
-      <td>391</td>
-      <td>81</td>
-      <td>49</td>
-      <td>94</td>
-      <td>79</td>
-      <td>88</td>
-      <td>88</td>
-      <td>96</td>
-      <td>35</td>
-      <td>42</td>
-      <td>19</td>
-      <td>51</td>
-      <td>15</td>
-      <td>6</td>
-      <td>12</td>
-      <td>8</td>
-      <td>10</td>
-      <td>2195</td>
-      <td>457</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>78</td>
-      <td>91</td>
-      <td>78</td>
-      <td>85</td>
+      <td>...</td>
       <td>43</td>
       <td>82</td>
       <td>\n182</td>
@@ -2025,76 +782,7 @@ fifa_df.head(10)
       <td>Kylian Mbappé</td>
       <td>http://sofifa.com/player/231747/kylian-mbappe/...</td>
       <td>France</td>
-      <td>ST LW RW</td>
-      <td>K. Mbappé</td>
-      <td>21</td>
-      <td>90</td>
-      <td>95</td>
-      <td>\n\n\n\nParis Saint-Germain\n2018 ~ 2022\n\n</td>
-      <td>231747</td>
-      <td>1.55</td>
-      <td>73</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>5</td>
-      <td>Jul 1, 2018</td>
-      <td>NaN</td>
-      <td>€105.5M</td>
-      <td>€160K</td>
-      <td>€203.1M</td>
-      <td>408</td>
-      <td>78</td>
-      <td>91</td>
-      <td>73</td>
-      <td>83</td>
-      <td>83</td>
-      <td>394</td>
-      <td>92</td>
-      <td>79</td>
-      <td>63</td>
-      <td>70</td>
-      <td>90</td>
-      <td>458</td>
-      <td>96</td>
-      <td>96</td>
-      <td>92</td>
-      <td>92</td>
-      <td>82</td>
-      <td>404</td>
-      <td>86</td>
-      <td>77</td>
-      <td>86</td>
-      <td>76</td>
-      <td>79</td>
-      <td>341</td>
-      <td>62</td>
-      <td>38</td>
-      <td>91</td>
-      <td>80</td>
-      <td>70</td>
-      <td>84</td>
-      <td>100</td>
-      <td>34</td>
-      <td>34</td>
-      <td>32</td>
-      <td>42</td>
-      <td>13</td>
-      <td>5</td>
-      <td>7</td>
-      <td>11</td>
-      <td>6</td>
-      <td>2147</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>3 ★</td>
-      <td>96</td>
-      <td>86</td>
-      <td>78</td>
-      <td>91</td>
+      <td>...</td>
       <td>39</td>
       <td>76</td>
       <td>\n646</td>
@@ -2104,76 +792,7 @@ fifa_df.head(10)
       <td>Alisson Ramses Becker</td>
       <td>http://sofifa.com/player/212831/alisson-ramses...</td>
       <td>Brazil</td>
-      <td>GK</td>
-      <td>Alisson</td>
-      <td>27</td>
-      <td>90</td>
-      <td>91</td>
-      <td>\n\n\n\nLiverpool\n2018 ~ 2024\n\n</td>
-      <td>212831</td>
-      <td>1.91</td>
-      <td>91</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>GK</td>
-      <td>1</td>
-      <td>Jul 19, 2018</td>
-      <td>NaN</td>
-      <td>€62.5M</td>
-      <td>€160K</td>
-      <td>€120.3M</td>
-      <td>114</td>
-      <td>17</td>
-      <td>13</td>
-      <td>19</td>
-      <td>45</td>
-      <td>20</td>
-      <td>138</td>
-      <td>27</td>
-      <td>19</td>
-      <td>18</td>
-      <td>44</td>
-      <td>30</td>
-      <td>268</td>
-      <td>56</td>
-      <td>47</td>
-      <td>40</td>
-      <td>88</td>
-      <td>37</td>
-      <td>240</td>
-      <td>64</td>
-      <td>52</td>
-      <td>32</td>
-      <td>78</td>
-      <td>14</td>
-      <td>140</td>
-      <td>27</td>
-      <td>11</td>
-      <td>13</td>
-      <td>66</td>
-      <td>23</td>
-      <td>65</td>
-      <td>50</td>
-      <td>15</td>
-      <td>19</td>
-      <td>16</td>
-      <td>439</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>91</td>
-      <td>89</td>
-      <td>1389</td>
-      <td>490</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>89</td>
+      <td>...</td>
       <td>51</td>
       <td>91</td>
       <td>\n79</td>
@@ -2183,76 +802,7 @@ fifa_df.head(10)
       <td>Mohamed Salah</td>
       <td>http://sofifa.com/player/209331/mohamed-salah/...</td>
       <td>Egypt</td>
-      <td>RW</td>
-      <td>M. Salah</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>\n\n\n\nLiverpool\n2017 ~ 2023\n\n</td>
-      <td>209331</td>
-      <td>1.75</td>
-      <td>71</td>
-      <td>Left</td>
-      <td>90</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2017</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>392</td>
-      <td>79</td>
-      <td>91</td>
-      <td>59</td>
-      <td>84</td>
-      <td>79</td>
-      <td>406</td>
-      <td>90</td>
-      <td>83</td>
-      <td>69</td>
-      <td>75</td>
-      <td>89</td>
-      <td>460</td>
-      <td>94</td>
-      <td>92</td>
-      <td>91</td>
-      <td>92</td>
-      <td>91</td>
-      <td>393</td>
-      <td>80</td>
-      <td>69</td>
-      <td>85</td>
-      <td>75</td>
-      <td>84</td>
-      <td>376</td>
-      <td>63</td>
-      <td>55</td>
-      <td>91</td>
-      <td>84</td>
-      <td>83</td>
-      <td>90</td>
-      <td>122</td>
-      <td>38</td>
-      <td>43</td>
-      <td>41</td>
-      <td>62</td>
-      <td>14</td>
-      <td>14</td>
-      <td>9</td>
-      <td>11</td>
-      <td>14</td>
-      <td>2211</td>
-      <td>470</td>
-      <td>3 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>93</td>
-      <td>86</td>
-      <td>81</td>
-      <td>90</td>
+      <td>...</td>
       <td>45</td>
       <td>75</td>
       <td>\n164</td>
@@ -2262,82 +812,14 @@ fifa_df.head(10)
       <td>Sadio Mané</td>
       <td>http://sofifa.com/player/208722/sadio-mane/210...</td>
       <td>Senegal</td>
-      <td>LW</td>
-      <td>S. Mané</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>\n\n\n\nLiverpool\n2016 ~ 2023\n\n</td>
-      <td>208722</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Jul 1, 2016</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>410</td>
-      <td>76</td>
-      <td>90</td>
-      <td>84</td>
-      <td>85</td>
-      <td>75</td>
-      <td>391</td>
-      <td>91</td>
-      <td>76</td>
-      <td>64</td>
-      <td>71</td>
-      <td>89</td>
-      <td>460</td>
-      <td>95</td>
-      <td>93</td>
-      <td>93</td>
-      <td>93</td>
-      <td>86</td>
-      <td>406</td>
-      <td>84</td>
-      <td>86</td>
-      <td>88</td>
-      <td>70</td>
-      <td>78</td>
-      <td>358</td>
-      <td>75</td>
-      <td>35</td>
-      <td>92</td>
-      <td>85</td>
-      <td>71</td>
-      <td>84</td>
-      <td>122</td>
-      <td>42</td>
-      <td>42</td>
-      <td>38</td>
-      <td>56</td>
-      <td>10</td>
-      <td>10</td>
-      <td>15</td>
-      <td>7</td>
-      <td>14</td>
-      <td>2203</td>
-      <td>469</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>94</td>
-      <td>85</td>
-      <td>80</td>
-      <td>90</td>
+      <td>...</td>
       <td>44</td>
       <td>76</td>
       <td>\n170</td>
     </tr>
   </tbody>
 </table>
+<p>10 rows × 76 columns</p>
 </div>
 
 
@@ -2402,1006 +884,1006 @@ set(team_contract_clean)
 
 
 
-    {'São Paulo2019 ~ 2023',
-     'Yokohama F. Marinos2018 ~ 2021',
-     'Jorge Wilstermann2018 ~ 2024',
-     'Shijiazhuang Ever Bright F.C.2019 ~ 2021',
-     'Vegalta Sendai2013 ~ 2021',
-     'Northampton Town2015 ~ 2022',
-     'Malmö FF2015 ~ 2022',
-     'Nottingham Forest2016 ~ 2021',
-     'Universitatea Craiova2018 ~ 2025',
-     'Crawley Town2019 ~ 2022',
-     'Nacional de Montevideo2017 ~ 2022',
-     'Huddersfield Town2019 ~ 2022',
-     'Middlesbrough2014 ~ 2023',
-     'Levante UD2014 ~ 2023',
-     'Macarthur FC2020 ~ 2021',
-     'New York City FC2019 ~ 2023',
-     'Falkenbergs FF2020 ~ 2020',
-     'Olympique Lyonnais2019 ~ 2023',
-     'Cork CityNov 30, 2020 On Loan',
-     'Eintracht Frankfurt2014 ~ 2021',
-     'Standard de Liège2019 ~ 2023',
-     'Leeds United2016 ~ 2023',
-     'Os Belenenses2020 ~ 2021',
-     'Real Madrid2007 ~ 2022',
-     'Os Belenenses2019 ~ 2022',
-     'En Avant de Guingamp2018 ~ 2021',
-     'Southend United2020 ~ 2021',
-     'Sanfrecce Hiroshima2016 ~ 2024',
-     'SG Dynamo Dresden2017 ~ 2021',
-     'Sampdoria2018 ~ 2021',
-     'KRC Genk2019 ~ 2022',
-     'FCSB (Steaua)2019 ~ 2023',
-     'Harrogate Town2017 ~ 2023',
-     'Cardiff City2017 ~ 2022',
-     '1. FSV Mainz 052017 ~ 2021',
-     'FC Argeș2020 ~ 2021',
-     'Al Nassr2018 ~ 2025',
-     'Eintracht Frankfurt2020 ~ 2025',
-     'Blackburn Rovers2019 ~ 2023',
-     'Ettifaq FC2019 ~ 2022',
-     'Vejle Boldklub2018 ~ 2021',
-     'FC Juárez2020 ~ 2025',
-     'New York Red Bulls2020 ~ 2024',
-     'Beşiktaş JK2020 ~ 2021',
-     'Stabæk Fotball2015 ~ 2022',
-     'Grenoble Foot 382020 ~ 2024',
-     'Borussia Dortmund2018 ~ 2021',
-     'RB Leipzig2020 ~ 2024',
-     'Stade de Reims2019 ~ 2024',
-     'Luton Town2017 ~ 2022',
-     'Coquimbo Unido2020 ~ 2020',
-     'AC Mineros de Guayana2017 ~ 2025',
-     'Orlando Pirates2006 ~ 2021',
-     'Nacional Asunción2019 ~ 2020',
-     'Portland Timbers2018 ~ 2025',
-     'VfB Stuttgart2020 ~ 2024',
-     'Sydney FC2016 ~ 2021',
-     'SK Brann2015 ~ 2023',
-     'AZ Alkmaar2020 ~ 2023',
-     'Atalanta2018 ~ 2024',
-     'RCD Espanyol2020 ~ 2021',
-     'Östersunds FK2018 ~ 2022',
-     'Al Taawoun2016 ~ 2021',
-     'Chelsea2017 ~ 2022',
-     'Górnik Zabrze2018 ~ 2021',
-     'Beijing Sinobo Guoan FC2019 ~ 2022',
-     'Unión de Santa Fe2020 ~ 2022',
-     'IFK Göteborg2020 ~ 2020',
-     'Hamburger SV2020 ~ 2024',
-     'Tottenham Hotspur2010 ~ 2024',
-     'Real BetisJun 30, 2021 On Loan',
-     'SC Paderborn 072018 ~ 2021',
-     'Athletic Club de Bilbao2018 ~ 2023',
-     'Kashima Antlers2018 ~ 2021',
-     'Blackburn Rovers2019 ~ 2022',
-     'CE Sabadell FC2019 ~ 2022',
-     'RKC Waalwijk2018 ~ 2021',
-     'Independiente2016 ~ 2022',
-     'FC Lorient2019 ~ 2023',
-     'AD AlcorcónJun 30, 2021 On Loan',
-     'Vancouver Whitecaps FC2020 ~ 2024',
-     'DSC Arminia Bielefeld2019 ~ 2022',
-     'SK Sturm Graz2014 ~ 2021',
-     ' BoliviaFree',
-     'Inter2017 ~ 2023',
-     'SSV Jahn Regensburg2007 ~ 2021',
-     'Daegu FC2014 ~ 2025',
-     'West Ham United2018 ~ 2023',
-     'Everton2018 ~ 2022',
-     'Sanfrecce Hiroshima2019 ~ 2022',
-     'FC Midtjylland2017 ~ 2022',
-     'Hull City2019 ~ 2021',
-     'Juventus2020 ~ 2023',
-     'Lecce2019 ~ 2022',
-     'KRC Genk2014 ~ 2023',
-     'Cruz Azul2018 ~ 2021',
-     'Beerschot AC2018 ~ 2022',
-     'Brescia2014 ~ 2021',
-     'FC Viitorul2013 ~ 2023',
-     'FK Bodø/Glimt2019 ~ 2020',
-     'Feyenoord2014 ~ 2021',
-     'Atlético Nacional2020 ~ 2020',
-     'CD Tenerife2020 ~ 2023',
-     'Vålerenga Fotball2017 ~ 2023',
-     'Centro Atlético Fénix2019 ~ 2023',
-     'Rangers FC2016 ~ 2021',
-     'Mjällby AIFDec 31, 2020 On Loan',
-     'Daegu FC2018 ~ 2025',
-     'Shandong Luneng TaiShan FC2016 ~ 2023',
-     'Gaz Metan Mediaş2019 ~ 2021',
-     'Spezia2015 ~ 2020',
-     'Olympique Lyonnais2018 ~ 2022',
-     'Atlético de San Luis2019 ~ 2024',
-     'FC Midtjylland2019 ~ 2022',
-     'RSC Anderlecht2019 ~ 2025',
-     'Atalanta2019 ~ 2024',
-     'Servette FC2016 ~ 2022',
-     'Central Coast Mariners2020 ~ 2020',
-     "Newell's Old Boys2018 ~ 2022",
-     'FC Porto2016 ~ 2023',
-     'SD Huesca2019 ~ 2022',
-     'VVV-Venlo2020 ~ 2024',
-     'Houston Dynamo2020 ~ 2024',
-     '1. FC Köln2020 ~ 2022',
-     'Philadelphia Union2018 ~ 2023',
-     'Leeds United2020 ~ 2024',
-     'Juventus2019 ~ 2021',
-     'TSV 1860 München2020 ~ 2021',
-     'Mazatlán FC2020 ~ 2022',
-     'Real Valladolid CF2020 ~ 2024',
-     'Pachuca2018 ~ 2022',
-     'Kashima Antlers2016 ~ 2021',
-     'Moreirense FC2019 ~ 2021',
-     'Kilmarnock2017 ~ 2022',
-     'Inter2016 ~ 2022',
-     'Melbourne Victory2016 ~ 2023',
-     'Rochdale2019 ~ 2024',
-     'Rio Ave FC2008 ~ 2021',
-     'Djurgårdens IF2020 ~ 2023',
-     'FC Voluntari2020 ~ 2024',
-     'Club Brugge KV2020 ~ 2023',
-     'Dinamo Zagreb2015 ~ 2023',
-     'Always Ready2019 ~ 2023',
-     'PFC CSKA Moscow2018 ~ 2023',
-     'BSC Young Boys2016 ~ 2021',
-     'AS Nancy Lorraine2016 ~ 2022',
-     'New York Red Bulls2020 ~ 2022',
-     'Celtic2015 ~ 2023',
-     'Atlético de San Luis2020 ~ 2021',
-     'Bristol Rovers2020 ~ 2022',
-     'Real Sociedad2016 ~ 2022',
-     'Valenciennes FC2019 ~ 2023',
-     'AC Ajaccio2020 ~ 2024',
-     'Millwall2018 ~ 2021',
-     'San Lorenzo de Almagro2017 ~ 2021',
-     'UD Almería2019 ~ 2021',
-     'Mjällby AIF2013 ~ 2021',
-     'SV Zulte-Waregem2006 ~ 2021',
-     'Oita TrinitaJan 31, 2021 On Loan',
-     ' PeruFree',
-     'Defensa y JusticiaDec 31, 2021 On Loan',
-     'Tianjin TEDA FC2019 ~ 2021',
-     'ESTAC Troyes2016 ~ 2022',
-     'Cerezo Osaka2018 ~ 2021',
-     'Pachuca2019 ~ 2022',
-     'Independiente2017 ~ 2023',
-     'Club León2020 ~ 2021',
-     'FamalicãoJun 30, 2021 On Loan',
-     'IK Start2019 ~ 2023',
-     'Club AméricaDec 31, 2020 On Loan',
-     'Borussia Dortmund2019 ~ 2024',
-     'Wisła Płock2018 ~ 2022',
-     'PFC CSKA Moscow2010 ~ 2021',
-     'Dinamo Bucureşti2018 ~ 2024',
-     'Villarreal CF2020 ~ 2027',
-     'Club Brugge KV2018 ~ 2023',
-     'IFK Norrköping2019 ~ 2023',
-     'Atlético Madrid2019 ~ 2023',
-     'Grimsby TownJun 30, 2021 On Loan',
-     'SpVgg Greuther Fürth2018 ~ 2022',
-     'QuerétaroJun 30, 2021 On Loan',
-     'Rodez Aveyron Football2016 ~ 2024',
-     'Stoke City2018 ~ 2024',
-     'AC Ajaccio2018 ~ 2021',
-     'TSV 1860 München2020 ~ 2025',
-     'Chicago Fire2017 ~ 2023',
-     'St. Johnstone FC2020 ~ 2021',
-     "Newell's Old Boys2014 ~ 2021",
-     'Universidad Católica2018 ~ 2020',
-     'Watford2015 ~ 2022',
-     '1. FC Magdeburg2020 ~ 2022',
-     'FC Nordsjælland2019 ~ 2023',
-     'Abha Club2019 ~ 2022',
-     'FC Juárez2019 ~ 2022',
-     'Chongqing Dangdai Lifan FC SWM Team2018 ~ 2020',
-     'Lechia Gdańsk2020 ~ 2022',
-     'Paris Saint-Germain2018 ~ 2024',
-     '1. FC Heidenheim 18462016 ~ 2023',
-     'CE Sabadell FC2019 ~ 2021',
-     'Göztepe SK2018 ~ 2024',
-     'RSC AnderlechtJun 30, 2021 On Loan',
-     'Daegu FC2016 ~ 2020',
-     'Newcastle United2017 ~ 2024',
-     ' AustraliaFree',
-     'Sporting Kansas City2009 ~ 2020',
-     'Eintracht Frankfurt2016 ~ 2022',
-     'Melgar FBC2020 ~ 2024',
-     'Rio Ave FC2019 ~ 2023',
-     'Standard de Liège2018 ~ 2021',
-     'Hebei China Fortune FC2019 ~ 2021',
-     'Reading2014 ~ 2021',
-     'Nottingham Forest2015 ~ 2024',
-     'Chongqing Dangdai Lifan FC SWM Team2014 ~ 2023',
-     'Barrow2020 ~ 2021',
-     'Oita Trinita2015 ~ 2021',
-     'Mjøndalen IF2015 ~ 2020',
-     'Grimsby Town2019 ~ 2021',
-     'Rosenborg BK2018 ~ 2024',
-     'Seattle Sounders FC2016 ~ 2020',
-     'BSC Young Boys2018 ~ 2021',
-     'Atlético Tucumán2020 ~ 2021',
-     'Kasimpaşa SK2016 ~ 2022',
-     'Boavista FC2020 ~ 2024',
-     'FC Hansa Rostock2018 ~ 2023',
-     'Aston Villa2012 ~ 2025',
-     'Boavista FC2019 ~ 2022',
-     'Crewe Alexandra2015 ~ 2022',
-     'Cádiz CF2014 ~ 2023',
-     'Spartak Moscow2020 ~ 2024',
-     'Peñarol2018 ~ 2023',
-     'Tigres U.A.N.L.2018 ~ 2020',
-     'Vitória Guimarães2020 ~ 2022',
-     'Olympiacos CFP2020 ~ 2022',
-     'Norwich City2020 ~ 2022',
-     'Independiente Medellín2015 ~ 2020',
-     'CD Tondela2018 ~ 2022',
-     'Shanghai SIPG FC2020 ~ 2022',
-     'FC Schalke 042018 ~ 2021',
-     'Östersunds FK2019 ~ 2023',
-     'Sporting Kansas City2020 ~ 2023',
-     'Hallescher FC2018 ~ 2022',
-     'Sligo Rovers2017 ~ 2020',
-     'Türkgücü München2020 ~ 2022',
-     'Manchester UnitedJan 30, 2021 On Loan',
-     'Spartak Moscow2019 ~ 2022',
-     'HataysporMay 31, 2021 On Loan',
-     'SV Zulte-Waregem2017 ~ 2023',
-     'Colo-Colo2019 ~ 2022',
-     'Bologna2015 ~ 2021',
-     'FC St. Gallen2017 ~ 2023',
-     'Santos LagunaJun 30, 2021 On Loan',
-     'KAA Gent2017 ~ 2023',
-     'StevenageJun 30, 2021 On Loan',
-     'Malmö FF2018 ~ 2021',
-     'Cracovia2019 ~ 2021',
-     'Sanfrecce Hiroshima2018 ~ 2023',
-     'Tigres U.A.N.L.2020 ~ 2022',
-     'Damac FC2020 ~ 2025',
-     'CD Leganés2020 ~ 2021',
-     'Vegalta Sendai2018 ~ 2022',
-     'Deportivo Pasto2020 ~ 2022',
-     'Valencia CF2015 ~ 2023',
-     'Podbeskidzie Bielsko-Biała2020 ~ 2023',
-     'Club Atlético Huracán2019 ~ 2023',
-     'Shrewsbury2020 ~ 2021',
-     'Os Belenenses2018 ~ 2022',
-     'SK Slavia Praha2018 ~ 2024',
-     'Clube Sport Marítimo2018 ~ 2023',
-     'Udinese2020 ~ 2021',
-     'Southampton2014 ~ 2022',
-     'Kalmar FF2019 ~ 2021',
-     'Accrington Stanley2016 ~ 2022',
-     'Millwall2019 ~ 2025',
-     'FC Midtjylland2016 ~ 2023',
-     'VVV-Venlo2016 ~ 2021',
-     'Millwall2015 ~ 2023',
-     'SK Sturm Graz2019 ~ 2023',
-     'CD Nacional2017 ~ 2023',
-     '1. FC Nürnberg2019 ~ 2024',
-     'KSV Cercle Brugge2013 ~ 2021',
-     'Djurgårdens IF2015 ~ 2020',
-     'Chelsea2019 ~ 2024',
-     'MKE Ankaragücü2019 ~ 2022',
-     'Real Madrid2020 ~ 2023',
-     'Club Guaraní2016 ~ 2023',
-     'Everton2018 ~ 2024',
-     'CF Fuenlabrada2020 ~ 2023',
-     'Shamrock RoversNov 30, 2020 On Loan',
-     'Shrewsbury2018 ~ 2022',
-     'Peñarol2016 ~ 2020',
-     'FC Admira Wacker Mödling2016 ~ 2021',
-     'Vancouver Whitecaps FC2020 ~ 2020',
-     'Crystal Palace2015 ~ 2021',
-     'Melbourne Victory2018 ~ 2021',
-     'Junior FC2018 ~ 2021',
-     'Oxford United2014 ~ 2021',
-     'Patronato2013 ~ 2022',
-     'Waasland-Beveren2020 ~ 2022',
-     'SKN St. Pölten2018 ~ 2021',
-     'Kayserispor2019 ~ 2024',
-     'RKC Waalwijk2020 ~ 2023',
-     'FK Austria Wien2020 ~ 2021',
-     'Macarthur FCAug 31, 2021 On Loan',
-     'Fortuna Sittard2020 ~ 2023',
-     'Club Atlético Colón2020 ~ 2020',
-     'Southend United2016 ~ 2022',
-     'Sepsi OSK2018 ~ 2024',
-     'Cambridge United2016 ~ 2021',
-     'FC Erzgebirge Aue2016 ~ 2023',
-     'VfL Bochum 18482020 ~ 2023',
-     'Guangzhou Evergrande Taobao FC2019 ~ 2022',
-     'Bristol City2020 ~ 2023',
-     'Kristiansund BK2020 ~ 2021',
-     'Dundee United2018 ~ 2021',
-     'FC Lausanne-Sport2018 ~ 2023',
-     'Shanghai SIPG FC2017 ~ 2020',
-     'Sint-Truidense VV2020 ~ 2022',
-     'UD Logroñés2019 ~ 2022',
-     'Everton2016 ~ 2025',
-     'Dundalk2019 ~ 2020',
-     '1. FC Köln2015 ~ 2021',
-     'SCR Altach2020 ~ 2025',
-     'SC Heerenveen2017 ~ 2023',
-     'CD Tenerife2019 ~ 2024',
-     'Houston Dynamo2019 ~ 2025',
-     'FC Metz2016 ~ 2024',
-     '1. FC Nürnberg2015 ~ 2021',
-     'PAOK2014 ~ 2022',
-     'Emelec2020 ~ 2020',
-     'FC Bayern München2018 ~ 2022',
-     'Abha Club2018 ~ 2021',
-     'Sevilla FC2018 ~ 2023',
-     'Nîmes Olympique2019 ~ 2022',
-     'Djurgårdens IF2017 ~ 2021',
-     'Suwon Samsung Bluewings2015 ~ 2025',
-     'Sol de América2020 ~ 2024',
-     'Derby County2020 ~ 2024',
-     'Birmingham City2014 ~ 2021',
-     'Junior FC2017 ~ 2020',
+    {"St. Patrick's Athletic2020 ~ 2020",
+     'Udinese2020 ~ 2022',
      'PSV2016 ~ 2021',
-     'Shamrock Rovers2019 ~ 2020',
-     'PAOK2020 ~ 2021',
-     'Zagłębie Lubin2020 ~ 2021',
-     'Galatasaray SK2017 ~ 2022',
-     'Motherwell2014 ~ 2021',
-     'Hokkaido Consadole Sapporo2016 ~ 2021',
-     'Dinamo Zagreb2016 ~ 2024',
-     'FC Erzgebirge Aue2020 ~ 2022',
-     'Bayern München II2019 ~ 2021',
-     'Cheltenham Town2017 ~ 2021',
-     'Western United FC2019 ~ 2020',
-     'Delfín SC2018 ~ 2021',
-     'Club AtlasDec 31, 2020 On Loan',
-     'Empoli2019 ~ 2023',
-     'Kasimpaşa SK2020 ~ 2021',
-     'Club América2019 ~ 2021',
-     '1. FC Nürnberg2020 ~ 2025',
-     'Aalborg BK2017 ~ 2024',
-     'Aarhus GF2019 ~ 2023',
-     'Olympique Lyonnais2016 ~ 2023',
-     'Cardiff City2020 ~ 2021',
-     'KV Mechelen2018 ~ 2024',
-     'River Plate Asunción2018 ~ 2024',
-     'IF Elfsborg2019 ~ 2021',
-     'SK Rapid Wien2020 ~ 2022',
-     'PFC CSKA Moscow2008 ~ 2021',
-     'Universidad Católica2016 ~ 2021',
-     'Patronato2017 ~ 2021',
-     'River Plate Montevideo2020 ~ 2022',
-     'Kashima Antlers2017 ~ 2021',
-     'KRC Genk2020 ~ 2025',
-     'Club Necaxa2018 ~ 2023',
-     'Nîmes Olympique2016 ~ 2022',
-     'CD Huachipato2016 ~ 2022',
-     'Monterrey2017 ~ 2020',
-     'Norwich City2019 ~ 2022',
-     'Lazio2020 ~ 2025',
-     'AFC Wimbledon2020 ~ 2021',
-     'FK Bodø/Glimt2019 ~ 2022',
-     'AFC Wimbledon2020 ~ 2023',
-     "St. Patrick's AthleticNov 30, 2020 On Loan",
-     'Shelbourne FC2020 ~ 2020',
-     'Nottingham Forest2018 ~ 2022',
-     'Jiangsu Suning FC2017 ~ 2023',
-     'Girona FCJun 30, 2021 On Loan',
-     'FC Würzburger Kickers2018 ~ 2022',
-     'Milan2017 ~ 2021',
-     'Lokomotiv Moscow2012 ~ 2021',
-     'Gaz Metan Mediaş2015 ~ 2021',
-     'Granada CF2020 ~ 2021',
-     'Lazio2017 ~ 2022',
-     'Dijon FCO2020 ~ 2022',
-     'Club Athletico Paranaense2019 ~ 2023',
-     'FC Chambly Oise2010 ~ 2021',
-     'Sassuolo2020 ~ 2022',
-     'Hamburger SV2018 ~ 2024',
-     'Derby County2018 ~ 2022',
-     'Deportivo Binacional2020 ~ 2020',
-     'Chievo Verona2017 ~ 2021',
-     'Universitatea Craiova2018 ~ 2023',
-     'Junior FC2018 ~ 2020',
-     'KAS Eupen2019 ~ 2021',
-     'Granada CF2017 ~ 2024',
-     'Exeter City2018 ~ 2021',
-     'Raków Częstochowa2016 ~ 2023',
-     'SK Brann2020 ~ 2023',
-     'C.D. Castellón2020 ~ 2021',
-     'San Jose Earthquakes2019 ~ 2021',
-     'TSV 1860 München2019 ~ 2021',
-     'FC Cartagena2019 ~ 2021',
-     'FC Lugano2019 ~ 2022',
-     'Beşiktaş JK2013 ~ 2021',
-     'América de Cali2017 ~ 2023',
-     'Bradford City2018 ~ 2022',
-     'PortsmouthMay 31, 2021 On Loan',
-     'Eintracht Braunschweig2018 ~ 2021',
-     'Delfín SC2020 ~ 2025',
-     'Olimpia Asunción2020 ~ 2020',
-     'Olimpia Asunción2019 ~ 2024',
-     'La Berrichonne de Châteauroux2019 ~ 2022',
-     'Estudiantes de La Plata2020 ~ 2024',
-     'VfB Lübeck2020 ~ 2022',
-     'AC HorsensJun 30, 2021 On Loan',
-     'Hibernian2020 ~ 2024',
-     'SSV Jahn RegensburgJun 30, 2021 On Loan',
-     'Los Angeles FC2019 ~ 2020',
-     'Gamba Osaka2018 ~ 2021',
-     'Lyngby BKJun 30, 2021 On Loan',
-     'Montpellier HSC2018 ~ 2023',
-     'Al Nassr2014 ~ 2022',
-     'Bristol City2019 ~ 2021',
-     'FC Metz2015 ~ 2024',
-     'KV OostendeJun 30, 2021 On Loan',
-     'Fiorentina2018 ~ 2023',
-     'Atlético Madrid2016 ~ 2022',
-     'Club Atlético Banfield2014 ~ 2025',
-     'Chelsea2016 ~ 2024',
-     'FC Cartagena2019 ~ 2023',
-     'Kasimpaşa SKMay 31, 2021 On Loan',
-     'Politehnica Iaşi2017 ~ 2021',
-     'Śląsk Wrocław2017 ~ 2022',
-     'Al Raed2019 ~ 2024',
-     'Monterrey2016 ~ 2023',
-     'LASK Linz2015 ~ 2023',
-     '1. FC Saarbrücken2020 ~ 2021',
-     'Hannover 962018 ~ 2023',
-     'Club América2020 ~ 2022',
-     'LOSC Lille2015 ~ 2022',
-     'Gençlerbirliği SK2011 ~ 2022',
-     'Stade Rennais FC2018 ~ 2022',
-     "St. Patrick's Athletic2017 ~ 2021",
-     'Malmö FF2018 ~ 2024',
-     'Aberdeen2020 ~ 2024',
-     'Göztepe SK2017 ~ 2021',
-     'FC Porto2019 ~ 2024',
-     'FC Lorient2020 ~ 2021',
-     'Huddersfield Town2019 ~ 2021',
-     'Chelsea2020 ~ 2025',
-     'Universitatea Craiova2020 ~ 2021',
-     'Aalborg BKJun 30, 2021 On Loan',
-     'TSG 1899 Hoffenheim2015 ~ 2022',
-     'Colorado Rapids2020 ~ 2022',
-     'Cusco FC2019 ~ 2022',
-     'Deportivo Pasto2019 ~ 2020',
-     'SV Sandhausen2018 ~ 2021',
-     'Angers SCO2017 ~ 2021',
-     'SC Braga2020 ~ 2022',
-     'Luton Town2020 ~ 2022',
-     'Salford City2020 ~ 2022',
-     'Gazişehir Gaziantep F.K.2019 ~ 2022',
-     'RCD Mallorca2019 ~ 2024',
-     'Independiente Medellín2017 ~ 2020',
-     'Athletic Club de Bilbao2015 ~ 2021',
-     'FC St. GallenJun 30, 2021 On Loan',
-     'Hokkaido Consadole Sapporo2018 ~ 2021',
-     'Vålerenga Fotball2016 ~ 2020',
-     'Gaz Metan Mediaş2010 ~ 2024',
-     'Górnik Zabrze2020 ~ 2022',
-     'Godoy Cruz2019 ~ 2023',
-     'Kashiwa Reysol2019 ~ 2021',
-     'FK Bodø/Glimt2019 ~ 2021',
-     'AS Monaco2020 ~ 2025',
-     'Famalicão2019 ~ 2022',
-     'SønderjyskE2017 ~ 2022',
-     'Hellas Verona2019 ~ 2024',
-     'Daegu FC2015 ~ 2023',
-     'Academica Clinceni2020 ~ 2023',
-     'Vegalta Sendai2005 ~ 2021',
-     'Dundee United2017 ~ 2021',
-     'Śląsk Wrocław2019 ~ 2021',
-     'Hertha BSC2016 ~ 2022',
-     'Çaykur Rizespor2019 ~ 2022',
-     'Göztepe SKMay 31, 2021 On Loan',
-     'Doncaster Rovers2018 ~ 2022',
-     'Angers SCO2018 ~ 2021',
-     'Deportivo Pasto2020 ~ 2025',
-     'Dalian YiFang FC2014 ~ 2022',
-     'Kilmarnock2010 ~ 2022',
-     'Wuhan Zall2014 ~ 2020',
-     'Watford2010 ~ 2021',
-     'Millonarios FC2016 ~ 2021',
-     'Borussia Mönchengladbach2019 ~ 2024',
-     'Sampdoria2019 ~ 2023',
-     'FC Würzburger Kickers2020 ~ 2023',
-     'Real Zaragoza2020 ~ 2021',
-     'Shenzhen FC2020 ~ 2021',
-     'Vegalta Sendai2020 ~ 2021',
-     'Vitesse2019 ~ 2023',
-     'Southampton2017 ~ 2024',
-     'Shakhtar Donetsk2019 ~ 2025',
-     'Ipswich Town2020 ~ 2022',
-     'Valencia CF2018 ~ 2021',
-     'FK Austria Wien2019 ~ 2021',
-     'Famalicão2020 ~ 2025',
-     'Montreal Impact2019 ~ 2020',
-     'Servette FC2019 ~ 2022',
-     'Argentinos Juniors2020 ~ 2020',
-     'SC Freiburg2012 ~ 2022',
-     'Tigres U.A.N.L.Dec 31, 2020 On Loan',
-     'Athletic Club de Bilbao2015 ~ 2025',
-     'RSC Anderlecht2017 ~ 2022',
-     'Grimsby Town2020 ~ 2022',
-     'Swansea City2020 ~ 2023',
-     'KFC Uerdingen 052018 ~ 2021',
-     'Stade de Reims2018 ~ 2023',
-     'FC Seoul2014 ~ 2021',
-     'Viking FK2018 ~ 2022',
-     'Real ZaragozaJun 30, 2021 On Loan',
-     'Lokomotiv Moscow2019 ~ 2022',
-     'Cork City2020 ~ 2022',
-     'Millonarios FC2018 ~ 2020',
-     'Atlético Nacional2020 ~ 2023',
-     'Varbergs BoISDec 31, 2020 On Loan',
-     'Vegalta SendaiJan 31, 2021 On Loan',
-     'PSVJun 30, 2021 On Loan',
-     'Standard de Liège2017 ~ 2022',
-     'Dinamo Bucureşti2018 ~ 2023',
-     'Universitatea Craiova2018 ~ 2022',
-     'Málaga CF2019 ~ 2023',
-     'Real Oviedo2018 ~ 2021',
-     'Al Faisaly2016 ~ 2024',
-     'FC NantesJun 30, 2021 On Loan',
-     'Yeni Malatyaspor2020 ~ 2025',
-     'CD Nacional2020 ~ 2022',
-     'Olympiacos CFP2018 ~ 2022',
-     '1. FC Köln2017 ~ 2022',
-     'Henan Jianye FC2016 ~ 2020',
-     '1. FC Heidenheim 18462020 ~ 2024',
-     'San Lorenzo de Almagro2019 ~ 2022',
-     'Al Hilal2011 ~ 2022',
-     'Scunthorpe United2018 ~ 2021',
-     'FC København2016 ~ 2023',
-     'Dundalk2012 ~ 2020',
-     'Royal Excel Mouscron2019 ~ 2022',
-     'Bristol Rovers2017 ~ 2022',
-     'Junior FC2019 ~ 2025',
-     'Bayern München II2020 ~ 2021',
-     'Derby County2019 ~ 2021',
-     'Le Havre AC2019 ~ 2022',
-     'Melgar FBC2020 ~ 2020',
-     'Universidad Católica2018 ~ 2021',
-     'Royal Excel Mouscron2020 ~ 2021',
-     'FC Seoul2016 ~ 2024',
-     'Real Madrid2016 ~ 2025',
-     'Famalicão2020 ~ 2023',
-     'St. MirrenJun 30, 2021 On Loan',
-     'Valencia CF2018 ~ 2024',
-     'Dynamo Kyiv2015 ~ 2024',
-     'RC Celta2020 ~ 2024',
-     'Central CórdobaDec 31, 2021 On Loan',
-     'AberdeenJan 1, 2021 On Loan',
-     'En Avant de GuingampJun 30, 2021 On Loan',
-     'Urawa Red Diamonds2019 ~ 2022',
-     'Mjällby AIF2020 ~ 2023',
-     'Leeds United2018 ~ 2022',
-     'Shijiazhuang Ever Bright F.C.2020 ~ 2020',
-     'Club Bolívar2020 ~ 2023',
-     'Yeni Malatyaspor2020 ~ 2021',
-     'FC Schalke 042017 ~ 2021',
-     '1. FSV Mainz 052020 ~ 2022',
-     'Sassuolo2014 ~ 2022',
-     'Club Libertad2015 ~ 2024',
-     'FC Schalke 042016 ~ 2023',
+     'Gaz Metan Mediaş2020 ~ 2021',
+     'Shanghai SIPG FC2014 ~ 2021',
+     'Deportivo Binacional2019 ~ 2025',
+     'Waasland-Beveren2020 ~ 2021',
+     'Philadelphia Union2019 ~ 2020',
+     'Audax Italiano2018 ~ 2024',
+     'Luton Town2017 ~ 2022',
+     'Academica Clinceni2020 ~ 2021',
+     'Club Atlético Talleres2020 ~ 2021',
      'Lazio2018 ~ 2023',
-     'Minnesota United FCDec 31, 2020 On Loan',
-     'Leyton Orient2017 ~ 2022',
-     'SV Darmstadt 982015 ~ 2021',
-     'Fenerbahçe SK2019 ~ 2022',
-     'Gazişehir Gaziantep F.K.2019 ~ 2023',
-     'IK Start2019 ~ 2022',
-     'Shijiazhuang Ever Bright F.C.2015 ~ 2021',
-     'UD Las Palmas2018 ~ 2022',
-     'FC Girondins de Bordeaux2020 ~ 2022',
-     'Wycombe Wanderers2018 ~ 2022',
-     'Coquimbo Unido2013 ~ 2020',
-     'SSV Jahn Regensburg2019 ~ 2023',
-     'Ipswich Town2013 ~ 2021',
-     'Atlanta United2019 ~ 2023',
-     'Club Bolívar2019 ~ 2020',
-     'Toulouse Football Club2019 ~ 2023',
-     'Independiente2017 ~ 2021',
-     'GwangJu FC2020 ~ 2023',
-     'Al Shabab2016 ~ 2021',
-     'Portsmouth2020 ~ 2022',
-     'Atlanta United2017 ~ 2023',
-     'Hibernian2020 ~ 2023',
-     'Urawa Red Diamonds2016 ~ 2021',
-     'Grimsby Town2011 ~ 2022',
-     'Crewe Alexandra2019 ~ 2022',
-     'Toronto FC2014 ~ 2020',
-     'Dundalk2018 ~ 2021',
-     'FC Basel 18932018 ~ 2021',
-     'Boca Juniors2019 ~ 2023',
-     'Oxford United2018 ~ 2023',
-     'Málaga CF2019 ~ 2022',
-     ' CanadaFree',
-     'Udinese2017 ~ 2022',
-     'Boca JuniorsDec 31, 2020 On Loan',
-     'Vitesse2017 ~ 2021',
-     'Cork City2019 ~ 2021',
-     'Atlético Madrid2013 ~ 2023',
-     'AC Mineros de Guayana2018 ~ 2024',
-     'Pohang Steelers2018 ~ 2024',
-     'AC Horsens2020 ~ 2022',
-     'Benevento2018 ~ 2022',
-     'FC Barcelona2018 ~ 2022',
-     'Celtic2018 ~ 2021',
-     'Holstein Kiel2017 ~ 2021',
-     'LDU Quito2019 ~ 2021',
-     'Milan2015 ~ 2021',
-     'Watford2019 ~ 2021',
-     'FC Porto2016 ~ 2021',
-     'AFC Wimbledon2018 ~ 2021',
-     'AEK Athens2020 ~ 2025',
-     'RCD Espanyol2020 ~ 2026',
-     'Atlanta United2019 ~ 2022',
-     'SD Ponferradina2020 ~ 2022',
-     'Bayer 04 Leverkusen2020 ~ 2024',
-     'FC Luzern2020 ~ 2022',
-     'FK Bodø/Glimt2017 ~ 2022',
-     'Finn Harps2019 ~ 2020',
-     'Bournemouth2018 ~ 2023',
-     'CD Nacional2020 ~ 2021',
-     'OGC Nice2016 ~ 2021',
-     'Cusco FC2020 ~ 2021',
-     'Le Havre AC2017 ~ 2021',
-     'Politehnica Iaşi2019 ~ 2024',
-     'Unión de Santa Fe2017 ~ 2022',
-     'Dinamo Bucureşti2015 ~ 2024',
-     'Antalyaspor2020 ~ 2023',
-     'Orlando Pirates2018 ~ 2021',
-     'IK Start2016 ~ 2023',
-     'Club Atlético Aldosivi2018 ~ 2020',
-     'Stade de Reims2020 ~ 2024',
-     'CA Osasuna2019 ~ 2021',
-     'USL Dunkerque2009 ~ 2021',
-     'Al Fateh2020 ~ 2024',
-     'Aragua FC2019 ~ 2021',
-     'Feyenoord2017 ~ 2022',
-     'Club Brugge KV2019 ~ 2022',
-     'IFK Norrköping2020 ~ 2021',
-     'Olympique de Marseille2020 ~ 2023',
-     'SV Zulte-Waregem2018 ~ 2022',
-     'Alianza Lima2018 ~ 2021',
-     'Burnley2016 ~ 2022',
-     'RCD Espanyol2018 ~ 2023',
-     'Zamora FC2019 ~ 2025',
-     'Al Taawoun2020 ~ 2022',
-     'Beijing Sinobo Guoan FC2018 ~ 2020',
-     'IFK Norrköping2020 ~ 2025',
-     'AS Monaco2019 ~ 2024',
-     'Beijing Sinobo Guoan FC2020 ~ 2022',
-     'Club Atlético Colón2020 ~ 2023',
-     'Boca Juniors2019 ~ 2022',
-     'Brighton & Hove Albion2017 ~ 2024',
-     'SV Wehen Wiesbaden2019 ~ 2021',
-     'Los Angeles FC2019 ~ 2023',
-     'Udinese2018 ~ 2023',
-     'Olimpia Asunción2019 ~ 2025',
-     'Hamilton Academical FC2014 ~ 2022',
-     'Fiorentina2017 ~ 2022',
-     'CD Tondela2020 ~ 2023',
-     'Rangers FC2017 ~ 2023',
-     'Galatasaray SK2020 ~ 2021',
-     'Real Betis2018 ~ 2023',
-     'FC Sion2018 ~ 2021',
-     'Shimizu S-Pulse2020 ~ 2021',
-     'Viktoria Köln2018 ~ 2021',
-     'Dynamo Kyiv2019 ~ 2024',
-     'FC Erzgebirge Aue2017 ~ 2025',
-     'Hokkaido Consadole Sapporo2013 ~ 2021',
-     'Deportivo Cali2019 ~ 2022',
-     'SønderjyskE2020 ~ 2021',
-     'Universidad Católica del Ecuador2019 ~ 2021',
-     'Elche CF2020 ~ 2024',
-     'Vélez Sarsfield2020 ~ 2023',
-     'RC Strasbourg Alsace2020 ~ 2024',
-     'Hibernian2005 ~ 2021',
-     'FC Barcelona2017 ~ 2021',
-     'Warta Poznań2014 ~ 2022',
-     'Aston Villa2019 ~ 2021',
-     'Shelbourne FC2015 ~ 2021',
-     'Elche CF2019 ~ 2023',
-     'SV Meppen2017 ~ 2022',
-     'SV Meppen2017 ~ 2021',
-     'FC Seoul2018 ~ 2023',
-     'VVV-Venlo2017 ~ 2022',
-     'Brescia2019 ~ 2021',
-     'Reading2017 ~ 2021',
-     'Barcelona Sporting Club2013 ~ 2021',
-     'Clube Sport Marítimo2019 ~ 2022',
-     'FC Nordsjælland2018 ~ 2023',
-     'Port Vale2019 ~ 2022',
-     'Sanfrecce Hiroshima2012 ~ 2020',
-     'Stoke City2020 ~ 2021',
-     'Southampton2016 ~ 2024',
-     'KAS Eupen2020 ~ 2021',
-     'Al Ittihad2017 ~ 2021',
-     'Torino2017 ~ 2021',
-     'Parma2017 ~ 2023',
-     'Warta Poznań2018 ~ 2021',
-     'Waasland-Beveren2018 ~ 2021',
-     'CD Leganés2020 ~ 2024',
-     'Borussia Mönchengladbach2014 ~ 2023',
-     'Crawley Town2018 ~ 2021',
-     'CFR Cluj2020 ~ 2021',
-     'HataysporJun 30, 2021 On Loan',
-     'VfL Osnabrück2020 ~ 2022',
-     'Unión de Santa Fe2017 ~ 2023',
-     'SønderjyskE2018 ~ 2022',
-     'Birmingham City2020 ~ 2022',
-     'Villarreal CF2011 ~ 2022',
-     'New York Red Bulls2020 ~ 2020',
-     'Central Córdoba2012 ~ 2021',
-     'Galatasaray SK2019 ~ 2023',
-     'Coquimbo Unido2017 ~ 2025',
-     'Arsenal2020 ~ 2024',
-     'Chievo Verona2019 ~ 2021',
-     'Hammarby IF2018 ~ 2022',
-     'Rio Ave FC2020 ~ 2025',
-     'Fleetwood Town2018 ~ 2022',
-     'CF Fuenlabrada2020 ~ 2025',
-     'Real Zaragoza2016 ~ 2023',
-     'RB Leipzig2020 ~ 2021',
-     'Getafe CF2020 ~ 2025',
-     'CD Lugo2020 ~ 2021',
-     'Kayserispor2017 ~ 2023',
-     'Ulsan Hyundai FC2020 ~ 2022',
-     'Dundalk2012 ~ 2021',
-     'Argentinos Juniors2019 ~ 2020',
-     'Vitória Guimarães2019 ~ 2024',
-     'Manchester United2014 ~ 2021',
-     'FC Bayern München2011 ~ 2023',
-     'Fatih Karagümrük S.K.May 31, 2021 On Loan',
-     'Wisła Płock2019 ~ 2022',
-     'Astra Giurgiu2015 ~ 2023',
-     'Kawasaki Frontale2017 ~ 2022',
-     'Sagan Tosu2017 ~ 2021',
-     'Columbus Crew SC2019 ~ 2021',
-     'Rosario Central2016 ~ 2021',
-     'Sydney FC2019 ~ 2020',
-     'FC Augsburg2019 ~ 2021',
-     'Willem II2020 ~ 2024',
-     'Albacete BP2018 ~ 2022',
-     'Swansea City2016 ~ 2021',
-     'Boca Juniors2017 ~ 2021',
-     'CracoviaJun 30, 2021 On Loan',
-     'Club Atlético Banfield2017 ~ 2022',
-     'Olimpia Asunción2017 ~ 2024',
-     'VfL Wolfsburg2018 ~ 2023',
-     'Oriente Petrolero2020 ~ 2020',
-     'Kawasaki Frontale2019 ~ 2022',
-     'Dundee United2020 ~ 2022',
-     'Dundalk2018 ~ 2020',
-     'FC Seoul2019 ~ 2023',
-     'Medipol Başakşehir FK2019 ~ 2023',
-     'Raków Częstochowa2020 ~ 2023',
-     'Deportivo Toluca2018 ~ 2021',
-     'Norwich City2018 ~ 2024',
-     'Villarreal CF2014 ~ 2022',
-     'FC Viitorul2020 ~ 2023',
-     'Vissel Kobe2016 ~ 2023',
-     'Aalborg BK2018 ~ 2023',
-     'Mjällby AIF2014 ~ 2021',
-     'Guadalajara2020 ~ 2020',
-     'Stade Malherbe Caen2020 ~ 2023',
-     'Club Brugge KV2017 ~ 2021',
-     'Górnik Zabrze2019 ~ 2022',
-     'SV Darmstadt 982018 ~ 2021',
-     'Oldham Athletic2020 ~ 2022',
-     'Atlético Nacional2018 ~ 2020',
-     'FC Tokyo2010 ~ 2021',
-     'Yeni Malatyaspor2018 ~ 2021',
-     'CA Osasuna2019 ~ 2023',
-     'Huddersfield Town2018 ~ 2023',
-     'Wuhan Zall2012 ~ 2020',
-     'Club Libertad2019 ~ 2024',
-     'Bayer 04 Leverkusen2019 ~ 2024',
-     'Deportivo Pasto2019 ~ 2025',
-     'En Avant de Guingamp2017 ~ 2023',
-     'CD Leganés2017 ~ 2021',
-     'Central Coast Mariners2016 ~ 2021',
-     'Brighton & Hove Albion2013 ~ 2022',
-     'Colorado RapidsDec 31, 2020 On Loan',
-     'Club Libertad2006 ~ 2023',
-     'Club León2017 ~ 2021',
-     'RCD Espanyol2019 ~ 2024',
+     'Newcastle United2019 ~ 2025',
+     'Hull CityJun 30, 2021 On Loan',
+     'Hertha BSC2020 ~ 2023',
+     'FC Nordsjælland2020 ~ 2022',
+     'Racing Club2019 ~ 2020',
+     'River Plate2015 ~ 2021',
+     'Club Atlético Huracán2019 ~ 2024',
+     'Shijiazhuang Ever Bright F.C.2020 ~ 2020',
+     'Lech Poznań2018 ~ 2022',
+     'Racing Club de Lens2016 ~ 2023',
+     'Club León2019 ~ 2024',
+     'Real Valladolid CF2019 ~ 2023',
+     'Leyton Orient2017 ~ 2021',
+     'Coventry City2019 ~ 2021',
+     'Houston Dynamo2020 ~ 2024',
+     'Al Adalah2018 ~ 2024',
+     'Chamois Niortais Football Club2018 ~ 2022',
      'Hibernian2008 ~ 2022',
-     'Racing Club2018 ~ 2024',
-     'Club Atlético Aldosivi2019 ~ 2022',
-     'Kashima Antlers2014 ~ 2021',
-     'Shonan Bellmare2020 ~ 2023',
-     'Manchester United2017 ~ 2023',
-     'Club Blooming2020 ~ 2021',
-     'SK Brann2020 ~ 2022',
-     'Oita Trinita2018 ~ 2021',
-     'DC United2018 ~ 2020',
-     'Deportivo Pasto2019 ~ 2022',
-     'Brescia2017 ~ 2022',
-     'Levante UD2020 ~ 2025',
-     'Al Hilal2017 ~ 2021',
-     'SC Braga2020 ~ 2021',
-     'Arsenal2016 ~ 2023',
-     'Bournemouth2019 ~ 2023',
-     'Stade Brestois 292020 ~ 2024',
-     'Albacete BP2020 ~ 2023',
-     'Grimsby Town2018 ~ 2021',
+     'Villarreal CF2020 ~ 2023',
+     'Bournemouth2014 ~ 2021',
+     'Os Belenenses2019 ~ 2024',
+     'Club Atlético Talleres2018 ~ 2021',
+     'Huddersfield Town2016 ~ 2021',
+     'Boca Juniors2019 ~ 2023',
+     'Real Sociedad2014 ~ 2023',
+     'Middlesbrough2019 ~ 2024',
+     'Carlisle United2019 ~ 2021',
+     'Aberdeen2018 ~ 2022',
+     'Mansfield Town2015 ~ 2021',
+     'West Ham United2020 ~ 2025',
+     'Manchester United2014 ~ 2023',
+     'SV Werder Bremen2014 ~ 2023',
+     'Morecambe2018 ~ 2021',
      'SC Verl2013 ~ 2022',
-     'Huddersfield Town2020 ~ 2023',
-     'Wisła Płock2011 ~ 2021',
-     'FC Lausanne-Sport2018 ~ 2021',
-     'FCSB (Steaua)2016 ~ 2022',
-     'Real Zaragoza2014 ~ 2024',
-     'AC Ajaccio2019 ~ 2024',
-     'FC Porto2019 ~ 2023',
-     'Vejle Boldklub2018 ~ 2023',
-     'Villarreal CF2019 ~ 2024',
-     'Mazatlán FC2020 ~ 2020',
-     'Willem II2012 ~ 2021',
-     'Colorado Rapids2018 ~ 2020',
-     'Real Sporting de Gijón2018 ~ 2021',
-     'Chelsea2018 ~ 2024',
-     'SD Ponferradina2017 ~ 2021',
-     'Karlsruher SC2019 ~ 2024',
-     'Molde FK2018 ~ 2022',
-     'FC Red Bull Salzburg2010 ~ 2021',
-     'Politehnica Iaşi2018 ~ 2021',
-     'ESTAC Troyes2018 ~ 2023',
-     'KRC Genk2020 ~ 2023',
-     'Deportivo Alavés2017 ~ 2021',
-     'SV Werder Bremen2020 ~ 2023',
-     'Pogoń Szczecin2017 ~ 2022',
-     'AZ Alkmaar2015 ~ 2023',
-     'Sarpsborg 08 FF2018 ~ 2021',
-     'Roma2012 ~ 2021',
-     'FC ZürichJun 30, 2021 On Loan',
-     'Melbourne City FC2017 ~ 2021',
-     'Paris Saint-Germain2019 ~ 2022',
-     'Sheffield Wednesday2018 ~ 2021',
-     'Atlético Clube Goianiense2019 ~ 2023',
-     'Helsingborgs IF2016 ~ 2020',
-     'Bournemouth2016 ~ 2022',
-     'West Bromwich Albion2016 ~ 2021',
-     'Atlético de San LuisJun 30, 2021 On Loan',
-     'Lyngby BK2019 ~ 2021',
-     'Orlando City SCDec 31, 2020 On Loan',
-     'Club Atlético Tigre2020 ~ 2025',
-     'Górnik Zabrze2017 ~ 2021',
-     'Monterrey2015 ~ 2022',
-     'FK Haugesund2016 ~ 2021',
-     'Vissel Kobe2016 ~ 2021',
-     'Cagliari2018 ~ 2023',
-     'Aberdeen2019 ~ 2021',
-     'Aarhus GF2016 ~ 2021',
-     'Gimnasia y Esgrima La Plata2017 ~ 2023',
-     'Scunthorpe UnitedJun 30, 2021 On Loan',
-     'Aston Villa2019 ~ 2024',
-     'Suwon Samsung Bluewings2020 ~ 2023',
+     'SønderjyskE2020 ~ 2021',
+     'CA Osasuna2019 ~ 2021',
+     'SpVgg Unterhaching2016 ~ 2021',
+     'Always Ready2020 ~ 2023',
+     'Suwon Samsung Bluewings2007 ~ 2025',
+     'Kashima Antlers2019 ~ 2023',
      'Kaizer Chiefs2018 ~ 2021',
-     'Damac FC2020 ~ 2023',
-     'Yeni Malatyaspor2019 ~ 2022',
-     'Shimizu S-Pulse2020 ~ 2023',
-     'Club Atlas2015 ~ 2022',
-     'SC Braga2017 ~ 2022',
-     'SC Braga2020 ~ 2024',
-     'Peñarol2019 ~ 2024',
+     'Viktoria Plzeň2016 ~ 2023',
+     'RCD Mallorca2020 ~ 2024',
+     'KAA Gent2018 ~ 2022',
+     'Shamrock Rovers2018 ~ 2025',
+     'Montpellier HSC2018 ~ 2021',
+     'FC Utrecht2020 ~ 2022',
+     'CD Tenerife2020 ~ 2023',
+     'Aalesunds FK2013 ~ 2021',
+     'Al Adalah2019 ~ 2024',
+     'Warta Poznań2019 ~ 2021',
+     'Nashville SC2019 ~ 2020',
+     'Newcastle Jets2017 ~ 2022',
+     'AC Ajaccio2019 ~ 2025',
+     'Cambridge United2018 ~ 2021',
+     'Bayer 04 Leverkusen2011 ~ 2023',
+     'Sampdoria2016 ~ 2021',
+     'Delfín SC2019 ~ 2023',
+     'Atalanta2020 ~ 2023',
+     'KSV Cercle Brugge2017 ~ 2021',
+     'Universitatea Craiova2020 ~ 2025',
+     'Ross County FC2018 ~ 2021',
+     'Kawasaki Frontale2017 ~ 2022',
+     'Kilmarnock2010 ~ 2022',
+     'Olympique de Marseille2019 ~ 2023',
+     'St. Johnstone FC2017 ~ 2022',
+     'Elche CF2017 ~ 2021',
+     'Chelsea2012 ~ 2021',
+     'Jeonbuk Hyundai Motors2014 ~ 2020',
+     'GwangJu FC2017 ~ 2023',
+     'Valencia CF2012 ~ 2023',
+     'Bologna2017 ~ 2021',
+     'Stabæk Fotball2016 ~ 2022',
+     'Warta Poznań2014 ~ 2022',
+     'Club Guaraní2019 ~ 2021',
+     'RSC Anderlecht2017 ~ 2023',
+     'AC Mineros de Guayana2018 ~ 2024',
+     'Watford2019 ~ 2023',
+     'Sport Huancayo2012 ~ 2020',
+     'Houston Dynamo2019 ~ 2021',
+     'FC Hansa Rostock2020 ~ 2021',
+     'Yeni Malatyaspor2020 ~ 2023',
+     'Godoy Cruz2020 ~ 2025',
+     'Chievo Verona2020 ~ 2022',
+     'Tianjin TEDA FC2018 ~ 2022',
+     'KV Oostende2015 ~ 2021',
+     'Eintracht Frankfurt2020 ~ 2025',
+     'Dynamo Kyiv2019 ~ 2023',
+     'Portimonense SC2020 ~ 2022',
+     'New England Revolution2014 ~ 2020',
+     'Unión La Calera2020 ~ 2022',
+     'FC Viitorul2017 ~ 2023',
+     'Racing Club2018 ~ 2023',
+     'Paris Saint-Germain2010 ~ 2023',
+     'Real Sporting de GijónJun 30, 2021 On Loan',
+     'FC Schalke 04Jun 30, 2021 On Loan',
+     'Athletic Club de Bilbao2015 ~ 2021',
+     'Club Atlético Lanús2019 ~ 2022',
+     "Newell's Old BoysDec 31, 2020 On Loan",
+     'Stade Brestois 292017 ~ 2021',
+     'SPAL2017 ~ 2021',
+     'Colorado RapidsDec 31, 2020 On Loan',
+     'Fleetwood Town2018 ~ 2021',
+     'Hatayspor2019 ~ 2021',
+     'UD Almería2017 ~ 2022',
+     'Norwich City2017 ~ 2021',
+     'Toulouse Football Club2019 ~ 2021',
+     'Club Atlético Talleres2016 ~ 2021',
+     'SK Brann2016 ~ 2020',
+     'Wuhan Zall2020 ~ 2023',
+     'La Berrichonne de Châteauroux2020 ~ 2022',
+     'Kaizer Chiefs2012 ~ 2021',
+     'Fenerbahçe SKMay 31, 2021 On Loan',
+     'Wolverhampton Wanderers2019 ~ 2023',
+     'Tottenham Hotspur2017 ~ 2022',
+     'San Lorenzo de Almagro2017 ~ 2023',
+     'IFK Göteborg2020 ~ 2022',
+     'Legia Warszawa2020 ~ 2024',
+     'Alanyaspor2019 ~ 2021',
+     'Abha Club2020 ~ 2022',
+     'BB Erzurumspor2020 ~ 2022',
+     'Seattle Sounders FC2020 ~ 2024',
+     'Sydney FC2019 ~ 2020',
+     'Kawasaki Frontale2020 ~ 2022',
+     'Stabæk Fotball2020 ~ 2020',
+     'Club Tijuana2019 ~ 2020',
+     'Gaz Metan Mediaş2020 ~ 2024',
+     'Girona FC2019 ~ 2021',
+     'SpVgg Unterhaching2018 ~ 2021',
+     'FC Lorient2018 ~ 2023',
+     'Paris Saint-Germain2019 ~ 2024',
+     'Górnik Zabrze2017 ~ 2021',
+     'FC Barcelona2004 ~ 2021',
+     'Empoli2015 ~ 2022',
+     'SV Zulte-Waregem2006 ~ 2021',
+     'Plymouth Argyle2020 ~ 2020',
+     'Boca Juniors2018 ~ 2022',
+     'Motherwell2019 ~ 2021',
+     'Bristol CityJun 30, 2021 On Loan',
+     'FC Groningen2020 ~ 2023',
+     'Deportivo Pasto2020 ~ 2024',
+     'Os Belenenses2019 ~ 2023',
+     'Sassuolo2013 ~ 2021',
+     'FC Bayern München2011 ~ 2021',
+     'Feyenoord2013 ~ 2021',
+     'San Jose Earthquakes2014 ~ 2020',
+     'UD Logroñés2017 ~ 2021',
+     'Standard de Liège2018 ~ 2022',
+     'Atlético Madrid2018 ~ 2023',
+     '1. FC Saarbrücken2016 ~ 2022',
+     'Preston North End2018 ~ 2023',
+     'SC Paderborn 072017 ~ 2021',
+     'Racing Club de Lens2019 ~ 2021',
+     '1. FC Köln2017 ~ 2023',
+     'El Nacional2019 ~ 2020',
+     'Parma2018 ~ 2021',
+     'Cracovia2016 ~ 2023',
+     'Tottenham Hotspur2007 ~ 2021',
+     'Central Córdoba2020 ~ 2024',
+     'Doncaster RoversJun 30, 2021 On Loan',
+     'Plymouth Argyle2020 ~ 2023',
+     'Caracas FC2017 ~ 2024',
+     'Deportivo AlavésJun 30, 2021 On Loan',
+     'Vålerenga Fotball2017 ~ 2020',
+     'RKC Waalwijk2017 ~ 2021',
+     'CD Mirandés2020 ~ 2021',
+     'Club Blooming2018 ~ 2024',
+     'FK Haugesund2020 ~ 2022',
+     'Paris Saint-Germain2012 ~ 2024',
+     'Zagłębie Lubin2020 ~ 2024',
+     'Bournemouth2019 ~ 2023',
+     'Urawa Red Diamonds2016 ~ 2021',
+     'FC Viitorul2018 ~ 2023',
+     'Luton Town2018 ~ 2022',
+     'Rotherham United2017 ~ 2022',
+     'CD Tenerife2020 ~ 2022',
+     'Cusco FC2017 ~ 2022',
+     'AJ Auxerre2017 ~ 2022',
+     'Wigan Athletic2020 ~ 2021',
+     'Crotone2020 ~ 2024',
+     'SV Meppen2019 ~ 2022',
+     'Fleetwood Town2019 ~ 2021',
+     'Sandefjord Fotball2019 ~ 2021',
+     'Chelsea2019 ~ 2021',
+     'Deportivo Cali2017 ~ 2021',
+     'Cerezo Osaka2015 ~ 2024',
+     'Napoli2014 ~ 2023',
+     'Hebei China Fortune FC2016 ~ 2020',
+     'Fatih Karagümrük S.K.May 31, 2021 On Loan',
+     'Vancouver Whitecaps FC2019 ~ 2022',
      'Chindia Târgovişte2017 ~ 2024',
-     'Monterrey2020 ~ 2024',
-     'FK Austria Wien2018 ~ 2021',
-     'FC Dallas2019 ~ 2021',
-     'Norwich City2012 ~ 2021',
-     'FC St. Gallen2017 ~ 2021',
-     'Al Adalah2019 ~ 2025',
-     'Charlton Athletic2017 ~ 2021',
-     'Al Fateh2013 ~ 2022',
-     'Falkenbergs FF2018 ~ 2020',
-     'Nacional Potosí2020 ~ 2023',
-     'New England Revolution2017 ~ 2020',
-     'Servette FC2020 ~ 2022',
-     'Real Madrid2019 ~ 2025',
-     'Mjällby AIF2020 ~ 2021',
-     'Bayer 04 Leverkusen2012 ~ 2022',
-     'Viktoria Köln2019 ~ 2021',
-     'Vancouver Whitecaps FC2019 ~ 2024',
-     'Gazişehir Gaziantep F.K.2020 ~ 2023',
-     'Al Wehda2019 ~ 2025',
-     'Preston North End2017 ~ 2022',
-     'Malmö FF2018 ~ 2023',
-     'Liverpool2019 ~ 2022',
-     'Napoli2017 ~ 2021',
-     'Adelaide United2017 ~ 2022',
-     'Adelaide United2020 ~ 2021',
-     'Oxford United2020 ~ 2021',
-     'Everton2009 ~ 2022',
-     'Aarhus GF2019 ~ 2024',
-     'Hertha BSC2015 ~ 2021',
-     'Brentford2019 ~ 2023',
-     'Querétaro2020 ~ 2023',
-     'Southend United2016 ~ 2021',
-     'Lokomotiv Moscow2020 ~ 2024',
-     'Lincoln City2018 ~ 2021',
-     'BB Erzurumspor2020 ~ 2021',
-     'PEC Zwolle2007 ~ 2021',
-     'SpVgg Unterhaching2020 ~ 2021',
-     'St. Mirren2017 ~ 2022',
-     'Sparta Praha2019 ~ 2022',
-     'Rio Ave FC2019 ~ 2021',
-     'Al Fayha2015 ~ 2023',
-     'Girona FC2018 ~ 2023',
-     'Hamilton Academical FC2017 ~ 2021',
-     'Le Havre AC2019 ~ 2023',
-     'Shijiazhuang Ever Bright F.C.2019 ~ 2022',
-     'DC United2019 ~ 2022',
-     'Brescia2016 ~ 2022',
-     'Al Nassr2018 ~ 2022',
-     'Strømsgodset IF2018 ~ 2023',
-     'Bohemian FC2017 ~ 2020',
-     'UTA Arad2020 ~ 2021',
-     'Albacete BP2019 ~ 2023',
-     'SCR Altach2018 ~ 2021',
-     'Club León2019 ~ 2022',
-     '1. FC Saarbrücken2020 ~ 2022',
-     'ParmaJun 30, 2021 On Loan',
-     'Millwall2019 ~ 2024',
-     'Hannover 962019 ~ 2021',
-     'FC Barcelona2014 ~ 2022',
-     'Henan Jianye FC2017 ~ 2020',
-     'Wisła Kraków2014 ~ 2021',
-     'Shakhtar Donetsk2018 ~ 2025',
-     'AC Mineros de Guayana2020 ~ 2025',
-     'AC Monza2020 ~ 2023',
-     'Club Atlético Talleres2017 ~ 2020',
-     'FC St. Pauli2019 ~ 2021',
-     'FC Sion2013 ~ 2022',
-     'Sporting de Charleroi2020 ~ 2022',
-     'FCSB (Steaua)2016 ~ 2021',
-     'Bournemouth2012 ~ 2021',
-     'Sparta Praha2017 ~ 2022',
-     'Shanghai Greenland Shenhua FC2020 ~ 2024',
-     'Athletic Club de Bilbao2016 ~ 2021',
-     'SV Wehen Wiesbaden2020 ~ 2021',
-     'Sligo Rovers2018 ~ 2021',
-     'Club Atlético Huracán2017 ~ 2021',
-     'Kasimpaşa SK2018 ~ 2022',
-     'AEK Athens2020 ~ 2023',
+     'Rodez Aveyron Football2016 ~ 2024',
      'Nagoya Grampus2020 ~ 2023',
-     'Chamois Niortais Football Club2017 ~ 2021',
-     'Trabzonspor2018 ~ 2023',
-     'FC Zürich2020 ~ 2021',
+     'FC Sochaux-MontbéliardJun 30, 2021 On Loan',
+     'Real Salt Lake2018 ~ 2025',
+     'Barcelona Sporting Club2019 ~ 2020',
+     'Elche CF2018 ~ 2022',
+     'Grimsby Town2018 ~ 2021',
+     'Coquimbo Unido2017 ~ 2020',
+     'Sivasspor2013 ~ 2021',
+     'Holstein Kiel2019 ~ 2023',
+     'Club Atlético Lanús2020 ~ 2023',
+     'Pogoń Szczecin2020 ~ 2023',
+     'Al Fayha2017 ~ 2025',
+     'Abha Club2018 ~ 2022',
+     'Angers SCO2017 ~ 2021',
+     'Roma2017 ~ 2022',
+     'Viktoria Köln2016 ~ 2021',
+     'Watford2010 ~ 2021',
+     'Melgar FBC2018 ~ 2021',
+     'Sport Huancayo2017 ~ 2020',
+     'Real Zaragoza2019 ~ 2024',
+     'Valenciennes FC2016 ~ 2023',
+     'RB Leipzig2019 ~ 2021',
+     'Emelec2020 ~ 2020',
+     'Gimnasia y Esgrima La Plata2014 ~ 2022',
+     'Olympique de Marseille2017 ~ 2022',
+     'Kaizer Chiefs2016 ~ 2020',
+     'SV Darmstadt 982017 ~ 2022',
+     'Club Atlético Talleres2017 ~ 2020',
+     'Livingston FC2018 ~ 2021',
+     'Damac FC2017 ~ 2021',
+     'Inter2017 ~ 2023',
+     'SV Wehen WiesbadenJun 30, 2021 On Loan',
+     'VfL Bochum 18482020 ~ 2021',
+     'Club América2018 ~ 2022',
+     'AEK Athens2014 ~ 2022',
+     'Club AtlasDec 31, 2020 On Loan',
+     'GwangJu FC2020 ~ 2024',
+     'FC Schalke 042017 ~ 2023',
+     'Sanfrecce Hiroshima2016 ~ 2022',
+     'TSV Hartberg2012 ~ 2022',
+     'Sol de América2016 ~ 2021',
+     'FC Luzern2020 ~ 2023',
+     'IK SiriusDec 31, 2020 On Loan',
+     'SK Slavia Praha2017 ~ 2021',
+     '1. FC Heidenheim 18462018 ~ 2024',
+     'Fortuna Düsseldorf2011 ~ 2021',
+     'FC Hansa Rostock2018 ~ 2023',
+     'Wuhan Zall2017 ~ 2020',
+     'Celtic2013 ~ 2023',
+     'Bristol City2013 ~ 2023',
+     'Borussia Mönchengladbach2010 ~ 2022',
+     'Wigan AthleticJan 17, 2021 On Loan',
+     'Getafe CF2020 ~ 2023',
+     'Kawasaki Frontale2003 ~ 2021',
+     'FC Botoşani2017 ~ 2022',
+     'Derry City2019 ~ 2020',
+     'Dinamo Bucureşti2019 ~ 2022',
+     'FC Twente2019 ~ 2021',
+     'C.D. Castellón2020 ~ 2023',
+     'TSV Hartberg2018 ~ 2022',
+     'Oita Trinita2015 ~ 2021',
+     'Seongnam FC2017 ~ 2023',
+     'Harrogate Town2014 ~ 2021',
+     'Lechia Gdańsk2018 ~ 2022',
+     'LDU Quito2018 ~ 2024',
+     'Sagan Tosu2017 ~ 2021',
+     'Kilmarnock2013 ~ 2021',
+     'SG Dynamo Dresden2019 ~ 2023',
+     'Independiente2017 ~ 2023',
+     'Hammarby IF2019 ~ 2020',
+     'Barcelona Sporting Club2014 ~ 2023',
+     'Clermont Foot 632018 ~ 2023',
+     'Toulouse Football Club2019 ~ 2022',
+     'Falkenbergs FFJun 30, 2021 On Loan',
+     'BSC Young Boys2019 ~ 2023',
+     'FK Austria Wien2020 ~ 2022',
+     'Preston North End2017 ~ 2021',
+     'CFR Cluj2020 ~ 2023',
+     'Cádiz CF2019 ~ 2022',
+     'Famalicão2020 ~ 2022',
+     'FC Erzgebirge Aue2016 ~ 2023',
+     'Brøndby IF2020 ~ 2023',
+     'New York Red Bulls2017 ~ 2023',
+     'TSV 1860 München2020 ~ 2021',
+     'HJK Helsinki2020 ~ 2020',
+     'Hertha BSC2018 ~ 2024',
+     'Al Ain FC2020 ~ 2022',
+     'Bradford City2018 ~ 2022',
+     'Piast GliwiceJun 30, 2021 On Loan',
+     'FC Bayern München2017 ~ 2023',
+     'Club Bolívar2019 ~ 2020',
+     'Crewe Alexandra2015 ~ 2022',
+     'Southampton2020 ~ 2024',
+     'Port Vale2017 ~ 2022',
+     'Tianjin TEDA FC2020 ~ 2021',
+     'FC Basel 18932018 ~ 2023',
+     'Olympiacos CFP2019 ~ 2021',
+     'Vejle Boldklub2017 ~ 2021',
+     'LOSC Lille2020 ~ 2022',
+     'Tigres U.A.N.L.2015 ~ 2020',
+     'Atlético Madrid2016 ~ 2021',
+     'LOSC Lille2017 ~ 2022',
+     'Atlético Madrid2017 ~ 2021',
+     '1. FC Köln2016 ~ 2021',
+     'Real Zaragoza2019 ~ 2021',
+     'Valenciennes FC2019 ~ 2023',
+     'CF Fuenlabrada2020 ~ 2021',
+     'Paris Saint-Germain2017 ~ 2021',
+     'Burnley2020 ~ 2021',
+     'Sport Huancayo2019 ~ 2024',
+     'El Nacional2019 ~ 2024',
+     'FC Cartagena2019 ~ 2023',
+     'SK Sturm Graz2016 ~ 2021',
+     'AZ Alkmaar2020 ~ 2024',
+     'KV Mechelen2020 ~ 2021',
+     'FC Nordsjælland2018 ~ 2021',
+     'FK Austria Wien2018 ~ 2022',
+     'Clube Sport MarítimoJun 30, 2021 On Loan',
+     'Lechia Gdańsk2020 ~ 2022',
+     'Cruz Azul2020 ~ 2022',
+     'Bournemouth2016 ~ 2022',
+     'FC Würzburger Kickers2020 ~ 2022',
+     'Audax Italiano2014 ~ 2021',
+     'Lincoln City2020 ~ 2023',
+     'Al Fayha2019 ~ 2020',
+     'Napoli2019 ~ 2024',
+     'Watford2020 ~ 2022',
+     'Brescia2019 ~ 2022',
+     'TSG 1899 Hoffenheim2020 ~ 2024',
+     'Orlando City SC2019 ~ 2023',
+     'Holstein Kiel2011 ~ 2021',
+     'Hamilton Academical FC2019 ~ 2021',
+     'RCD Espanyol2017 ~ 2021',
+     'Atlanta United2017 ~ 2020',
+     'LASK Linz2020 ~ 2024',
+     'Atlanta United2019 ~ 2021',
+     'Wisła Płock2020 ~ 2023',
+     'Gamba Osaka2014 ~ 2021',
+     'Spezia2014 ~ 2021',
+     'Academica Clinceni2017 ~ 2024',
+     'AC Mineros de Guayana2014 ~ 2024',
+     'Centro Atlético Fénix2019 ~ 2023',
+     'Independiente Medellín2020 ~ 2021',
+     'Burton Albion2020 ~ 2022',
+     'AZ Alkmaar2017 ~ 2023',
+     'Beerschot AC2019 ~ 2021',
+     'Lech Poznań2019 ~ 2024',
+     'Kristiansund BK2014 ~ 2020',
+     'Borussia Mönchengladbach2016 ~ 2023',
+     'AIK2017 ~ 2020',
+     'Ipswich Town2014 ~ 2021',
+     'Cardiff City2019 ~ 2021',
+     'Nagoya GrampusJan 31, 2021 On Loan',
+     'UD Las Palmas2011 ~ 2021',
+     'Deportivo Binacional2019 ~ 2021',
+     'Southampton2017 ~ 2022',
+     'Real Betis2018 ~ 2022',
+     'Helsingborgs IF2019 ~ 2022',
+     'Heracles Almelo2020 ~ 2021',
+     'SpVgg Greuther FürthJun 30, 2021 On Loan',
+     'AJ Auxerre2018 ~ 2022',
+     'Brøndby IF2020 ~ 2024',
+     'Gangwon FC2019 ~ 2024',
+     'Zagłębie Lubin2013 ~ 2021',
+     'Coquimbo Unido2019 ~ 2024',
+     'Jiangsu Suning FC2018 ~ 2021',
+     'Derby County2016 ~ 2021',
+     'Nacional de Montevideo2017 ~ 2022',
+     'RSC Anderlecht2020 ~ 2022',
+     'Rosario Central2018 ~ 2021',
+     'Colchester United2020 ~ 2022',
+     'Tigres U.A.N.L.2016 ~ 2021',
+     'Minnesota United FC2020 ~ 2020',
+     'CD Huachipato2020 ~ 2023',
+     'Yeni Malatyaspor2017 ~ 2021',
+     'Millwall2016 ~ 2023',
+     'Rayo Vallecano2016 ~ 2024',
+     'Chelsea2018 ~ 2023',
+     'SKN St. Pölten2018 ~ 2022',
+     "Newell's Old Boys2014 ~ 2021",
+     'Stevenage2020 ~ 2021',
+     'Lech Poznań2019 ~ 2021',
+     'SK Rapid Wien2015 ~ 2022',
+     'AJ Auxerre2019 ~ 2022',
+     'Os Belenenses2017 ~ 2023',
+     'Argentinos JuniorsDec 31, 2020 On Loan',
+     'Varbergs BoIS2020 ~ 2022',
+     'Guangzhou R&F FC2017 ~ 2021',
+     'Peterborough UnitedJun 30, 2021 On Loan',
+     'Medipol Başakşehir FKMay 31, 2021 On Loan',
+     'Chicago Fire2017 ~ 2023',
+     'Morecambe2013 ~ 2021',
+     'Junior FC2020 ~ 2024',
+     'AC Ajaccio2019 ~ 2022',
+     'Al Ittihad2019 ~ 2022',
+     'RCD Mallorca2019 ~ 2024',
+     'Burnley2017 ~ 2021',
+     'Shijiazhuang Ever Bright F.C.2016 ~ 2020',
+     'Olympique de Marseille2020 ~ 2024',
+     'Odense Boldklub2015 ~ 2022',
+     'AS Saint-Étienne2015 ~ 2021',
+     'Ettifaq FC2013 ~ 2023',
+     'Lechia Gdańsk2020 ~ 2024',
+     'Jiangsu Suning FC2020 ~ 2024',
+     'Al Ahli2009 ~ 2021',
+     'Melbourne Victory2018 ~ 2021',
+     'FC Botoşani2019 ~ 2025',
+     'Independiente del Valle2016 ~ 2022',
+     'Holstein Kiel2020 ~ 2022',
+     'Sanfrecce Hiroshima2020 ~ 2021',
+     'Port Vale2016 ~ 2022',
+     'UD Almería2019 ~ 2022',
+     'FC Lugano2020 ~ 2023',
+     'Luton Town2019 ~ 2021',
+     'Sepsi OSKJun 30, 2021 On Loan',
+     'Reading2014 ~ 2021',
+     'SV Ried2020 ~ 2025',
+     'Gamba Osaka2011 ~ 2021',
+     'LA Galaxy2018 ~ 2023',
+     'Beerschot AC2018 ~ 2022',
+     'Al Wehda2017 ~ 2024',
+     'Stabæk Fotball2019 ~ 2022',
+     'SK Brann2015 ~ 2021',
+     'Club Guaraní2020 ~ 2020',
+     'Lech Poznań2017 ~ 2022',
+     'Molde FK2019 ~ 2021',
+     'Club León2018 ~ 2022',
+     'Real Valladolid CF2016 ~ 2021',
+     'Western Sydney Wanderers2018 ~ 2020',
+     'Brescia2017 ~ 2022',
+     'Odds BKDec 31, 2020 On Loan',
+     'Oita Trinita2014 ~ 2021',
+     'Audax Italiano2018 ~ 2021',
+     'Houston Dynamo2019 ~ 2022',
+     'Rangers FC2018 ~ 2021',
+     'IFK Göteborg2018 ~ 2022',
+     'BK Häcken2015 ~ 2020',
+     'SD Ponferradina2019 ~ 2023',
+     'DC United2020 ~ 2020',
+     'Club Necaxa2018 ~ 2023',
+     'Orlando Pirates2015 ~ 2020',
+     'Aalborg BK2017 ~ 2021',
+     'Borussia Mönchengladbach2016 ~ 2024',
+     'Cusco FC2020 ~ 2021',
+     '1. FC KölnJun 30, 2021 On Loan',
+     'SC Heerenveen2020 ~ 2021',
+     'Fiorentina2019 ~ 2023',
+     'VfB StuttgartJun 30, 2021 On Loan',
+     'SV MeppenJun 30, 2021 On Loan',
+     'New York Red Bulls2018 ~ 2020',
+     'Houston Dynamo2018 ~ 2025',
+     'SKN St. Pölten2016 ~ 2022',
+     'Rayo Vallecano2019 ~ 2021',
+     'Forest Green Rovers2019 ~ 2021',
+     'FC Dallas2019 ~ 2021',
+     'Viktoria KölnJun 30, 2021 On Loan',
+     'Kasimpaşa SK2019 ~ 2021',
+     'Club Blooming2015 ~ 2024',
+     'CA Osasuna2020 ~ 2022',
+     'Puebla FC2020 ~ 2024',
+     'Borussia Dortmund2010 ~ 2021',
+     'Montpellier HSC2019 ~ 2023',
+     'New England Revolution2019 ~ 2024',
+     'Girona FC2019 ~ 2022',
+     'Busan IPark2020 ~ 2023',
+     'FC Dallas2020 ~ 2021',
+     'San Lorenzo de Almagro2018 ~ 2021',
+     'FC Girondins de Bordeaux2011 ~ 2021',
+     'Waterford FC2019 ~ 2020',
+     'PAOK2020 ~ 2021',
+     'West Ham United2017 ~ 2021',
+     'Southend UnitedJan 1, 2021 On Loan',
+     'River Plate Montevideo2020 ~ 2021',
+     'Independiente del Valle2018 ~ 2022',
+     'Newcastle Jets2015 ~ 2022',
+     'Vejle Boldklub2019 ~ 2021',
+     'Nacional Potosí2020 ~ 2023',
+     'Shanghai SIPG FC2015 ~ 2020',
+     'Al Taawoun2015 ~ 2022',
+     'Vitória Guimarães2018 ~ 2024',
+     'Lokomotiv Moscow2019 ~ 2023',
+     'VfB Stuttgart2019 ~ 2023',
+     'CD Mirandés2020 ~ 2022',
+     'Brøndby IF2016 ~ 2023',
+     '1. FC Union Berlin2020 ~ 2021',
+     'LDU Quito2020 ~ 2022',
+     'Sporting CPJun 30, 2022 On Loan',
+     'Al Faisaly2018 ~ 2024',
+     'Bayer 04 Leverkusen2020 ~ 2021',
+     'Real Madrid2018 ~ 2023',
+     'FC Metz2015 ~ 2024',
+     'En Avant de Guingamp2020 ~ 2023',
+     'Junior FC2018 ~ 2020',
+     'Dalian YiFang FC2019 ~ 2023',
+     'RC Strasbourg Alsace2013 ~ 2021',
+     'FK Bodø/Glimt2020 ~ 2022',
+     'Wellington Phoenix2012 ~ 2021',
+     'Bristol Rovers2020 ~ 2023',
+     'FC Bayern München2017 ~ 2022',
+     'AIK2018 ~ 2021',
+     'Los Angeles FC2018 ~ 2020',
+     'Jorge Wilstermann2018 ~ 2021',
+     'Bayer 04 Leverkusen2012 ~ 2022',
+     'Göztepe SK2017 ~ 2022',
+     'BK Häcken2017 ~ 2021',
+     'Aalborg BK2018 ~ 2023',
+     'La Berrichonne de Châteauroux2019 ~ 2022',
+     'Sevilla FC2018 ~ 2023',
+     'Dinamo Zagreb2018 ~ 2024',
+     'Pohang Steelers2017 ~ 2025',
+     'FC Tokyo2018 ~ 2021',
+     'FC Emmen2016 ~ 2023',
+     'Chelsea2016 ~ 2023',
+     'Santa Clara2020 ~ 2022',
+     'SC Braga2017 ~ 2023',
+     'IK Start2019 ~ 2023',
+     'Cambridge United2020 ~ 2021',
+     'Boavista FC2018 ~ 2021',
+     'Puebla FC2019 ~ 2020',
+     'Odense Boldklub2019 ~ 2021',
+     'CD Nacional2020 ~ 2022',
+     'Stal Mielec2019 ~ 2022',
+     'SSV Jahn Regensburg2010 ~ 2022',
+     'Club Atlético Talleres2018 ~ 2023',
+     'CE Sabadell FC2020 ~ 2022',
+     'Colchester United2012 ~ 2021',
+     'SV Sandhausen2020 ~ 2022',
+     'Shrewsbury2020 ~ 2022',
+     'Çaykur Rizespor2019 ~ 2021',
+     'FK Bodø/Glimt2019 ~ 2022',
+     'SD Eibar2015 ~ 2022',
+     'Carlisle United2020 ~ 2023',
+     'Coventry City2019 ~ 2023',
+     'Colchester United2019 ~ 2021',
+     'RKC Waalwijk2020 ~ 2021',
+     'Club Atlas2018 ~ 2022',
+     'Melbourne City FC2019 ~ 2022',
+     'Club América2020 ~ 2020',
+     'Fulham2019 ~ 2023',
+     'Real Sociedad2018 ~ 2021',
+     'SV Ried2019 ~ 2024',
+     'SønderjyskE2019 ~ 2023',
+     'USL Dunkerque2009 ~ 2021',
+     'LDU Quito2020 ~ 2023',
+     'Olympiacos CFP2017 ~ 2022',
+     'Athletic Club de Bilbao2009 ~ 2024',
+     'FC Bayern München2020 ~ 2025',
+     'Athletic Club de Bilbao2012 ~ 2028',
+     'Boavista FC2019 ~ 2021',
+     'Oriente Petrolero2020 ~ 2024',
+     'Ettifaq FC2011 ~ 2022',
+     'TSV 1860 München2020 ~ 2022',
+     'AC Ajaccio2019 ~ 2023',
+     'Real BetisJun 30, 2021 On Loan',
+     'Milton Keynes Dons2019 ~ 2022',
+     'Newport County2016 ~ 2021',
+     'AS Saint-Étienne2018 ~ 2021',
+     'PortsmouthMay 31, 2021 On Loan',
+     'Seattle Sounders FC2015 ~ 2020',
+     'Odds BK2013 ~ 2024',
+     'Atlético Madrid2019 ~ 2022',
+     'Elche CF2016 ~ 2021',
+     'Nagoya Grampus2017 ~ 2021',
+     'Guangzhou Evergrande Taobao FC2019 ~ 2021',
+     ' South AfricaFree',
+     'Boavista FC2020 ~ 2025',
+     'Universidad Católica2015 ~ 2020',
+     'Karlsruher SC2019 ~ 2021',
+     'Viktoria Köln2020 ~ 2022',
+     'Deportivo Cali2018 ~ 2022',
+     'Beijing Sinobo Guoan FC2018 ~ 2021',
+     'FC Twente2020 ~ 2021',
+     'Gamba Osaka2016 ~ 2022',
+     'Spartak Moscow2017 ~ 2022',
+     'Atlético Madrid2020 ~ 2024',
+     'Valenciennes FC2018 ~ 2021',
+     'Southampton2011 ~ 2025',
+     'KRC Genk2017 ~ 2023',
+     'Real Sporting de Gijón2019 ~ 2022',
+     'Olimpia Asunción2019 ~ 2025',
+     'Real Salt Lake2017 ~ 2020',
+     'Olympique Lyonnais2015 ~ 2023',
+     'Hannover 96Jun 30, 2021 On Loan',
+     'RSC Anderlecht2018 ~ 2025',
+     'Brighton & Hove Albion2018 ~ 2023',
+     'St. Mirren2020 ~ 2022',
+     'Colorado Rapids2020 ~ 2020',
+     'Toulouse Football Club2018 ~ 2023',
+     'SV Meppen2016 ~ 2022',
+     'Chicago Fire2020 ~ 2023',
+     'FC TwenteJun 30, 2021 On Loan',
+     'Kayserispor2018 ~ 2021',
+     'Port Vale2019 ~ 2021',
+     'Gimnasia y Esgrima La Plata2017 ~ 2023',
+     'Östersunds FK2013 ~ 2021',
+     'Al Wehda2018 ~ 2024',
+     'Guangzhou R&F FC2012 ~ 2020',
+     'Club Atlético Colón2016 ~ 2022',
+     'Santa Clara2020 ~ 2023',
+     'Monterrey2018 ~ 2023',
+     'Boca JuniorsDec 31, 2021 On Loan',
+     'PAOK2019 ~ 2022',
+     'RB Leipzig2020 ~ 2025',
+     'River Plate2017 ~ 2022',
+     'FC Botoşani2020 ~ 2023',
+     'FCSB (Steaua)2019 ~ 2023',
+     'Salford City2019 ~ 2022',
+     'Ettifaq FC2017 ~ 2023',
+     'KV Kortrijk2020 ~ 2023',
+     'FC Metz2018 ~ 2021',
+     'ADO Den Haag2019 ~ 2021',
+     'Sporting de Charleroi2019 ~ 2022',
+     'CD Tenerife2019 ~ 2025',
+     'Strømsgodset IF2019 ~ 2023',
+     'Puebla FCDec 31, 2020 On Loan',
+     'Bayer 04 Leverkusen2017 ~ 2021',
+     'BK Häcken2019 ~ 2021',
+     'En Avant de Guingamp2019 ~ 2021',
+     'FC Augsburg2019 ~ 2023',
+     'Albacete BP2017 ~ 2021',
+     'New York Red Bulls2012 ~ 2020',
+     'Dinamo Bucureşti2018 ~ 2023',
+     'Real Salt Lake2018 ~ 2021',
+     'Always Ready2020 ~ 2025',
+     'Atiker Konyaspor2017 ~ 2023',
+     'Al Hazem2019 ~ 2025',
+     'Olympiacos CFP2016 ~ 2023',
+     'Deportivo Binacional2020 ~ 2024',
+     'Beşiktaş JK2013 ~ 2021',
+     'FC Lorient2016 ~ 2023',
+     'Lyngby BK2019 ~ 2023',
+     'Racing Club2020 ~ 2021',
+     'Royal Antwerp FC2020 ~ 2021',
+     'SC Verl2010 ~ 2022',
+     ' PolandFree',
+     'IK Start2020 ~ 2021',
+     'Antalyaspor2017 ~ 2022',
+     'DC United2018 ~ 2020',
+     'Derby County2019 ~ 2021',
+     'Atiker Konyaspor2018 ~ 2021',
+     'Club Atlético Huracán2020 ~ 2023',
+     'SPAL2019 ~ 2022',
+     'Charlton Athletic2018 ~ 2021',
+     'Hammarby IF2018 ~ 2020',
+     'Guadalajara2019 ~ 2022',
+     'FC Bayern München2012 ~ 2021',
+     'Melbourne Victory2020 ~ 2022',
+     'FC Vaduz2016 ~ 2021',
+     'Club Blooming2020 ~ 2023',
+     'Luton Town2020 ~ 2022',
+     'Chongqing Dangdai Lifan FC SWM Team2013 ~ 2025',
+     'IK Start2015 ~ 2020',
+     'IFK Norrköping2016 ~ 2023',
+     'Universidad Católica del Ecuador2013 ~ 2024',
+     'Pohang Steelers2020 ~ 2025',
+     'Derby County2018 ~ 2024',
+     'Racing Club de Lens2017 ~ 2023',
+     'Stal Mielec2013 ~ 2022',
+     'Academica Clinceni2018 ~ 2021',
+     'Sanfrecce Hiroshima2012 ~ 2020',
+     'RKC Waalwijk2018 ~ 2022',
+     'Fortuna Düsseldorf2018 ~ 2024',
+     'Real Salt Lake2019 ~ 2020',
+     'Club Plaza Colonia2019 ~ 2025',
+     'Burnley2014 ~ 2022',
+     'Cagliari2014 ~ 2021',
+     'Galatasaray SK2019 ~ 2022',
+     'AC Ajaccio2020 ~ 2022',
+     'Sevilla FC2013 ~ 2022',
+     'Boavista FC2020 ~ 2023',
+     'Atlético de San Luis2020 ~ 2021',
+     'VfL Bochum 18482018 ~ 2022',
+     'Mjøndalen IF2013 ~ 2020',
+     'Jorge Wilstermann2018 ~ 2020',
+     'SV Zulte-Waregem2018 ~ 2022',
+     'LASK Linz2015 ~ 2022',
+     'Arsenal2016 ~ 2023',
+     'Derby County2013 ~ 2022',
+     'Paris Saint-Germain2019 ~ 2021',
+     'Club Atlético Lanús2017 ~ 2021',
+     'IFK Norrköping2019 ~ 2020',
+     'PEC Zwolle2007 ~ 2021',
+     'Wolfsberger AC2019 ~ 2021',
+     'Southend United2013 ~ 2021',
+     'SG Dynamo Dresden2020 ~ 2023',
+     'VfL Osnabrück2020 ~ 2022',
+     'Livingston FCJan 31, 2021 On Loan',
+     'Livingston FC2020 ~ 2022',
+     'St. Mirren2020 ~ 2021',
+     '1. FSV Mainz 052014 ~ 2022',
+     'Lokomotiv Moscow2018 ~ 2021',
+     'Galatasaray SK2019 ~ 2021',
+     'Watford2014 ~ 2023',
+     'Manchester City2020 ~ 2023',
+     'SG Dynamo Dresden2018 ~ 2021',
+     'Qingdao Huanghai F.C.2018 ~ 2025',
+     'Fenerbahçe SK2018 ~ 2022',
+     'Wolverhampton Wanderers2020 ~ 2022',
+     'SD Eibar2020 ~ 2023',
+     'Nîmes Olympique2017 ~ 2021',
+     'Getafe CF2018 ~ 2024',
+     'SL Benfica2017 ~ 2023',
+     'Gil Vicente FC2018 ~ 2022',
+     'AC Horsens2020 ~ 2020',
+     'Colo-Colo2018 ~ 2022',
+     'Hamburger SV2014 ~ 2022',
+     'Genoa2019 ~ 2022',
+     'Atlético Tucumán2019 ~ 2022',
+     'Elche CF2020 ~ 2024',
+     'SV Meppen2017 ~ 2021',
+     'Oriente Petrolero2019 ~ 2025',
+     'SD Eibar2019 ~ 2023',
+     'FC Cincinnati2020 ~ 2020',
+     'Oriente Petrolero2020 ~ 2020',
+     'Stal Mielec2017 ~ 2022',
+     'VfL Osnabrück2019 ~ 2021',
+     'Independiente del Valle2017 ~ 2021',
+     'Toulouse Football Club2015 ~ 2021',
+     'FC Zürich2020 ~ 2022',
+     'Birmingham City2016 ~ 2021',
+     'Inter2020 ~ 2021',
+     'SC Freiburg2018 ~ 2021',
+     'Western Sydney Wanderers2017 ~ 2022',
+     'Portland Timbers2016 ~ 2021',
+     'Al Taawoun2019 ~ 2024',
+     'Plymouth Argyle2020 ~ 2021',
+     'Sparta Rotterdam2016 ~ 2022',
+     'AD Alcorcón2017 ~ 2021',
+     'CD Tondela2020 ~ 2022',
+     'Jeonbuk Hyundai Motors2019 ~ 2020',
+     'Independiente2019 ~ 2022',
+     'Hamilton Academical FC2020 ~ 2021',
+     'Hammarby IF2020 ~ 2022',
+     'Sevilla FC2019 ~ 2023',
+     'PEC Zwolle2020 ~ 2024',
+     'Shelbourne FC2020 ~ 2020',
+     'Cádiz CF2017 ~ 2023',
+     'Örebro SK2017 ~ 2020',
+     'Pachuca2016 ~ 2025',
+     'Millwall2020 ~ 2023',
+     'ADO Den Haag2017 ~ 2024',
+     'Al Faisaly2019 ~ 2024',
+     'Palmeiras2019 ~ 2023',
+     'CD Nacional2020 ~ 2023',
+     'FC Lausanne-Sport2017 ~ 2022',
+     'Guangzhou Evergrande Taobao FC2019 ~ 2022',
+     'Universidad Católica2020 ~ 2021',
+     'FC St. Gallen2018 ~ 2022',
+     'La Berrichonne de Châteauroux2017 ~ 2022',
+     'Patronato2016 ~ 2021',
+     'Gamba Osaka2019 ~ 2021',
+     'Olimpia Asunción2017 ~ 2022',
+     'Stoke City2019 ~ 2022',
+     'Cardiff City2019 ~ 2022',
+     'Livingston FC2017 ~ 2021',
+     'Inter2018 ~ 2022',
+     'Al Hilal2015 ~ 2022',
+     'FC Porto2016 ~ 2021',
+     '1. FC Nürnberg2019 ~ 2024',
+     'Sporting CP2017 ~ 2023',
+     'Farense2020 ~ 2023',
+     'VVV-Venlo2015 ~ 2022',
+     'Stade Malherbe Caen2019 ~ 2023',
+     'Seattle Sounders FC2020 ~ 2021',
+     'Everton2020 ~ 2025',
+     'Al Nassr2019 ~ 2022',
+     'Accrington Stanley2018 ~ 2021',
+     'Al Ittihad2020 ~ 2022',
+     'Lech Poznań2017 ~ 2023',
+     'FK Haugesund2014 ~ 2022',
+     'OGC Nice2018 ~ 2021',
+     'Sporting de Charleroi2019 ~ 2023',
+     'KV Mechelen2018 ~ 2024',
+     'USL DunkerqueJun 30, 2021 On Loan',
+     'Finn Harps2019 ~ 2020',
+     'Real Valladolid CF2018 ~ 2023',
+     'Clermont Foot 632020 ~ 2022',
+     'Universidad Católica2018 ~ 2021',
+     'Beijing Sinobo Guoan FC2014 ~ 2020',
+     'SK Slavia Praha2019 ~ 2023',
+     'Sligo Rovers2017 ~ 2020',
+     'Kalmar FF2019 ~ 2021',
+     'PSVJun 30, 2021 On Loan',
+     'Delfín SC2018 ~ 2020',
+     'SV Waldhof Mannheim2015 ~ 2021',
+     'Dundee United2020 ~ 2021',
+     'UD Las Palmas2016 ~ 2021',
+     'Birmingham City2019 ~ 2024',
+     'Chelsea2016 ~ 2024',
+     'SC Braga2018 ~ 2022',
+     'Nacional Asunción2019 ~ 2020',
+     'Strømsgodset IF2020 ~ 2022',
+     'Jeonbuk Hyundai Motors2014 ~ 2024',
+     'Antalyaspor2017 ~ 2021',
+     'Sporting de Charleroi2020 ~ 2023',
+     'CD Leganés2020 ~ 2025',
+     'Odds BK2016 ~ 2020',
+     'Swindon Town2020 ~ 2022',
+     'VfL Bochum 18482019 ~ 2024',
+     'UTA Arad2018 ~ 2021',
+     'Al Ahli2020 ~ 2024',
+     'Sandefjord Fotball2018 ~ 2022',
+     'KAS Eupen2017 ~ 2021',
+     'Melbourne Victory2018 ~ 2020',
+     'Wigan AthleticJan 4, 2021 On Loan',
+     'Sol de América2018 ~ 2024',
+     'Coventry City2016 ~ 2021',
+     'Angers SCO2018 ~ 2021',
+     'Torino2018 ~ 2022',
+     'Incheon United FC2018 ~ 2023',
+     'Burton AlbionJun 30, 2021 On Loan',
+     'Hamilton Academical FC2017 ~ 2021',
+     'Junior FC2020 ~ 2020',
+     'West Ham United2015 ~ 2022',
+     'Hammarby IF2020 ~ 2020',
+     'Sarpsborg 08 FF2020 ~ 2021',
+     'Leeds United2019 ~ 2023',
+     'Gaz Metan Mediaş2020 ~ 2023',
+     'Sarpsborg 08 FF2019 ~ 2021',
+     'FC Barcelona2019 ~ 2023',
+     'SK Slavia Praha2016 ~ 2023',
+     'FC Porto2016 ~ 2023',
+     'Doncaster Rovers2020 ~ 2022',
+     'Orlando City SCDec 31, 2020 On Loan',
+     'Puebla FC2017 ~ 2023',
+     'RKC Waalwijk2017 ~ 2023',
+     'Al Ittihad2017 ~ 2021',
+     'Levante UD2018 ~ 2021',
+     'CD NacionalJun 30, 2021 On Loan',
+     'LOSC Lille2018 ~ 2022',
+     'FC Hermannstadt2019 ~ 2021',
+     'FC Sochaux-Montbéliard2019 ~ 2021',
+     'Audax Italiano2019 ~ 2024',
+     'Fulham2020 ~ 2023',
+     'Fatih Karagümrük S.K.2019 ~ 2022',
+     'Mansfield Town2018 ~ 2021',
+     'SK Slavia Praha2020 ~ 2020',
+     'Universitatea Craiova2020 ~ 2023',
+     'IFK NorrköpingDec 31, 2020 On Loan',
+     'Atlético Nacional2017 ~ 2021',
+     'Inter2018 ~ 2023',
+     'Eintracht Frankfurt2014 ~ 2022',
+     'Club Tijuana2020 ~ 2023',
+     'Club Atlético Aldosivi2017 ~ 2022',
+     'Club Atlético Grau2017 ~ 2021',
+     'Sporting de Charleroi2020 ~ 2022',
+     'Bayer 04 Leverkusen2014 ~ 2022',
+     'SC Heerenveen2018 ~ 2023',
+     'FC Botoşani2020 ~ 2022',
+     'Dinamo Bucureşti2016 ~ 2024',
+     'Dinamo Bucureşti2013 ~ 2023',
+     '1. FC Saarbrücken2017 ~ 2022',
+     'LDU Quito2018 ~ 2023',
+     'Antalyaspor2020 ~ 2025',
+     'Kashima Antlers2020 ~ 2021',
+     'Zamora FC2019 ~ 2024',
+     'Stoke City2020 ~ 2021',
+     'SpVgg Greuther Fürth2019 ~ 2022',
+     'CD Nacional2019 ~ 2021',
+     'Newcastle United2010 ~ 2022',
+     'FC Metz2019 ~ 2024',
+     'Gençlerbirliği SK2019 ~ 2022',
+     'Audax Italiano2020 ~ 2024',
+     'Boca JuniorsDec 31, 2020 On Loan',
+     'Hertha BSC2016 ~ 2023',
+     'Angers SCO2019 ~ 2023',
+     'Wolverhampton Wanderers2017 ~ 2021',
+     'Jiangsu Suning FC2017 ~ 2020',
+     'Udinese2019 ~ 2022',
+     'Al Faisaly2018 ~ 2023',
+     'Livingston FC2016 ~ 2021',
+     'Clube Sport Marítimo2020 ~ 2025',
+     'Vejle Boldklub2018 ~ 2022',
+     'Kalmar FF2019 ~ 2020',
+     'Real Betis2020 ~ 2024',
+     'Panathinaikos FC2016 ~ 2022',
+     'KV Oostende2020 ~ 2024',
+     'New York Red Bulls2019 ~ 2021',
+     'Athletic Club de Bilbao2015 ~ 2022',
+     'Busan IPark2020 ~ 2024',
+     'FC Twente2014 ~ 2021',
+     'Newcastle United2019 ~ 2021',
+     'Nacional Potosí2019 ~ 2024',
+     'Gazişehir Gaziantep F.K.2018 ~ 2023',
+     'Club Plaza Colonia2019 ~ 2023',
+     'Stade Rennais FC2019 ~ 2024',
+     'Sport Huancayo2019 ~ 2021',
+     'Al Shabab2015 ~ 2024',
+     'Melbourne City FC2018 ~ 2021',
+     'Monterrey2016 ~ 2021',
+     'West Ham United2016 ~ 2024',
+     'Guadalajara2012 ~ 2021',
+     'Portimonense SC2017 ~ 2021',
+     'Club Libertad2015 ~ 2024',
+     '1. FC Saarbrücken2018 ~ 2022',
+     'Angers SCO2020 ~ 2023',
+     'Arsenal2019 ~ 2021',
+     'Al Fateh2015 ~ 2021',
+     'FC Schalke 042019 ~ 2023',
+     'AZ Alkmaar2018 ~ 2024',
      'KSV Cercle Brugge2020 ~ 2024',
-     'Vancouver Whitecaps FC2018 ~ 2020',
-     'Kristiansund BK2020 ~ 2023',
-     'CA Osasuna2018 ~ 2021',
-     'Servette FC2018 ~ 2023',
-     'Sivasspor2010 ~ 2024',
-     'Colchester United2016 ~ 2021',
-     'Crystal Palace2017 ~ 2022',
-     'Cerezo Osaka2014 ~ 2021',
-     'CD Lugo2019 ~ 2021',
-     'Angers SCO2015 ~ 2021',
-     'SPAL2019 ~ 2023',
-     'Portland Timbers2020 ~ 2020',
-     'Çaykur Rizespor2020 ~ 2021',
-     'Angers SCO2020 ~ 2024',
-     'Servette FC2017 ~ 2021',
-     'Kalmar FF2017 ~ 2020',
-     'Montpellier HSC2020 ~ 2023',
-     'Yeni Malatyaspor2016 ~ 2021',
-     'Morecambe2015 ~ 2021',
-     'Al Raed2015 ~ 2021',
-     'Wolverhampton Wanderers2019 ~ 2024',
-     'Real Betis2017 ~ 2022',
-     'FC Sochaux-Montbéliard2016 ~ 2021',
-     'Dijon FCOJun 30, 2021 On Loan',
-     'Al Wehda2020 ~ 2023',
-     'RC Strasbourg Alsace2018 ~ 2024',
-     'AC Ajaccio2018 ~ 2024',
-     'Sparta Rotterdam2020 ~ 2021',
-     'Caracas FC2016 ~ 2024',
-     'Atlético de San Luis2017 ~ 2021',
+     'FC Seoul2011 ~ 2024',
+     'Eintracht Frankfurt2016 ~ 2022',
+     'Guangzhou R&F FC2011 ~ 2021',
+     'Guangzhou Evergrande Taobao FC2015 ~ 2020',
+     'IFK Norrköping2016 ~ 2020',
+     'Guangzhou Evergrande Taobao FC2016 ~ 2020',
+     'Incheon United FC2014 ~ 2022',
+     'Sporting CP2018 ~ 2024',
+     'Real Madrid2009 ~ 2022',
+     'FC Hermannstadt2019 ~ 2024',
+     'Vejle Boldklub2018 ~ 2021',
+     'Inter2013 ~ 2021',
+     'Tottenham Hotspur2017 ~ 2025',
+     'Willem II2017 ~ 2021',
+     'Zagłębie Lubin2019 ~ 2022',
+     'Hallescher FC2020 ~ 2021',
+     'Toulouse Football Club2020 ~ 2025',
+     'Cerezo Osaka2016 ~ 2021',
+     'Internacional2019 ~ 2023',
+     'Shakhtar Donetsk2019 ~ 2025',
+     'Rosenborg BK2020 ~ 2020',
+     'Chongqing Dangdai Lifan FC SWM Team2014 ~ 2025',
+     'AJ Auxerre2019 ~ 2024',
+     'Malmö FF2017 ~ 2023',
+     'VfL Osnabrück2018 ~ 2024',
+     'Pogoń Szczecin2016 ~ 2021',
+     'Stade Malherbe Caen2018 ~ 2023',
+     'Kasimpaşa SK2020 ~ 2021',
+     'TSG 1899 Hoffenheim2019 ~ 2022',
+     'Chelsea2014 ~ 2022',
+     'FC Sochaux-Montbéliard2020 ~ 2021',
+     'FC Porto2019 ~ 2023',
+     'Shenzhen FC2017 ~ 2022',
+     'CD Lugo2012 ~ 2021',
+     'FC Hansa Rostock2020 ~ 2022',
+     'USL Dunkerque2020 ~ 2024',
+     'Daegu FC2014 ~ 2025',
+     'Chamois Niortais Football Club2019 ~ 2023',
+     'Atlético Clube Goianiense2019 ~ 2023',
+     'Junior FC2017 ~ 2020',
+     'RCD Espanyol2019 ~ 2024',
+     'FC Red Bull Salzburg2018 ~ 2022',
+     'AFC WimbledonJun 30, 2021 On Loan',
+     'Coquimbo Unido2020 ~ 2020',
+     'Portsmouth2019 ~ 2021',
+     'Queens Park Rangers2019 ~ 2022',
+     'PSV2019 ~ 2024',
+     'FC Emmen2017 ~ 2022',
+     'FC St. Pauli2018 ~ 2022',
+     'Newcastle United2016 ~ 2023',
+     'Henan Jianye FC2013 ~ 2023',
+     'Moreirense FC2019 ~ 2023',
+     'Nacional de Montevideo2020 ~ 2021',
+     'Gil Vicente FC2019 ~ 2021',
+     'Brisbane Roar2019 ~ 2020',
+     'Real Oviedo2020 ~ 2021',
+     'Oxford United2020 ~ 2022',
+     'Trabzonspor2019 ~ 2023',
+     'Al Faisaly2017 ~ 2021',
+     'Cusco FC2019 ~ 2021',
+     'Kawasaki Frontale2016 ~ 2021',
+     'Wycombe Wanderers2018 ~ 2022',
+     'Melbourne Victory2020 ~ 2021',
+     'Sangju Sangmu FC2016 ~ 2023',
+     'Club Brugge KV2019 ~ 2023',
+     'Minnesota United FC2017 ~ 2020',
+     'ParmaJun 30, 2021 On Loan',
+     'VfL OsnabrückJun 30, 2021 On Loan',
+     'Antalyaspor2015 ~ 2024',
+     'Real Salt Lake2019 ~ 2025',
+     'Aalesunds FK2019 ~ 2021',
+     'New York Red Bulls2019 ~ 2023',
+     'Eintracht Frankfurt2020 ~ 2021',
+     'Aarhus GF2019 ~ 2021',
+     'Los Angeles FC2018 ~ 2021',
+     'CA Osasuna2020 ~ 2024',
+     'Shandong Luneng TaiShan FC2020 ~ 2025',
+     'Jorge Wilstermann2015 ~ 2021',
+     'San Lorenzo de Almagro2017 ~ 2021',
+     'Milton Keynes Dons2016 ~ 2022',
+     'Getafe CF2020 ~ 2025',
+     'CD Leganés2018 ~ 2022',
+     'AS MonacoJun 30, 2021 On Loan',
+     'Borussia Mönchengladbach2018 ~ 2021',
+     'Helsingborgs IF2020 ~ 2022',
+     'Real Oviedo2020 ~ 2022',
+     'Aalesunds FK2020 ~ 2022',
+     'Club Bolívar2019 ~ 2022',
+     'LDU Quito2020 ~ 2021',
+     'Bristol Rovers2019 ~ 2022',
+     'Yokohama FC2011 ~ 2021',
+     'Reading2016 ~ 2023',
+     'Shamrock Rovers2017 ~ 2020',
+     'Nashville SC2019 ~ 2023',
      ...}
 
 
@@ -3792,77 +2274,7 @@ fifa_df.head(10)
       <th>LongName</th>
       <th>playerUrl</th>
       <th>Nationality</th>
-      <th>Positions</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>↓OVA</th>
-      <th>POT</th>
-      <th>Team &amp; Contract</th>
-      <th>Team</th>
-      <th>ID</th>
-      <th>Height(mts)</th>
-      <th>Weight(kg)</th>
-      <th>foot</th>
-      <th>BOV</th>
-      <th>BP</th>
-      <th>Growth</th>
-      <th>Joined</th>
-      <th>Loan Date End</th>
-      <th>Value</th>
-      <th>Wage</th>
-      <th>Release Clause</th>
-      <th>Attacking</th>
-      <th>Crossing</th>
-      <th>Finishing</th>
-      <th>Heading Accuracy</th>
-      <th>Short Passing</th>
-      <th>Volleys</th>
-      <th>Skill</th>
-      <th>Dribbling</th>
-      <th>Curve</th>
-      <th>FK Accuracy</th>
-      <th>Long Passing</th>
-      <th>Ball Control</th>
-      <th>Movement</th>
-      <th>Acceleration</th>
-      <th>Sprint Speed</th>
-      <th>Agility</th>
-      <th>Reactions</th>
-      <th>Balance</th>
-      <th>Power</th>
-      <th>Shot Power</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Long Shots</th>
-      <th>Mentality</th>
-      <th>Aggression</th>
-      <th>Interceptions</th>
-      <th>Positioning</th>
-      <th>Vision</th>
-      <th>Penalties</th>
-      <th>Composure</th>
-      <th>Defending</th>
-      <th>Marking</th>
-      <th>Standing Tackle</th>
-      <th>Sliding Tackle</th>
-      <th>Goalkeeping</th>
-      <th>GK Diving</th>
-      <th>GK Handling</th>
-      <th>GK Kicking</th>
-      <th>GK Positioning</th>
-      <th>GK Reflexes</th>
-      <th>Total Stats</th>
-      <th>Base Stats</th>
-      <th>W/F</th>
-      <th>SM</th>
-      <th>A/W</th>
-      <th>D/W</th>
-      <th>IR</th>
-      <th>PAC</th>
-      <th>SHO</th>
-      <th>PAS</th>
-      <th>DRI</th>
+      <th>...</th>
       <th>DEF</th>
       <th>PHY</th>
       <th>Hits</th>
@@ -3874,77 +2286,7 @@ fifa_df.head(10)
       <td>Lionel Messi</td>
       <td>http://sofifa.com/player/158023/lionel-messi/2...</td>
       <td>Argentina</td>
-      <td>RW ST CF</td>
-      <td>L. Messi</td>
-      <td>33</td>
-      <td>93</td>
-      <td>93</td>
-      <td>\n\n\n\nFC Barcelona\n2004 ~ 2021\n\n</td>
-      <td>FC Barcelona</td>
-      <td>158023</td>
-      <td>1.70</td>
-      <td>72</td>
-      <td>Left</td>
-      <td>93</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2004</td>
-      <td>NaN</td>
-      <td>€67.5M</td>
-      <td>€560K</td>
-      <td>€138.4M</td>
-      <td>429</td>
-      <td>85</td>
-      <td>95</td>
-      <td>70</td>
-      <td>91</td>
-      <td>88</td>
-      <td>470</td>
-      <td>96</td>
-      <td>93</td>
-      <td>94</td>
-      <td>91</td>
-      <td>96</td>
-      <td>451</td>
-      <td>91</td>
-      <td>80</td>
-      <td>91</td>
-      <td>94</td>
-      <td>95</td>
-      <td>389</td>
-      <td>86</td>
-      <td>68</td>
-      <td>72</td>
-      <td>69</td>
-      <td>94</td>
-      <td>347</td>
-      <td>44</td>
-      <td>40</td>
-      <td>93</td>
-      <td>95</td>
-      <td>75</td>
-      <td>96</td>
-      <td>91</td>
-      <td>32</td>
-      <td>35</td>
-      <td>24</td>
-      <td>54</td>
-      <td>6</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>8</td>
-      <td>2231</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>85</td>
-      <td>92</td>
-      <td>91</td>
-      <td>95</td>
+      <td>...</td>
       <td>38</td>
       <td>65</td>
       <td>\n372</td>
@@ -3954,77 +2296,7 @@ fifa_df.head(10)
       <td>C. Ronaldo dos Santos Aveiro</td>
       <td>http://sofifa.com/player/20801/c-ronaldo-dos-s...</td>
       <td>Portugal</td>
-      <td>ST LW</td>
-      <td>Cristiano Ronaldo</td>
-      <td>35</td>
-      <td>92</td>
-      <td>92</td>
-      <td>\n\n\n\nJuventus\n2018 ~ 2022\n\n</td>
-      <td>Juventus</td>
-      <td>20801</td>
-      <td>1.88</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>92</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 10, 2018</td>
-      <td>NaN</td>
-      <td>€46M</td>
-      <td>€220K</td>
-      <td>€75.9M</td>
-      <td>437</td>
-      <td>84</td>
-      <td>95</td>
-      <td>90</td>
-      <td>82</td>
-      <td>86</td>
-      <td>414</td>
-      <td>88</td>
-      <td>81</td>
-      <td>76</td>
-      <td>77</td>
-      <td>92</td>
-      <td>431</td>
-      <td>87</td>
-      <td>91</td>
-      <td>87</td>
-      <td>95</td>
-      <td>71</td>
-      <td>444</td>
-      <td>94</td>
-      <td>95</td>
-      <td>84</td>
-      <td>78</td>
-      <td>93</td>
-      <td>353</td>
-      <td>63</td>
-      <td>29</td>
-      <td>95</td>
-      <td>82</td>
-      <td>84</td>
-      <td>95</td>
-      <td>84</td>
-      <td>28</td>
-      <td>32</td>
-      <td>24</td>
-      <td>58</td>
-      <td>7</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>11</td>
-      <td>2221</td>
-      <td>464</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>89</td>
-      <td>93</td>
-      <td>81</td>
-      <td>89</td>
+      <td>...</td>
       <td>35</td>
       <td>77</td>
       <td>\n344</td>
@@ -4034,77 +2306,7 @@ fifa_df.head(10)
       <td>Jan Oblak</td>
       <td>http://sofifa.com/player/200389/jan-oblak/210005/</td>
       <td>Slovenia</td>
-      <td>GK</td>
-      <td>J. Oblak</td>
-      <td>27</td>
-      <td>91</td>
-      <td>93</td>
-      <td>\n\n\n\nAtlético Madrid\n2014 ~ 2023\n\n</td>
-      <td>Atlético Madrid</td>
-      <td>200389</td>
-      <td>1.88</td>
-      <td>87</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>GK</td>
-      <td>2</td>
-      <td>Jul 16, 2014</td>
-      <td>NaN</td>
-      <td>€75M</td>
-      <td>€125K</td>
-      <td>€159.4M</td>
-      <td>95</td>
-      <td>13</td>
-      <td>11</td>
-      <td>15</td>
-      <td>43</td>
-      <td>13</td>
-      <td>109</td>
-      <td>12</td>
-      <td>13</td>
-      <td>14</td>
-      <td>40</td>
-      <td>30</td>
-      <td>307</td>
-      <td>43</td>
-      <td>60</td>
-      <td>67</td>
-      <td>88</td>
-      <td>49</td>
-      <td>268</td>
-      <td>59</td>
-      <td>78</td>
-      <td>41</td>
-      <td>78</td>
-      <td>12</td>
-      <td>140</td>
-      <td>34</td>
-      <td>19</td>
-      <td>11</td>
-      <td>65</td>
-      <td>11</td>
-      <td>68</td>
-      <td>57</td>
-      <td>27</td>
-      <td>12</td>
-      <td>18</td>
-      <td>437</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
-      <td>90</td>
-      <td>1413</td>
-      <td>489</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
+      <td>...</td>
       <td>52</td>
       <td>90</td>
       <td>\n86</td>
@@ -4114,77 +2316,7 @@ fifa_df.head(10)
       <td>Kevin De Bruyne</td>
       <td>http://sofifa.com/player/192985/kevin-de-bruyn...</td>
       <td>Belgium</td>
-      <td>CAM CM</td>
-      <td>K. De Bruyne</td>
-      <td>29</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nManchester City\n2015 ~ 2023\n\n</td>
-      <td>Manchester City</td>
-      <td>192985</td>
-      <td>1.55</td>
-      <td>69</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>CAM</td>
-      <td>0</td>
-      <td>Aug 30, 2015</td>
-      <td>NaN</td>
-      <td>€87M</td>
-      <td>€370K</td>
-      <td>€161M</td>
-      <td>407</td>
-      <td>94</td>
-      <td>82</td>
-      <td>55</td>
-      <td>94</td>
-      <td>82</td>
-      <td>441</td>
-      <td>88</td>
-      <td>85</td>
-      <td>83</td>
-      <td>93</td>
-      <td>92</td>
-      <td>398</td>
-      <td>77</td>
-      <td>76</td>
-      <td>78</td>
-      <td>91</td>
-      <td>76</td>
-      <td>408</td>
-      <td>91</td>
-      <td>63</td>
-      <td>89</td>
-      <td>74</td>
-      <td>91</td>
-      <td>408</td>
-      <td>76</td>
-      <td>66</td>
-      <td>88</td>
-      <td>94</td>
-      <td>84</td>
-      <td>91</td>
-      <td>186</td>
-      <td>68</td>
-      <td>65</td>
-      <td>53</td>
-      <td>56</td>
-      <td>15</td>
-      <td>13</td>
-      <td>5</td>
-      <td>10</td>
-      <td>13</td>
-      <td>2304</td>
-      <td>485</td>
-      <td>5 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>High</td>
-      <td>4 ★</td>
-      <td>76</td>
-      <td>86</td>
-      <td>93</td>
-      <td>88</td>
+      <td>...</td>
       <td>64</td>
       <td>78</td>
       <td>\n163</td>
@@ -4194,77 +2326,7 @@ fifa_df.head(10)
       <td>Neymar da Silva Santos Jr.</td>
       <td>http://sofifa.com/player/190871/neymar-da-silv...</td>
       <td>Brazil</td>
-      <td>LW CAM</td>
-      <td>Neymar Jr</td>
-      <td>28</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nParis Saint-Germain\n2017 ~ 2022\n\n</td>
-      <td>Paris Saint-Germain</td>
-      <td>190871</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Aug 3, 2017</td>
-      <td>NaN</td>
-      <td>€90M</td>
-      <td>€270K</td>
-      <td>€166.5M</td>
-      <td>408</td>
-      <td>85</td>
-      <td>87</td>
-      <td>62</td>
-      <td>87</td>
-      <td>87</td>
-      <td>448</td>
-      <td>95</td>
-      <td>88</td>
-      <td>89</td>
-      <td>81</td>
-      <td>95</td>
-      <td>453</td>
-      <td>94</td>
-      <td>89</td>
-      <td>96</td>
-      <td>91</td>
-      <td>83</td>
-      <td>357</td>
-      <td>80</td>
-      <td>62</td>
-      <td>81</td>
-      <td>50</td>
-      <td>84</td>
-      <td>356</td>
-      <td>51</td>
-      <td>36</td>
-      <td>87</td>
-      <td>90</td>
-      <td>92</td>
-      <td>93</td>
-      <td>94</td>
-      <td>35</td>
-      <td>30</td>
-      <td>29</td>
-      <td>59</td>
-      <td>9</td>
-      <td>9</td>
-      <td>15</td>
-      <td>15</td>
-      <td>11</td>
-      <td>2175</td>
-      <td>451</td>
-      <td>5 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>5 ★</td>
-      <td>91</td>
-      <td>85</td>
-      <td>86</td>
-      <td>94</td>
+      <td>...</td>
       <td>36</td>
       <td>59</td>
       <td>\n273</td>
@@ -4274,77 +2336,7 @@ fifa_df.head(10)
       <td>Robert Lewandowski</td>
       <td>http://sofifa.com/player/188545/robert-lewando...</td>
       <td>Poland</td>
-      <td>ST</td>
-      <td>R. Lewandowski</td>
-      <td>31</td>
-      <td>91</td>
-      <td>91</td>
-      <td>\n\n\n\nFC Bayern München\n2014 ~ 2023\n\n</td>
-      <td>FC Bayern München</td>
-      <td>188545</td>
-      <td>1.83</td>
-      <td>79</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 1, 2014</td>
-      <td>NaN</td>
-      <td>€80M</td>
-      <td>€240K</td>
-      <td>€132M</td>
-      <td>423</td>
-      <td>71</td>
-      <td>94</td>
-      <td>85</td>
-      <td>84</td>
-      <td>89</td>
-      <td>407</td>
-      <td>85</td>
-      <td>79</td>
-      <td>85</td>
-      <td>70</td>
-      <td>88</td>
-      <td>407</td>
-      <td>77</td>
-      <td>78</td>
-      <td>77</td>
-      <td>93</td>
-      <td>82</td>
-      <td>420</td>
-      <td>89</td>
-      <td>84</td>
-      <td>76</td>
-      <td>86</td>
-      <td>85</td>
-      <td>391</td>
-      <td>81</td>
-      <td>49</td>
-      <td>94</td>
-      <td>79</td>
-      <td>88</td>
-      <td>88</td>
-      <td>96</td>
-      <td>35</td>
-      <td>42</td>
-      <td>19</td>
-      <td>51</td>
-      <td>15</td>
-      <td>6</td>
-      <td>12</td>
-      <td>8</td>
-      <td>10</td>
-      <td>2195</td>
-      <td>457</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>78</td>
-      <td>91</td>
-      <td>78</td>
-      <td>85</td>
+      <td>...</td>
       <td>43</td>
       <td>82</td>
       <td>\n182</td>
@@ -4354,77 +2346,7 @@ fifa_df.head(10)
       <td>Kylian Mbappé</td>
       <td>http://sofifa.com/player/231747/kylian-mbappe/...</td>
       <td>France</td>
-      <td>ST LW RW</td>
-      <td>K. Mbappé</td>
-      <td>21</td>
-      <td>90</td>
-      <td>95</td>
-      <td>\n\n\n\nParis Saint-Germain\n2018 ~ 2022\n\n</td>
-      <td>Paris Saint-Germain</td>
-      <td>231747</td>
-      <td>1.55</td>
-      <td>73</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>5</td>
-      <td>Jul 1, 2018</td>
-      <td>NaN</td>
-      <td>€105.5M</td>
-      <td>€160K</td>
-      <td>€203.1M</td>
-      <td>408</td>
-      <td>78</td>
-      <td>91</td>
-      <td>73</td>
-      <td>83</td>
-      <td>83</td>
-      <td>394</td>
-      <td>92</td>
-      <td>79</td>
-      <td>63</td>
-      <td>70</td>
-      <td>90</td>
-      <td>458</td>
-      <td>96</td>
-      <td>96</td>
-      <td>92</td>
-      <td>92</td>
-      <td>82</td>
-      <td>404</td>
-      <td>86</td>
-      <td>77</td>
-      <td>86</td>
-      <td>76</td>
-      <td>79</td>
-      <td>341</td>
-      <td>62</td>
-      <td>38</td>
-      <td>91</td>
-      <td>80</td>
-      <td>70</td>
-      <td>84</td>
-      <td>100</td>
-      <td>34</td>
-      <td>34</td>
-      <td>32</td>
-      <td>42</td>
-      <td>13</td>
-      <td>5</td>
-      <td>7</td>
-      <td>11</td>
-      <td>6</td>
-      <td>2147</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>3 ★</td>
-      <td>96</td>
-      <td>86</td>
-      <td>78</td>
-      <td>91</td>
+      <td>...</td>
       <td>39</td>
       <td>76</td>
       <td>\n646</td>
@@ -4434,77 +2356,7 @@ fifa_df.head(10)
       <td>Alisson Ramses Becker</td>
       <td>http://sofifa.com/player/212831/alisson-ramses...</td>
       <td>Brazil</td>
-      <td>GK</td>
-      <td>Alisson</td>
-      <td>27</td>
-      <td>90</td>
-      <td>91</td>
-      <td>\n\n\n\nLiverpool\n2018 ~ 2024\n\n</td>
-      <td>Liverpool</td>
-      <td>212831</td>
-      <td>1.91</td>
-      <td>91</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>GK</td>
-      <td>1</td>
-      <td>Jul 19, 2018</td>
-      <td>NaN</td>
-      <td>€62.5M</td>
-      <td>€160K</td>
-      <td>€120.3M</td>
-      <td>114</td>
-      <td>17</td>
-      <td>13</td>
-      <td>19</td>
-      <td>45</td>
-      <td>20</td>
-      <td>138</td>
-      <td>27</td>
-      <td>19</td>
-      <td>18</td>
-      <td>44</td>
-      <td>30</td>
-      <td>268</td>
-      <td>56</td>
-      <td>47</td>
-      <td>40</td>
-      <td>88</td>
-      <td>37</td>
-      <td>240</td>
-      <td>64</td>
-      <td>52</td>
-      <td>32</td>
-      <td>78</td>
-      <td>14</td>
-      <td>140</td>
-      <td>27</td>
-      <td>11</td>
-      <td>13</td>
-      <td>66</td>
-      <td>23</td>
-      <td>65</td>
-      <td>50</td>
-      <td>15</td>
-      <td>19</td>
-      <td>16</td>
-      <td>439</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>91</td>
-      <td>89</td>
-      <td>1389</td>
-      <td>490</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>89</td>
+      <td>...</td>
       <td>51</td>
       <td>91</td>
       <td>\n79</td>
@@ -4514,77 +2366,7 @@ fifa_df.head(10)
       <td>Mohamed Salah</td>
       <td>http://sofifa.com/player/209331/mohamed-salah/...</td>
       <td>Egypt</td>
-      <td>RW</td>
-      <td>M. Salah</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>\n\n\n\nLiverpool\n2017 ~ 2023\n\n</td>
-      <td>Liverpool</td>
-      <td>209331</td>
-      <td>1.75</td>
-      <td>71</td>
-      <td>Left</td>
-      <td>90</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2017</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>392</td>
-      <td>79</td>
-      <td>91</td>
-      <td>59</td>
-      <td>84</td>
-      <td>79</td>
-      <td>406</td>
-      <td>90</td>
-      <td>83</td>
-      <td>69</td>
-      <td>75</td>
-      <td>89</td>
-      <td>460</td>
-      <td>94</td>
-      <td>92</td>
-      <td>91</td>
-      <td>92</td>
-      <td>91</td>
-      <td>393</td>
-      <td>80</td>
-      <td>69</td>
-      <td>85</td>
-      <td>75</td>
-      <td>84</td>
-      <td>376</td>
-      <td>63</td>
-      <td>55</td>
-      <td>91</td>
-      <td>84</td>
-      <td>83</td>
-      <td>90</td>
-      <td>122</td>
-      <td>38</td>
-      <td>43</td>
-      <td>41</td>
-      <td>62</td>
-      <td>14</td>
-      <td>14</td>
-      <td>9</td>
-      <td>11</td>
-      <td>14</td>
-      <td>2211</td>
-      <td>470</td>
-      <td>3 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>93</td>
-      <td>86</td>
-      <td>81</td>
-      <td>90</td>
+      <td>...</td>
       <td>45</td>
       <td>75</td>
       <td>\n164</td>
@@ -4594,83 +2376,14 @@ fifa_df.head(10)
       <td>Sadio Mané</td>
       <td>http://sofifa.com/player/208722/sadio-mane/210...</td>
       <td>Senegal</td>
-      <td>LW</td>
-      <td>S. Mané</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>\n\n\n\nLiverpool\n2016 ~ 2023\n\n</td>
-      <td>Liverpool</td>
-      <td>208722</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Jul 1, 2016</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>410</td>
-      <td>76</td>
-      <td>90</td>
-      <td>84</td>
-      <td>85</td>
-      <td>75</td>
-      <td>391</td>
-      <td>91</td>
-      <td>76</td>
-      <td>64</td>
-      <td>71</td>
-      <td>89</td>
-      <td>460</td>
-      <td>95</td>
-      <td>93</td>
-      <td>93</td>
-      <td>93</td>
-      <td>86</td>
-      <td>406</td>
-      <td>84</td>
-      <td>86</td>
-      <td>88</td>
-      <td>70</td>
-      <td>78</td>
-      <td>358</td>
-      <td>75</td>
-      <td>35</td>
-      <td>92</td>
-      <td>85</td>
-      <td>71</td>
-      <td>84</td>
-      <td>122</td>
-      <td>42</td>
-      <td>42</td>
-      <td>38</td>
-      <td>56</td>
-      <td>10</td>
-      <td>10</td>
-      <td>15</td>
-      <td>7</td>
-      <td>14</td>
-      <td>2203</td>
-      <td>469</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>94</td>
-      <td>85</td>
-      <td>80</td>
-      <td>90</td>
+      <td>...</td>
       <td>44</td>
       <td>76</td>
       <td>\n170</td>
     </tr>
   </tbody>
 </table>
+<p>10 rows × 77 columns</p>
 </div>
 
 
@@ -4820,78 +2533,7 @@ fifa_df.head(10)
       <th>LongName</th>
       <th>playerUrl</th>
       <th>Nationality</th>
-      <th>Positions</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>↓OVA</th>
-      <th>POT</th>
-      <th>Team</th>
-      <th>Start of Contract</th>
-      <th>End of Contract</th>
-      <th>ID</th>
-      <th>Height(mts)</th>
-      <th>Weight(kg)</th>
-      <th>foot</th>
-      <th>BOV</th>
-      <th>BP</th>
-      <th>Growth</th>
-      <th>Joined</th>
-      <th>Loan Date End</th>
-      <th>Value</th>
-      <th>Wage</th>
-      <th>Release Clause</th>
-      <th>Attacking</th>
-      <th>Crossing</th>
-      <th>Finishing</th>
-      <th>Heading Accuracy</th>
-      <th>Short Passing</th>
-      <th>Volleys</th>
-      <th>Skill</th>
-      <th>Dribbling</th>
-      <th>Curve</th>
-      <th>FK Accuracy</th>
-      <th>Long Passing</th>
-      <th>Ball Control</th>
-      <th>Movement</th>
-      <th>Acceleration</th>
-      <th>Sprint Speed</th>
-      <th>Agility</th>
-      <th>Reactions</th>
-      <th>Balance</th>
-      <th>Power</th>
-      <th>Shot Power</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Long Shots</th>
-      <th>Mentality</th>
-      <th>Aggression</th>
-      <th>Interceptions</th>
-      <th>Positioning</th>
-      <th>Vision</th>
-      <th>Penalties</th>
-      <th>Composure</th>
-      <th>Defending</th>
-      <th>Marking</th>
-      <th>Standing Tackle</th>
-      <th>Sliding Tackle</th>
-      <th>Goalkeeping</th>
-      <th>GK Diving</th>
-      <th>GK Handling</th>
-      <th>GK Kicking</th>
-      <th>GK Positioning</th>
-      <th>GK Reflexes</th>
-      <th>Total Stats</th>
-      <th>Base Stats</th>
-      <th>W/F</th>
-      <th>SM</th>
-      <th>A/W</th>
-      <th>D/W</th>
-      <th>IR</th>
-      <th>PAC</th>
-      <th>SHO</th>
-      <th>PAS</th>
-      <th>DRI</th>
+      <th>...</th>
       <th>DEF</th>
       <th>PHY</th>
       <th>Hits</th>
@@ -4903,78 +2545,7 @@ fifa_df.head(10)
       <td>Lionel Messi</td>
       <td>http://sofifa.com/player/158023/lionel-messi/2...</td>
       <td>Argentina</td>
-      <td>RW ST CF</td>
-      <td>L. Messi</td>
-      <td>33</td>
-      <td>93</td>
-      <td>93</td>
-      <td>FC Barcelona</td>
-      <td>2004</td>
-      <td>2021</td>
-      <td>158023</td>
-      <td>1.70</td>
-      <td>72</td>
-      <td>Left</td>
-      <td>93</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2004</td>
-      <td>NaN</td>
-      <td>€67.5M</td>
-      <td>€560K</td>
-      <td>€138.4M</td>
-      <td>429</td>
-      <td>85</td>
-      <td>95</td>
-      <td>70</td>
-      <td>91</td>
-      <td>88</td>
-      <td>470</td>
-      <td>96</td>
-      <td>93</td>
-      <td>94</td>
-      <td>91</td>
-      <td>96</td>
-      <td>451</td>
-      <td>91</td>
-      <td>80</td>
-      <td>91</td>
-      <td>94</td>
-      <td>95</td>
-      <td>389</td>
-      <td>86</td>
-      <td>68</td>
-      <td>72</td>
-      <td>69</td>
-      <td>94</td>
-      <td>347</td>
-      <td>44</td>
-      <td>40</td>
-      <td>93</td>
-      <td>95</td>
-      <td>75</td>
-      <td>96</td>
-      <td>91</td>
-      <td>32</td>
-      <td>35</td>
-      <td>24</td>
-      <td>54</td>
-      <td>6</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>8</td>
-      <td>2231</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>85</td>
-      <td>92</td>
-      <td>91</td>
-      <td>95</td>
+      <td>...</td>
       <td>38</td>
       <td>65</td>
       <td>\n372</td>
@@ -4984,78 +2555,7 @@ fifa_df.head(10)
       <td>C. Ronaldo dos Santos Aveiro</td>
       <td>http://sofifa.com/player/20801/c-ronaldo-dos-s...</td>
       <td>Portugal</td>
-      <td>ST LW</td>
-      <td>Cristiano Ronaldo</td>
-      <td>35</td>
-      <td>92</td>
-      <td>92</td>
-      <td>Juventus</td>
-      <td>2018</td>
-      <td>2022</td>
-      <td>20801</td>
-      <td>1.88</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>92</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 10, 2018</td>
-      <td>NaN</td>
-      <td>€46M</td>
-      <td>€220K</td>
-      <td>€75.9M</td>
-      <td>437</td>
-      <td>84</td>
-      <td>95</td>
-      <td>90</td>
-      <td>82</td>
-      <td>86</td>
-      <td>414</td>
-      <td>88</td>
-      <td>81</td>
-      <td>76</td>
-      <td>77</td>
-      <td>92</td>
-      <td>431</td>
-      <td>87</td>
-      <td>91</td>
-      <td>87</td>
-      <td>95</td>
-      <td>71</td>
-      <td>444</td>
-      <td>94</td>
-      <td>95</td>
-      <td>84</td>
-      <td>78</td>
-      <td>93</td>
-      <td>353</td>
-      <td>63</td>
-      <td>29</td>
-      <td>95</td>
-      <td>82</td>
-      <td>84</td>
-      <td>95</td>
-      <td>84</td>
-      <td>28</td>
-      <td>32</td>
-      <td>24</td>
-      <td>58</td>
-      <td>7</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>11</td>
-      <td>2221</td>
-      <td>464</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>89</td>
-      <td>93</td>
-      <td>81</td>
-      <td>89</td>
+      <td>...</td>
       <td>35</td>
       <td>77</td>
       <td>\n344</td>
@@ -5065,78 +2565,7 @@ fifa_df.head(10)
       <td>Jan Oblak</td>
       <td>http://sofifa.com/player/200389/jan-oblak/210005/</td>
       <td>Slovenia</td>
-      <td>GK</td>
-      <td>J. Oblak</td>
-      <td>27</td>
-      <td>91</td>
-      <td>93</td>
-      <td>Atlético Madrid</td>
-      <td>2014</td>
-      <td>2023</td>
-      <td>200389</td>
-      <td>1.88</td>
-      <td>87</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>GK</td>
-      <td>2</td>
-      <td>Jul 16, 2014</td>
-      <td>NaN</td>
-      <td>€75M</td>
-      <td>€125K</td>
-      <td>€159.4M</td>
-      <td>95</td>
-      <td>13</td>
-      <td>11</td>
-      <td>15</td>
-      <td>43</td>
-      <td>13</td>
-      <td>109</td>
-      <td>12</td>
-      <td>13</td>
-      <td>14</td>
-      <td>40</td>
-      <td>30</td>
-      <td>307</td>
-      <td>43</td>
-      <td>60</td>
-      <td>67</td>
-      <td>88</td>
-      <td>49</td>
-      <td>268</td>
-      <td>59</td>
-      <td>78</td>
-      <td>41</td>
-      <td>78</td>
-      <td>12</td>
-      <td>140</td>
-      <td>34</td>
-      <td>19</td>
-      <td>11</td>
-      <td>65</td>
-      <td>11</td>
-      <td>68</td>
-      <td>57</td>
-      <td>27</td>
-      <td>12</td>
-      <td>18</td>
-      <td>437</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
-      <td>90</td>
-      <td>1413</td>
-      <td>489</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
+      <td>...</td>
       <td>52</td>
       <td>90</td>
       <td>\n86</td>
@@ -5146,78 +2575,7 @@ fifa_df.head(10)
       <td>Kevin De Bruyne</td>
       <td>http://sofifa.com/player/192985/kevin-de-bruyn...</td>
       <td>Belgium</td>
-      <td>CAM CM</td>
-      <td>K. De Bruyne</td>
-      <td>29</td>
-      <td>91</td>
-      <td>91</td>
-      <td>Manchester City</td>
-      <td>2015</td>
-      <td>2023</td>
-      <td>192985</td>
-      <td>1.55</td>
-      <td>69</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>CAM</td>
-      <td>0</td>
-      <td>Aug 30, 2015</td>
-      <td>NaN</td>
-      <td>€87M</td>
-      <td>€370K</td>
-      <td>€161M</td>
-      <td>407</td>
-      <td>94</td>
-      <td>82</td>
-      <td>55</td>
-      <td>94</td>
-      <td>82</td>
-      <td>441</td>
-      <td>88</td>
-      <td>85</td>
-      <td>83</td>
-      <td>93</td>
-      <td>92</td>
-      <td>398</td>
-      <td>77</td>
-      <td>76</td>
-      <td>78</td>
-      <td>91</td>
-      <td>76</td>
-      <td>408</td>
-      <td>91</td>
-      <td>63</td>
-      <td>89</td>
-      <td>74</td>
-      <td>91</td>
-      <td>408</td>
-      <td>76</td>
-      <td>66</td>
-      <td>88</td>
-      <td>94</td>
-      <td>84</td>
-      <td>91</td>
-      <td>186</td>
-      <td>68</td>
-      <td>65</td>
-      <td>53</td>
-      <td>56</td>
-      <td>15</td>
-      <td>13</td>
-      <td>5</td>
-      <td>10</td>
-      <td>13</td>
-      <td>2304</td>
-      <td>485</td>
-      <td>5 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>High</td>
-      <td>4 ★</td>
-      <td>76</td>
-      <td>86</td>
-      <td>93</td>
-      <td>88</td>
+      <td>...</td>
       <td>64</td>
       <td>78</td>
       <td>\n163</td>
@@ -5227,78 +2585,7 @@ fifa_df.head(10)
       <td>Neymar da Silva Santos Jr.</td>
       <td>http://sofifa.com/player/190871/neymar-da-silv...</td>
       <td>Brazil</td>
-      <td>LW CAM</td>
-      <td>Neymar Jr</td>
-      <td>28</td>
-      <td>91</td>
-      <td>91</td>
-      <td>Paris Saint-Germain</td>
-      <td>2017</td>
-      <td>2022</td>
-      <td>190871</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Aug 3, 2017</td>
-      <td>NaN</td>
-      <td>€90M</td>
-      <td>€270K</td>
-      <td>€166.5M</td>
-      <td>408</td>
-      <td>85</td>
-      <td>87</td>
-      <td>62</td>
-      <td>87</td>
-      <td>87</td>
-      <td>448</td>
-      <td>95</td>
-      <td>88</td>
-      <td>89</td>
-      <td>81</td>
-      <td>95</td>
-      <td>453</td>
-      <td>94</td>
-      <td>89</td>
-      <td>96</td>
-      <td>91</td>
-      <td>83</td>
-      <td>357</td>
-      <td>80</td>
-      <td>62</td>
-      <td>81</td>
-      <td>50</td>
-      <td>84</td>
-      <td>356</td>
-      <td>51</td>
-      <td>36</td>
-      <td>87</td>
-      <td>90</td>
-      <td>92</td>
-      <td>93</td>
-      <td>94</td>
-      <td>35</td>
-      <td>30</td>
-      <td>29</td>
-      <td>59</td>
-      <td>9</td>
-      <td>9</td>
-      <td>15</td>
-      <td>15</td>
-      <td>11</td>
-      <td>2175</td>
-      <td>451</td>
-      <td>5 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>5 ★</td>
-      <td>91</td>
-      <td>85</td>
-      <td>86</td>
-      <td>94</td>
+      <td>...</td>
       <td>36</td>
       <td>59</td>
       <td>\n273</td>
@@ -5308,78 +2595,7 @@ fifa_df.head(10)
       <td>Robert Lewandowski</td>
       <td>http://sofifa.com/player/188545/robert-lewando...</td>
       <td>Poland</td>
-      <td>ST</td>
-      <td>R. Lewandowski</td>
-      <td>31</td>
-      <td>91</td>
-      <td>91</td>
-      <td>FC Bayern München</td>
-      <td>2014</td>
-      <td>2023</td>
-      <td>188545</td>
-      <td>1.83</td>
-      <td>79</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 1, 2014</td>
-      <td>NaN</td>
-      <td>€80M</td>
-      <td>€240K</td>
-      <td>€132M</td>
-      <td>423</td>
-      <td>71</td>
-      <td>94</td>
-      <td>85</td>
-      <td>84</td>
-      <td>89</td>
-      <td>407</td>
-      <td>85</td>
-      <td>79</td>
-      <td>85</td>
-      <td>70</td>
-      <td>88</td>
-      <td>407</td>
-      <td>77</td>
-      <td>78</td>
-      <td>77</td>
-      <td>93</td>
-      <td>82</td>
-      <td>420</td>
-      <td>89</td>
-      <td>84</td>
-      <td>76</td>
-      <td>86</td>
-      <td>85</td>
-      <td>391</td>
-      <td>81</td>
-      <td>49</td>
-      <td>94</td>
-      <td>79</td>
-      <td>88</td>
-      <td>88</td>
-      <td>96</td>
-      <td>35</td>
-      <td>42</td>
-      <td>19</td>
-      <td>51</td>
-      <td>15</td>
-      <td>6</td>
-      <td>12</td>
-      <td>8</td>
-      <td>10</td>
-      <td>2195</td>
-      <td>457</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>78</td>
-      <td>91</td>
-      <td>78</td>
-      <td>85</td>
+      <td>...</td>
       <td>43</td>
       <td>82</td>
       <td>\n182</td>
@@ -5389,78 +2605,7 @@ fifa_df.head(10)
       <td>Kylian Mbappé</td>
       <td>http://sofifa.com/player/231747/kylian-mbappe/...</td>
       <td>France</td>
-      <td>ST LW RW</td>
-      <td>K. Mbappé</td>
-      <td>21</td>
-      <td>90</td>
-      <td>95</td>
-      <td>Paris Saint-Germain</td>
-      <td>2018</td>
-      <td>2022</td>
-      <td>231747</td>
-      <td>1.55</td>
-      <td>73</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>5</td>
-      <td>Jul 1, 2018</td>
-      <td>NaN</td>
-      <td>€105.5M</td>
-      <td>€160K</td>
-      <td>€203.1M</td>
-      <td>408</td>
-      <td>78</td>
-      <td>91</td>
-      <td>73</td>
-      <td>83</td>
-      <td>83</td>
-      <td>394</td>
-      <td>92</td>
-      <td>79</td>
-      <td>63</td>
-      <td>70</td>
-      <td>90</td>
-      <td>458</td>
-      <td>96</td>
-      <td>96</td>
-      <td>92</td>
-      <td>92</td>
-      <td>82</td>
-      <td>404</td>
-      <td>86</td>
-      <td>77</td>
-      <td>86</td>
-      <td>76</td>
-      <td>79</td>
-      <td>341</td>
-      <td>62</td>
-      <td>38</td>
-      <td>91</td>
-      <td>80</td>
-      <td>70</td>
-      <td>84</td>
-      <td>100</td>
-      <td>34</td>
-      <td>34</td>
-      <td>32</td>
-      <td>42</td>
-      <td>13</td>
-      <td>5</td>
-      <td>7</td>
-      <td>11</td>
-      <td>6</td>
-      <td>2147</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>3 ★</td>
-      <td>96</td>
-      <td>86</td>
-      <td>78</td>
-      <td>91</td>
+      <td>...</td>
       <td>39</td>
       <td>76</td>
       <td>\n646</td>
@@ -5470,78 +2615,7 @@ fifa_df.head(10)
       <td>Alisson Ramses Becker</td>
       <td>http://sofifa.com/player/212831/alisson-ramses...</td>
       <td>Brazil</td>
-      <td>GK</td>
-      <td>Alisson</td>
-      <td>27</td>
-      <td>90</td>
-      <td>91</td>
-      <td>Liverpool</td>
-      <td>2018</td>
-      <td>2024</td>
-      <td>212831</td>
-      <td>1.91</td>
-      <td>91</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>GK</td>
-      <td>1</td>
-      <td>Jul 19, 2018</td>
-      <td>NaN</td>
-      <td>€62.5M</td>
-      <td>€160K</td>
-      <td>€120.3M</td>
-      <td>114</td>
-      <td>17</td>
-      <td>13</td>
-      <td>19</td>
-      <td>45</td>
-      <td>20</td>
-      <td>138</td>
-      <td>27</td>
-      <td>19</td>
-      <td>18</td>
-      <td>44</td>
-      <td>30</td>
-      <td>268</td>
-      <td>56</td>
-      <td>47</td>
-      <td>40</td>
-      <td>88</td>
-      <td>37</td>
-      <td>240</td>
-      <td>64</td>
-      <td>52</td>
-      <td>32</td>
-      <td>78</td>
-      <td>14</td>
-      <td>140</td>
-      <td>27</td>
-      <td>11</td>
-      <td>13</td>
-      <td>66</td>
-      <td>23</td>
-      <td>65</td>
-      <td>50</td>
-      <td>15</td>
-      <td>19</td>
-      <td>16</td>
-      <td>439</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>91</td>
-      <td>89</td>
-      <td>1389</td>
-      <td>490</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>89</td>
+      <td>...</td>
       <td>51</td>
       <td>91</td>
       <td>\n79</td>
@@ -5551,78 +2625,7 @@ fifa_df.head(10)
       <td>Mohamed Salah</td>
       <td>http://sofifa.com/player/209331/mohamed-salah/...</td>
       <td>Egypt</td>
-      <td>RW</td>
-      <td>M. Salah</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>Liverpool</td>
-      <td>2017</td>
-      <td>2023</td>
-      <td>209331</td>
-      <td>1.75</td>
-      <td>71</td>
-      <td>Left</td>
-      <td>90</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2017</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>392</td>
-      <td>79</td>
-      <td>91</td>
-      <td>59</td>
-      <td>84</td>
-      <td>79</td>
-      <td>406</td>
-      <td>90</td>
-      <td>83</td>
-      <td>69</td>
-      <td>75</td>
-      <td>89</td>
-      <td>460</td>
-      <td>94</td>
-      <td>92</td>
-      <td>91</td>
-      <td>92</td>
-      <td>91</td>
-      <td>393</td>
-      <td>80</td>
-      <td>69</td>
-      <td>85</td>
-      <td>75</td>
-      <td>84</td>
-      <td>376</td>
-      <td>63</td>
-      <td>55</td>
-      <td>91</td>
-      <td>84</td>
-      <td>83</td>
-      <td>90</td>
-      <td>122</td>
-      <td>38</td>
-      <td>43</td>
-      <td>41</td>
-      <td>62</td>
-      <td>14</td>
-      <td>14</td>
-      <td>9</td>
-      <td>11</td>
-      <td>14</td>
-      <td>2211</td>
-      <td>470</td>
-      <td>3 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>93</td>
-      <td>86</td>
-      <td>81</td>
-      <td>90</td>
+      <td>...</td>
       <td>45</td>
       <td>75</td>
       <td>\n164</td>
@@ -5632,84 +2635,14 @@ fifa_df.head(10)
       <td>Sadio Mané</td>
       <td>http://sofifa.com/player/208722/sadio-mane/210...</td>
       <td>Senegal</td>
-      <td>LW</td>
-      <td>S. Mané</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>Liverpool</td>
-      <td>2016</td>
-      <td>2023</td>
-      <td>208722</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Jul 1, 2016</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>410</td>
-      <td>76</td>
-      <td>90</td>
-      <td>84</td>
-      <td>85</td>
-      <td>75</td>
-      <td>391</td>
-      <td>91</td>
-      <td>76</td>
-      <td>64</td>
-      <td>71</td>
-      <td>89</td>
-      <td>460</td>
-      <td>95</td>
-      <td>93</td>
-      <td>93</td>
-      <td>93</td>
-      <td>86</td>
-      <td>406</td>
-      <td>84</td>
-      <td>86</td>
-      <td>88</td>
-      <td>70</td>
-      <td>78</td>
-      <td>358</td>
-      <td>75</td>
-      <td>35</td>
-      <td>92</td>
-      <td>85</td>
-      <td>71</td>
-      <td>84</td>
-      <td>122</td>
-      <td>42</td>
-      <td>42</td>
-      <td>38</td>
-      <td>56</td>
-      <td>10</td>
-      <td>10</td>
-      <td>15</td>
-      <td>7</td>
-      <td>14</td>
-      <td>2203</td>
-      <td>469</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>94</td>
-      <td>85</td>
-      <td>80</td>
-      <td>90</td>
+      <td>...</td>
       <td>44</td>
       <td>76</td>
       <td>\n170</td>
     </tr>
   </tbody>
 </table>
+<p>10 rows × 78 columns</p>
 </div>
 
 
@@ -5944,78 +2877,7 @@ fifa_df.head(20)
       <th>LongName</th>
       <th>playerUrl</th>
       <th>Nationality</th>
-      <th>Positions</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>↓OVA</th>
-      <th>POT</th>
-      <th>Team</th>
-      <th>Start of Contract</th>
-      <th>End of Contract</th>
-      <th>ID</th>
-      <th>Height(mts)</th>
-      <th>Weight(kg)</th>
-      <th>foot</th>
-      <th>BOV</th>
-      <th>BP</th>
-      <th>Growth</th>
-      <th>Joined</th>
-      <th>Loan Date End</th>
-      <th>Value</th>
-      <th>Wage</th>
-      <th>Release Clause</th>
-      <th>Attacking</th>
-      <th>Crossing</th>
-      <th>Finishing</th>
-      <th>Heading Accuracy</th>
-      <th>Short Passing</th>
-      <th>Volleys</th>
-      <th>Skill</th>
-      <th>Dribbling</th>
-      <th>Curve</th>
-      <th>FK Accuracy</th>
-      <th>Long Passing</th>
-      <th>Ball Control</th>
-      <th>Movement</th>
-      <th>Acceleration</th>
-      <th>Sprint Speed</th>
-      <th>Agility</th>
-      <th>Reactions</th>
-      <th>Balance</th>
-      <th>Power</th>
-      <th>Shot Power</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Long Shots</th>
-      <th>Mentality</th>
-      <th>Aggression</th>
-      <th>Interceptions</th>
-      <th>Positioning</th>
-      <th>Vision</th>
-      <th>Penalties</th>
-      <th>Composure</th>
-      <th>Defending</th>
-      <th>Marking</th>
-      <th>Standing Tackle</th>
-      <th>Sliding Tackle</th>
-      <th>Goalkeeping</th>
-      <th>GK Diving</th>
-      <th>GK Handling</th>
-      <th>GK Kicking</th>
-      <th>GK Positioning</th>
-      <th>GK Reflexes</th>
-      <th>Total Stats</th>
-      <th>Base Stats</th>
-      <th>W/F</th>
-      <th>SM</th>
-      <th>A/W</th>
-      <th>D/W</th>
-      <th>IR</th>
-      <th>PAC</th>
-      <th>SHO</th>
-      <th>PAS</th>
-      <th>DRI</th>
+      <th>...</th>
       <th>DEF</th>
       <th>PHY</th>
       <th>Hits</th>
@@ -6027,78 +2889,7 @@ fifa_df.head(20)
       <td>Lionel Messi</td>
       <td>http://sofifa.com/player/158023/lionel-messi/2...</td>
       <td>Argentina</td>
-      <td>RW ST CF</td>
-      <td>L. Messi</td>
-      <td>33</td>
-      <td>93</td>
-      <td>93</td>
-      <td>FC Barcelona</td>
-      <td>2004</td>
-      <td>2021</td>
-      <td>158023</td>
-      <td>1.70</td>
-      <td>72</td>
-      <td>Left</td>
-      <td>93</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2004</td>
-      <td>NaN</td>
-      <td>€67.5M</td>
-      <td>€560K</td>
-      <td>€138.4M</td>
-      <td>429</td>
-      <td>85</td>
-      <td>95</td>
-      <td>70</td>
-      <td>91</td>
-      <td>88</td>
-      <td>470</td>
-      <td>96</td>
-      <td>93</td>
-      <td>94</td>
-      <td>91</td>
-      <td>96</td>
-      <td>451</td>
-      <td>91</td>
-      <td>80</td>
-      <td>91</td>
-      <td>94</td>
-      <td>95</td>
-      <td>389</td>
-      <td>86</td>
-      <td>68</td>
-      <td>72</td>
-      <td>69</td>
-      <td>94</td>
-      <td>347</td>
-      <td>44</td>
-      <td>40</td>
-      <td>93</td>
-      <td>95</td>
-      <td>75</td>
-      <td>96</td>
-      <td>91</td>
-      <td>32</td>
-      <td>35</td>
-      <td>24</td>
-      <td>54</td>
-      <td>6</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>8</td>
-      <td>2231</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>85</td>
-      <td>92</td>
-      <td>91</td>
-      <td>95</td>
+      <td>...</td>
       <td>38</td>
       <td>65</td>
       <td>372</td>
@@ -6108,78 +2899,7 @@ fifa_df.head(20)
       <td>C. Ronaldo dos Santos Aveiro</td>
       <td>http://sofifa.com/player/20801/c-ronaldo-dos-s...</td>
       <td>Portugal</td>
-      <td>ST LW</td>
-      <td>Cristiano Ronaldo</td>
-      <td>35</td>
-      <td>92</td>
-      <td>92</td>
-      <td>Juventus</td>
-      <td>2018</td>
-      <td>2022</td>
-      <td>20801</td>
-      <td>1.88</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>92</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 10, 2018</td>
-      <td>NaN</td>
-      <td>€46M</td>
-      <td>€220K</td>
-      <td>€75.9M</td>
-      <td>437</td>
-      <td>84</td>
-      <td>95</td>
-      <td>90</td>
-      <td>82</td>
-      <td>86</td>
-      <td>414</td>
-      <td>88</td>
-      <td>81</td>
-      <td>76</td>
-      <td>77</td>
-      <td>92</td>
-      <td>431</td>
-      <td>87</td>
-      <td>91</td>
-      <td>87</td>
-      <td>95</td>
-      <td>71</td>
-      <td>444</td>
-      <td>94</td>
-      <td>95</td>
-      <td>84</td>
-      <td>78</td>
-      <td>93</td>
-      <td>353</td>
-      <td>63</td>
-      <td>29</td>
-      <td>95</td>
-      <td>82</td>
-      <td>84</td>
-      <td>95</td>
-      <td>84</td>
-      <td>28</td>
-      <td>32</td>
-      <td>24</td>
-      <td>58</td>
-      <td>7</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>11</td>
-      <td>2221</td>
-      <td>464</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>89</td>
-      <td>93</td>
-      <td>81</td>
-      <td>89</td>
+      <td>...</td>
       <td>35</td>
       <td>77</td>
       <td>344</td>
@@ -6189,78 +2909,7 @@ fifa_df.head(20)
       <td>Jan Oblak</td>
       <td>http://sofifa.com/player/200389/jan-oblak/210005/</td>
       <td>Slovenia</td>
-      <td>GK</td>
-      <td>J. Oblak</td>
-      <td>27</td>
-      <td>91</td>
-      <td>93</td>
-      <td>Atlético Madrid</td>
-      <td>2014</td>
-      <td>2023</td>
-      <td>200389</td>
-      <td>1.88</td>
-      <td>87</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>GK</td>
-      <td>2</td>
-      <td>Jul 16, 2014</td>
-      <td>NaN</td>
-      <td>€75M</td>
-      <td>€125K</td>
-      <td>€159.4M</td>
-      <td>95</td>
-      <td>13</td>
-      <td>11</td>
-      <td>15</td>
-      <td>43</td>
-      <td>13</td>
-      <td>109</td>
-      <td>12</td>
-      <td>13</td>
-      <td>14</td>
-      <td>40</td>
-      <td>30</td>
-      <td>307</td>
-      <td>43</td>
-      <td>60</td>
-      <td>67</td>
-      <td>88</td>
-      <td>49</td>
-      <td>268</td>
-      <td>59</td>
-      <td>78</td>
-      <td>41</td>
-      <td>78</td>
-      <td>12</td>
-      <td>140</td>
-      <td>34</td>
-      <td>19</td>
-      <td>11</td>
-      <td>65</td>
-      <td>11</td>
-      <td>68</td>
-      <td>57</td>
-      <td>27</td>
-      <td>12</td>
-      <td>18</td>
-      <td>437</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
-      <td>90</td>
-      <td>1413</td>
-      <td>489</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
+      <td>...</td>
       <td>52</td>
       <td>90</td>
       <td>86</td>
@@ -6270,78 +2919,7 @@ fifa_df.head(20)
       <td>Kevin De Bruyne</td>
       <td>http://sofifa.com/player/192985/kevin-de-bruyn...</td>
       <td>Belgium</td>
-      <td>CAM CM</td>
-      <td>K. De Bruyne</td>
-      <td>29</td>
-      <td>91</td>
-      <td>91</td>
-      <td>Manchester City</td>
-      <td>2015</td>
-      <td>2023</td>
-      <td>192985</td>
-      <td>1.55</td>
-      <td>69</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>CAM</td>
-      <td>0</td>
-      <td>Aug 30, 2015</td>
-      <td>NaN</td>
-      <td>€87M</td>
-      <td>€370K</td>
-      <td>€161M</td>
-      <td>407</td>
-      <td>94</td>
-      <td>82</td>
-      <td>55</td>
-      <td>94</td>
-      <td>82</td>
-      <td>441</td>
-      <td>88</td>
-      <td>85</td>
-      <td>83</td>
-      <td>93</td>
-      <td>92</td>
-      <td>398</td>
-      <td>77</td>
-      <td>76</td>
-      <td>78</td>
-      <td>91</td>
-      <td>76</td>
-      <td>408</td>
-      <td>91</td>
-      <td>63</td>
-      <td>89</td>
-      <td>74</td>
-      <td>91</td>
-      <td>408</td>
-      <td>76</td>
-      <td>66</td>
-      <td>88</td>
-      <td>94</td>
-      <td>84</td>
-      <td>91</td>
-      <td>186</td>
-      <td>68</td>
-      <td>65</td>
-      <td>53</td>
-      <td>56</td>
-      <td>15</td>
-      <td>13</td>
-      <td>5</td>
-      <td>10</td>
-      <td>13</td>
-      <td>2304</td>
-      <td>485</td>
-      <td>5 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>High</td>
-      <td>4 ★</td>
-      <td>76</td>
-      <td>86</td>
-      <td>93</td>
-      <td>88</td>
+      <td>...</td>
       <td>64</td>
       <td>78</td>
       <td>163</td>
@@ -6351,78 +2929,7 @@ fifa_df.head(20)
       <td>Neymar da Silva Santos Jr.</td>
       <td>http://sofifa.com/player/190871/neymar-da-silv...</td>
       <td>Brazil</td>
-      <td>LW CAM</td>
-      <td>Neymar Jr</td>
-      <td>28</td>
-      <td>91</td>
-      <td>91</td>
-      <td>Paris Saint-Germain</td>
-      <td>2017</td>
-      <td>2022</td>
-      <td>190871</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Aug 3, 2017</td>
-      <td>NaN</td>
-      <td>€90M</td>
-      <td>€270K</td>
-      <td>€166.5M</td>
-      <td>408</td>
-      <td>85</td>
-      <td>87</td>
-      <td>62</td>
-      <td>87</td>
-      <td>87</td>
-      <td>448</td>
-      <td>95</td>
-      <td>88</td>
-      <td>89</td>
-      <td>81</td>
-      <td>95</td>
-      <td>453</td>
-      <td>94</td>
-      <td>89</td>
-      <td>96</td>
-      <td>91</td>
-      <td>83</td>
-      <td>357</td>
-      <td>80</td>
-      <td>62</td>
-      <td>81</td>
-      <td>50</td>
-      <td>84</td>
-      <td>356</td>
-      <td>51</td>
-      <td>36</td>
-      <td>87</td>
-      <td>90</td>
-      <td>92</td>
-      <td>93</td>
-      <td>94</td>
-      <td>35</td>
-      <td>30</td>
-      <td>29</td>
-      <td>59</td>
-      <td>9</td>
-      <td>9</td>
-      <td>15</td>
-      <td>15</td>
-      <td>11</td>
-      <td>2175</td>
-      <td>451</td>
-      <td>5 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>5 ★</td>
-      <td>91</td>
-      <td>85</td>
-      <td>86</td>
-      <td>94</td>
+      <td>...</td>
       <td>36</td>
       <td>59</td>
       <td>273</td>
@@ -6432,78 +2939,7 @@ fifa_df.head(20)
       <td>Robert Lewandowski</td>
       <td>http://sofifa.com/player/188545/robert-lewando...</td>
       <td>Poland</td>
-      <td>ST</td>
-      <td>R. Lewandowski</td>
-      <td>31</td>
-      <td>91</td>
-      <td>91</td>
-      <td>FC Bayern München</td>
-      <td>2014</td>
-      <td>2023</td>
-      <td>188545</td>
-      <td>1.83</td>
-      <td>79</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 1, 2014</td>
-      <td>NaN</td>
-      <td>€80M</td>
-      <td>€240K</td>
-      <td>€132M</td>
-      <td>423</td>
-      <td>71</td>
-      <td>94</td>
-      <td>85</td>
-      <td>84</td>
-      <td>89</td>
-      <td>407</td>
-      <td>85</td>
-      <td>79</td>
-      <td>85</td>
-      <td>70</td>
-      <td>88</td>
-      <td>407</td>
-      <td>77</td>
-      <td>78</td>
-      <td>77</td>
-      <td>93</td>
-      <td>82</td>
-      <td>420</td>
-      <td>89</td>
-      <td>84</td>
-      <td>76</td>
-      <td>86</td>
-      <td>85</td>
-      <td>391</td>
-      <td>81</td>
-      <td>49</td>
-      <td>94</td>
-      <td>79</td>
-      <td>88</td>
-      <td>88</td>
-      <td>96</td>
-      <td>35</td>
-      <td>42</td>
-      <td>19</td>
-      <td>51</td>
-      <td>15</td>
-      <td>6</td>
-      <td>12</td>
-      <td>8</td>
-      <td>10</td>
-      <td>2195</td>
-      <td>457</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>78</td>
-      <td>91</td>
-      <td>78</td>
-      <td>85</td>
+      <td>...</td>
       <td>43</td>
       <td>82</td>
       <td>182</td>
@@ -6513,78 +2949,7 @@ fifa_df.head(20)
       <td>Kylian Mbappé</td>
       <td>http://sofifa.com/player/231747/kylian-mbappe/...</td>
       <td>France</td>
-      <td>ST LW RW</td>
-      <td>K. Mbappé</td>
-      <td>21</td>
-      <td>90</td>
-      <td>95</td>
-      <td>Paris Saint-Germain</td>
-      <td>2018</td>
-      <td>2022</td>
-      <td>231747</td>
-      <td>1.55</td>
-      <td>73</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>5</td>
-      <td>Jul 1, 2018</td>
-      <td>NaN</td>
-      <td>€105.5M</td>
-      <td>€160K</td>
-      <td>€203.1M</td>
-      <td>408</td>
-      <td>78</td>
-      <td>91</td>
-      <td>73</td>
-      <td>83</td>
-      <td>83</td>
-      <td>394</td>
-      <td>92</td>
-      <td>79</td>
-      <td>63</td>
-      <td>70</td>
-      <td>90</td>
-      <td>458</td>
-      <td>96</td>
-      <td>96</td>
-      <td>92</td>
-      <td>92</td>
-      <td>82</td>
-      <td>404</td>
-      <td>86</td>
-      <td>77</td>
-      <td>86</td>
-      <td>76</td>
-      <td>79</td>
-      <td>341</td>
-      <td>62</td>
-      <td>38</td>
-      <td>91</td>
-      <td>80</td>
-      <td>70</td>
-      <td>84</td>
-      <td>100</td>
-      <td>34</td>
-      <td>34</td>
-      <td>32</td>
-      <td>42</td>
-      <td>13</td>
-      <td>5</td>
-      <td>7</td>
-      <td>11</td>
-      <td>6</td>
-      <td>2147</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>3 ★</td>
-      <td>96</td>
-      <td>86</td>
-      <td>78</td>
-      <td>91</td>
+      <td>...</td>
       <td>39</td>
       <td>76</td>
       <td>646</td>
@@ -6594,78 +2959,7 @@ fifa_df.head(20)
       <td>Alisson Ramses Becker</td>
       <td>http://sofifa.com/player/212831/alisson-ramses...</td>
       <td>Brazil</td>
-      <td>GK</td>
-      <td>Alisson</td>
-      <td>27</td>
-      <td>90</td>
-      <td>91</td>
-      <td>Liverpool</td>
-      <td>2018</td>
-      <td>2024</td>
-      <td>212831</td>
-      <td>1.91</td>
-      <td>91</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>GK</td>
-      <td>1</td>
-      <td>Jul 19, 2018</td>
-      <td>NaN</td>
-      <td>€62.5M</td>
-      <td>€160K</td>
-      <td>€120.3M</td>
-      <td>114</td>
-      <td>17</td>
-      <td>13</td>
-      <td>19</td>
-      <td>45</td>
-      <td>20</td>
-      <td>138</td>
-      <td>27</td>
-      <td>19</td>
-      <td>18</td>
-      <td>44</td>
-      <td>30</td>
-      <td>268</td>
-      <td>56</td>
-      <td>47</td>
-      <td>40</td>
-      <td>88</td>
-      <td>37</td>
-      <td>240</td>
-      <td>64</td>
-      <td>52</td>
-      <td>32</td>
-      <td>78</td>
-      <td>14</td>
-      <td>140</td>
-      <td>27</td>
-      <td>11</td>
-      <td>13</td>
-      <td>66</td>
-      <td>23</td>
-      <td>65</td>
-      <td>50</td>
-      <td>15</td>
-      <td>19</td>
-      <td>16</td>
-      <td>439</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>91</td>
-      <td>89</td>
-      <td>1389</td>
-      <td>490</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>89</td>
+      <td>...</td>
       <td>51</td>
       <td>91</td>
       <td>79</td>
@@ -6675,78 +2969,7 @@ fifa_df.head(20)
       <td>Mohamed Salah</td>
       <td>http://sofifa.com/player/209331/mohamed-salah/...</td>
       <td>Egypt</td>
-      <td>RW</td>
-      <td>M. Salah</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>Liverpool</td>
-      <td>2017</td>
-      <td>2023</td>
-      <td>209331</td>
-      <td>1.75</td>
-      <td>71</td>
-      <td>Left</td>
-      <td>90</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2017</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>392</td>
-      <td>79</td>
-      <td>91</td>
-      <td>59</td>
-      <td>84</td>
-      <td>79</td>
-      <td>406</td>
-      <td>90</td>
-      <td>83</td>
-      <td>69</td>
-      <td>75</td>
-      <td>89</td>
-      <td>460</td>
-      <td>94</td>
-      <td>92</td>
-      <td>91</td>
-      <td>92</td>
-      <td>91</td>
-      <td>393</td>
-      <td>80</td>
-      <td>69</td>
-      <td>85</td>
-      <td>75</td>
-      <td>84</td>
-      <td>376</td>
-      <td>63</td>
-      <td>55</td>
-      <td>91</td>
-      <td>84</td>
-      <td>83</td>
-      <td>90</td>
-      <td>122</td>
-      <td>38</td>
-      <td>43</td>
-      <td>41</td>
-      <td>62</td>
-      <td>14</td>
-      <td>14</td>
-      <td>9</td>
-      <td>11</td>
-      <td>14</td>
-      <td>2211</td>
-      <td>470</td>
-      <td>3 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>93</td>
-      <td>86</td>
-      <td>81</td>
-      <td>90</td>
+      <td>...</td>
       <td>45</td>
       <td>75</td>
       <td>164</td>
@@ -6756,78 +2979,7 @@ fifa_df.head(20)
       <td>Sadio Mané</td>
       <td>http://sofifa.com/player/208722/sadio-mane/210...</td>
       <td>Senegal</td>
-      <td>LW</td>
-      <td>S. Mané</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>Liverpool</td>
-      <td>2016</td>
-      <td>2023</td>
-      <td>208722</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>Jul 1, 2016</td>
-      <td>NaN</td>
-      <td>€78M</td>
-      <td>€250K</td>
-      <td>€144.3M</td>
-      <td>410</td>
-      <td>76</td>
-      <td>90</td>
-      <td>84</td>
-      <td>85</td>
-      <td>75</td>
-      <td>391</td>
-      <td>91</td>
-      <td>76</td>
-      <td>64</td>
-      <td>71</td>
-      <td>89</td>
-      <td>460</td>
-      <td>95</td>
-      <td>93</td>
-      <td>93</td>
-      <td>93</td>
-      <td>86</td>
-      <td>406</td>
-      <td>84</td>
-      <td>86</td>
-      <td>88</td>
-      <td>70</td>
-      <td>78</td>
-      <td>358</td>
-      <td>75</td>
-      <td>35</td>
-      <td>92</td>
-      <td>85</td>
-      <td>71</td>
-      <td>84</td>
-      <td>122</td>
-      <td>42</td>
-      <td>42</td>
-      <td>38</td>
-      <td>56</td>
-      <td>10</td>
-      <td>10</td>
-      <td>15</td>
-      <td>7</td>
-      <td>14</td>
-      <td>2203</td>
-      <td>469</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>94</td>
-      <td>85</td>
-      <td>80</td>
-      <td>90</td>
+      <td>...</td>
       <td>44</td>
       <td>76</td>
       <td>170</td>
@@ -6837,78 +2989,7 @@ fifa_df.head(20)
       <td>Virgil van Dijk</td>
       <td>http://sofifa.com/player/203376/virgil-van-dij...</td>
       <td>Netherlands</td>
-      <td>CB</td>
-      <td>V. van Dijk</td>
-      <td>28</td>
-      <td>90</td>
-      <td>91</td>
-      <td>Liverpool</td>
-      <td>2018</td>
-      <td>2023</td>
-      <td>203376</td>
-      <td>1.93</td>
-      <td>92</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>CB</td>
-      <td>1</td>
-      <td>Jan 1, 2018</td>
-      <td>NaN</td>
-      <td>€75.5M</td>
-      <td>€210K</td>
-      <td>€145.3M</td>
-      <td>316</td>
-      <td>53</td>
-      <td>52</td>
-      <td>87</td>
-      <td>79</td>
-      <td>45</td>
-      <td>363</td>
-      <td>70</td>
-      <td>60</td>
-      <td>70</td>
-      <td>86</td>
-      <td>77</td>
-      <td>354</td>
-      <td>72</td>
-      <td>79</td>
-      <td>61</td>
-      <td>89</td>
-      <td>53</td>
-      <td>402</td>
-      <td>81</td>
-      <td>90</td>
-      <td>75</td>
-      <td>92</td>
-      <td>64</td>
-      <td>347</td>
-      <td>83</td>
-      <td>90</td>
-      <td>47</td>
-      <td>65</td>
-      <td>62</td>
-      <td>90</td>
-      <td>272</td>
-      <td>93</td>
-      <td>93</td>
-      <td>86</td>
-      <td>58</td>
-      <td>13</td>
-      <td>10</td>
-      <td>13</td>
-      <td>11</td>
-      <td>11</td>
-      <td>2112</td>
-      <td>455</td>
-      <td>3 ★</td>
-      <td>2★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>76</td>
-      <td>60</td>
-      <td>71</td>
-      <td>71</td>
+      <td>...</td>
       <td>91</td>
       <td>86</td>
       <td>170</td>
@@ -6918,78 +2999,7 @@ fifa_df.head(20)
       <td>Marc-André ter Stegen</td>
       <td>http://sofifa.com/player/192448/marc-andre-ter...</td>
       <td>Germany</td>
-      <td>GK</td>
-      <td>M. ter Stegen</td>
-      <td>28</td>
-      <td>90</td>
-      <td>93</td>
-      <td>FC Barcelona</td>
-      <td>2014</td>
-      <td>2022</td>
-      <td>192448</td>
-      <td>1.88</td>
-      <td>84</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>GK</td>
-      <td>3</td>
-      <td>Jul 1, 2014</td>
-      <td>NaN</td>
-      <td>€69.5M</td>
-      <td>€260K</td>
-      <td>€147.7M</td>
-      <td>118</td>
-      <td>18</td>
-      <td>14</td>
-      <td>11</td>
-      <td>61</td>
-      <td>14</td>
-      <td>144</td>
-      <td>21</td>
-      <td>18</td>
-      <td>12</td>
-      <td>63</td>
-      <td>30</td>
-      <td>254</td>
-      <td>38</td>
-      <td>50</td>
-      <td>37</td>
-      <td>86</td>
-      <td>43</td>
-      <td>268</td>
-      <td>66</td>
-      <td>79</td>
-      <td>35</td>
-      <td>78</td>
-      <td>10</td>
-      <td>171</td>
-      <td>43</td>
-      <td>22</td>
-      <td>11</td>
-      <td>70</td>
-      <td>25</td>
-      <td>70</td>
-      <td>48</td>
-      <td>25</td>
-      <td>13</td>
-      <td>10</td>
-      <td>439</td>
-      <td>88</td>
-      <td>85</td>
-      <td>88</td>
-      <td>88</td>
-      <td>90</td>
-      <td>1442</td>
-      <td>484</td>
-      <td>4 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>88</td>
-      <td>85</td>
-      <td>88</td>
-      <td>90</td>
+      <td>...</td>
       <td>45</td>
       <td>88</td>
       <td>93</td>
@@ -6999,78 +3009,7 @@ fifa_df.head(20)
       <td>Carlos Henrique Venancio Casimiro</td>
       <td>http://sofifa.com/player/200145/carlos-henriqu...</td>
       <td>Brazil</td>
-      <td>CDM</td>
-      <td>Casemiro</td>
-      <td>28</td>
-      <td>89</td>
-      <td>89</td>
-      <td>Real Madrid</td>
-      <td>2013</td>
-      <td>2023</td>
-      <td>200145</td>
-      <td>1.86</td>
-      <td>83</td>
-      <td>Right</td>
-      <td>89</td>
-      <td>CDM</td>
-      <td>0</td>
-      <td>Jul 11, 2013</td>
-      <td>NaN</td>
-      <td>€59.5M</td>
-      <td>€310K</td>
-      <td>€122M</td>
-      <td>349</td>
-      <td>58</td>
-      <td>64</td>
-      <td>80</td>
-      <td>84</td>
-      <td>63</td>
-      <td>369</td>
-      <td>69</td>
-      <td>63</td>
-      <td>74</td>
-      <td>84</td>
-      <td>79</td>
-      <td>343</td>
-      <td>60</td>
-      <td>69</td>
-      <td>61</td>
-      <td>87</td>
-      <td>66</td>
-      <td>437</td>
-      <td>88</td>
-      <td>87</td>
-      <td>90</td>
-      <td>91</td>
-      <td>81</td>
-      <td>396</td>
-      <td>91</td>
-      <td>87</td>
-      <td>72</td>
-      <td>80</td>
-      <td>66</td>
-      <td>84</td>
-      <td>259</td>
-      <td>84</td>
-      <td>88</td>
-      <td>87</td>
-      <td>67</td>
-      <td>13</td>
-      <td>14</td>
-      <td>16</td>
-      <td>12</td>
-      <td>12</td>
-      <td>2220</td>
-      <td>463</td>
-      <td>3 ★</td>
-      <td>2★</td>
-      <td>High</td>
-      <td>High</td>
-      <td>3 ★</td>
-      <td>65</td>
-      <td>73</td>
-      <td>76</td>
-      <td>72</td>
+      <td>...</td>
       <td>86</td>
       <td>91</td>
       <td>131</td>
@@ -7080,78 +3019,7 @@ fifa_df.head(20)
       <td>Thibaut Courtois</td>
       <td>http://sofifa.com/player/192119/thibaut-courto...</td>
       <td>Belgium</td>
-      <td>GK</td>
-      <td>T. Courtois</td>
-      <td>28</td>
-      <td>89</td>
-      <td>90</td>
-      <td>Real Madrid</td>
-      <td>2018</td>
-      <td>2024</td>
-      <td>192119</td>
-      <td>1.98</td>
-      <td>96</td>
-      <td>Left</td>
-      <td>89</td>
-      <td>GK</td>
-      <td>1</td>
-      <td>Aug 9, 2018</td>
-      <td>NaN</td>
-      <td>€56M</td>
-      <td>€250K</td>
-      <td>€119M</td>
-      <td>86</td>
-      <td>14</td>
-      <td>14</td>
-      <td>13</td>
-      <td>33</td>
-      <td>12</td>
-      <td>110</td>
-      <td>13</td>
-      <td>19</td>
-      <td>20</td>
-      <td>35</td>
-      <td>23</td>
-      <td>284</td>
-      <td>42</td>
-      <td>52</td>
-      <td>61</td>
-      <td>84</td>
-      <td>45</td>
-      <td>249</td>
-      <td>56</td>
-      <td>68</td>
-      <td>38</td>
-      <td>70</td>
-      <td>17</td>
-      <td>122</td>
-      <td>23</td>
-      <td>15</td>
-      <td>13</td>
-      <td>44</td>
-      <td>27</td>
-      <td>66</td>
-      <td>54</td>
-      <td>20</td>
-      <td>18</td>
-      <td>16</td>
-      <td>420</td>
-      <td>84</td>
-      <td>89</td>
-      <td>74</td>
-      <td>85</td>
-      <td>88</td>
-      <td>1325</td>
-      <td>468</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>84</td>
-      <td>89</td>
-      <td>74</td>
-      <td>88</td>
+      <td>...</td>
       <td>48</td>
       <td>85</td>
       <td>89</td>
@@ -7161,78 +3029,7 @@ fifa_df.head(20)
       <td>Manuel Neuer</td>
       <td>http://sofifa.com/player/167495/manuel-neuer/2...</td>
       <td>Germany</td>
-      <td>GK</td>
-      <td>M. Neuer</td>
-      <td>34</td>
-      <td>89</td>
-      <td>89</td>
-      <td>FC Bayern München</td>
-      <td>2011</td>
-      <td>2023</td>
-      <td>167495</td>
-      <td>1.93</td>
-      <td>92</td>
-      <td>Right</td>
-      <td>89</td>
-      <td>GK</td>
-      <td>0</td>
-      <td>Jul 1, 2011</td>
-      <td>NaN</td>
-      <td>€29M</td>
-      <td>€125K</td>
-      <td>€47.9M</td>
-      <td>119</td>
-      <td>15</td>
-      <td>13</td>
-      <td>25</td>
-      <td>55</td>
-      <td>11</td>
-      <td>160</td>
-      <td>30</td>
-      <td>14</td>
-      <td>11</td>
-      <td>59</td>
-      <td>46</td>
-      <td>286</td>
-      <td>54</td>
-      <td>60</td>
-      <td>51</td>
-      <td>86</td>
-      <td>35</td>
-      <td>284</td>
-      <td>68</td>
-      <td>77</td>
-      <td>43</td>
-      <td>80</td>
-      <td>16</td>
-      <td>188</td>
-      <td>29</td>
-      <td>30</td>
-      <td>12</td>
-      <td>70</td>
-      <td>47</td>
-      <td>70</td>
-      <td>38</td>
-      <td>17</td>
-      <td>10</td>
-      <td>11</td>
-      <td>440</td>
-      <td>87</td>
-      <td>87</td>
-      <td>91</td>
-      <td>86</td>
-      <td>89</td>
-      <td>1515</td>
-      <td>497</td>
-      <td>4 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>5 ★</td>
-      <td>87</td>
-      <td>87</td>
-      <td>91</td>
-      <td>89</td>
+      <td>...</td>
       <td>57</td>
       <td>86</td>
       <td>90</td>
@@ -7242,78 +3039,7 @@ fifa_df.head(20)
       <td>Karim Benzema</td>
       <td>http://sofifa.com/player/165153/karim-benzema/...</td>
       <td>France</td>
-      <td>CF ST</td>
-      <td>K. Benzema</td>
-      <td>32</td>
-      <td>89</td>
-      <td>89</td>
-      <td>Real Madrid</td>
-      <td>2009</td>
-      <td>2022</td>
-      <td>165153</td>
-      <td>1.86</td>
-      <td>81</td>
-      <td>Right</td>
-      <td>89</td>
-      <td>CF</td>
-      <td>0</td>
-      <td>Jul 9, 2009</td>
-      <td>NaN</td>
-      <td>€53M</td>
-      <td>€350K</td>
-      <td>€108.7M</td>
-      <td>426</td>
-      <td>75</td>
-      <td>88</td>
-      <td>91</td>
-      <td>86</td>
-      <td>86</td>
-      <td>404</td>
-      <td>87</td>
-      <td>81</td>
-      <td>73</td>
-      <td>73</td>
-      <td>90</td>
-      <td>388</td>
-      <td>77</td>
-      <td>72</td>
-      <td>79</td>
-      <td>91</td>
-      <td>69</td>
-      <td>400</td>
-      <td>84</td>
-      <td>79</td>
-      <td>78</td>
-      <td>80</td>
-      <td>79</td>
-      <td>363</td>
-      <td>63</td>
-      <td>39</td>
-      <td>90</td>
-      <td>87</td>
-      <td>84</td>
-      <td>90</td>
-      <td>89</td>
-      <td>47</td>
-      <td>24</td>
-      <td>18</td>
-      <td>41</td>
-      <td>13</td>
-      <td>11</td>
-      <td>5</td>
-      <td>5</td>
-      <td>7</td>
-      <td>2111</td>
-      <td>442</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>4 ★</td>
-      <td>74</td>
-      <td>85</td>
-      <td>81</td>
-      <td>86</td>
+      <td>...</td>
       <td>40</td>
       <td>76</td>
       <td>169</td>
@@ -7323,78 +3049,7 @@ fifa_df.head(20)
       <td>Sergio Ramos García</td>
       <td>http://sofifa.com/player/155862/sergio-ramos-g...</td>
       <td>Spain</td>
-      <td>CB</td>
-      <td>Sergio Ramos</td>
-      <td>34</td>
-      <td>89</td>
-      <td>89</td>
-      <td>Real Madrid</td>
-      <td>2005</td>
-      <td>2021</td>
-      <td>155862</td>
-      <td>1.83</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>89</td>
-      <td>CB</td>
-      <td>0</td>
-      <td>Aug 1, 2005</td>
-      <td>NaN</td>
-      <td>€24.5M</td>
-      <td>€300K</td>
-      <td>€50.2M</td>
-      <td>374</td>
-      <td>66</td>
-      <td>65</td>
-      <td>92</td>
-      <td>82</td>
-      <td>69</td>
-      <td>381</td>
-      <td>65</td>
-      <td>74</td>
-      <td>76</td>
-      <td>83</td>
-      <td>83</td>
-      <td>378</td>
-      <td>72</td>
-      <td>70</td>
-      <td>78</td>
-      <td>92</td>
-      <td>66</td>
-      <td>402</td>
-      <td>79</td>
-      <td>93</td>
-      <td>81</td>
-      <td>85</td>
-      <td>64</td>
-      <td>414</td>
-      <td>90</td>
-      <td>88</td>
-      <td>73</td>
-      <td>71</td>
-      <td>92</td>
-      <td>88</td>
-      <td>263</td>
-      <td>85</td>
-      <td>88</td>
-      <td>90</td>
-      <td>46</td>
-      <td>11</td>
-      <td>8</td>
-      <td>9</td>
-      <td>7</td>
-      <td>11</td>
-      <td>2258</td>
-      <td>463</td>
-      <td>3 ★</td>
-      <td>3★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>71</td>
-      <td>70</td>
-      <td>76</td>
-      <td>73</td>
+      <td>...</td>
       <td>88</td>
       <td>85</td>
       <td>187</td>
@@ -7404,78 +3059,7 @@ fifa_df.head(20)
       <td>Sergio Agüero</td>
       <td>http://sofifa.com/player/153079/sergio-aguero/...</td>
       <td>Argentina</td>
-      <td>ST</td>
-      <td>S. Agüero</td>
-      <td>32</td>
-      <td>89</td>
-      <td>89</td>
-      <td>Manchester City</td>
-      <td>2011</td>
-      <td>2021</td>
-      <td>153079</td>
-      <td>1.72</td>
-      <td>69</td>
-      <td>Right</td>
-      <td>89</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>Jul 28, 2011</td>
-      <td>NaN</td>
-      <td>€53M</td>
-      <td>€300K</td>
-      <td>€98.1M</td>
-      <td>411</td>
-      <td>70</td>
-      <td>94</td>
-      <td>78</td>
-      <td>83</td>
-      <td>86</td>
-      <td>397</td>
-      <td>88</td>
-      <td>83</td>
-      <td>73</td>
-      <td>64</td>
-      <td>89</td>
-      <td>424</td>
-      <td>79</td>
-      <td>78</td>
-      <td>84</td>
-      <td>92</td>
-      <td>91</td>
-      <td>403</td>
-      <td>89</td>
-      <td>78</td>
-      <td>78</td>
-      <td>74</td>
-      <td>84</td>
-      <td>341</td>
-      <td>65</td>
-      <td>24</td>
-      <td>94</td>
-      <td>83</td>
-      <td>75</td>
-      <td>91</td>
-      <td>83</td>
-      <td>30</td>
-      <td>29</td>
-      <td>24</td>
-      <td>59</td>
-      <td>13</td>
-      <td>15</td>
-      <td>6</td>
-      <td>11</td>
-      <td>14</td>
-      <td>2118</td>
-      <td>439</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>78</td>
-      <td>90</td>
-      <td>77</td>
-      <td>88</td>
+      <td>...</td>
       <td>33</td>
       <td>73</td>
       <td>103</td>
@@ -7485,78 +3069,7 @@ fifa_df.head(20)
       <td>N'Golo Kanté</td>
       <td>http://sofifa.com/player/215914/ngolo-kante/21...</td>
       <td>France</td>
-      <td>CDM CM</td>
-      <td>N. Kanté</td>
-      <td>29</td>
-      <td>88</td>
-      <td>88</td>
-      <td>Chelsea</td>
-      <td>2016</td>
-      <td>2023</td>
-      <td>215914</td>
-      <td>1.67</td>
-      <td>69</td>
-      <td>Right</td>
-      <td>88</td>
-      <td>CDM</td>
-      <td>0</td>
-      <td>Jul 16, 2016</td>
-      <td>NaN</td>
-      <td>€51M</td>
-      <td>€190K</td>
-      <td>€96.9M</td>
-      <td>328</td>
-      <td>68</td>
-      <td>65</td>
-      <td>54</td>
-      <td>85</td>
-      <td>56</td>
-      <td>336</td>
-      <td>79</td>
-      <td>49</td>
-      <td>49</td>
-      <td>79</td>
-      <td>80</td>
-      <td>420</td>
-      <td>79</td>
-      <td>76</td>
-      <td>82</td>
-      <td>91</td>
-      <td>92</td>
-      <td>381</td>
-      <td>71</td>
-      <td>77</td>
-      <td>96</td>
-      <td>72</td>
-      <td>65</td>
-      <td>386</td>
-      <td>90</td>
-      <td>91</td>
-      <td>72</td>
-      <td>79</td>
-      <td>54</td>
-      <td>85</td>
-      <td>264</td>
-      <td>89</td>
-      <td>90</td>
-      <td>85</td>
-      <td>54</td>
-      <td>15</td>
-      <td>12</td>
-      <td>10</td>
-      <td>7</td>
-      <td>10</td>
-      <td>2169</td>
-      <td>468</td>
-      <td>3 ★</td>
-      <td>2★</td>
-      <td>Medium</td>
-      <td>High</td>
-      <td>3 ★</td>
-      <td>77</td>
-      <td>66</td>
-      <td>76</td>
-      <td>81</td>
+      <td>...</td>
       <td>86</td>
       <td>82</td>
       <td>169</td>
@@ -7566,84 +3079,14 @@ fifa_df.head(20)
       <td>Joshua Kimmich</td>
       <td>http://sofifa.com/player/212622/joshua-kimmich...</td>
       <td>Germany</td>
-      <td>CDM RB</td>
-      <td>J. Kimmich</td>
-      <td>25</td>
-      <td>88</td>
-      <td>90</td>
-      <td>FC Bayern München</td>
-      <td>2015</td>
-      <td>2023</td>
-      <td>212622</td>
-      <td>1.75</td>
-      <td>73</td>
-      <td>Right</td>
-      <td>88</td>
-      <td>CDM</td>
-      <td>2</td>
-      <td>Jul 1, 2015</td>
-      <td>NaN</td>
-      <td>€65M</td>
-      <td>€145K</td>
-      <td>€112.1M</td>
-      <td>383</td>
-      <td>91</td>
-      <td>66</td>
-      <td>72</td>
-      <td>87</td>
-      <td>67</td>
-      <td>400</td>
-      <td>83</td>
-      <td>85</td>
-      <td>61</td>
-      <td>86</td>
-      <td>85</td>
-      <td>399</td>
-      <td>77</td>
-      <td>66</td>
-      <td>84</td>
-      <td>88</td>
-      <td>84</td>
-      <td>403</td>
-      <td>78</td>
-      <td>79</td>
-      <td>95</td>
-      <td>67</td>
-      <td>84</td>
-      <td>379</td>
-      <td>89</td>
-      <td>82</td>
-      <td>80</td>
-      <td>84</td>
-      <td>44</td>
-      <td>85</td>
-      <td>245</td>
-      <td>82</td>
-      <td>84</td>
-      <td>79</td>
-      <td>60</td>
-      <td>8</td>
-      <td>15</td>
-      <td>7</td>
-      <td>15</td>
-      <td>15</td>
-      <td>2269</td>
-      <td>473</td>
-      <td>4 ★</td>
-      <td>3★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>71</td>
-      <td>72</td>
-      <td>86</td>
-      <td>84</td>
+      <td>...</td>
       <td>81</td>
       <td>79</td>
       <td>317</td>
     </tr>
   </tbody>
 </table>
+<p>20 rows × 78 columns</p>
 </div>
 
 
@@ -7877,78 +3320,7 @@ fifa_df.loc[difference_series > 10]
       <th>LongName</th>
       <th>playerUrl</th>
       <th>Nationality</th>
-      <th>Positions</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>↓OVA</th>
-      <th>POT</th>
-      <th>Team</th>
-      <th>Start of Contract</th>
-      <th>End of Contract</th>
-      <th>ID</th>
-      <th>Height(mts)</th>
-      <th>Weight(kg)</th>
-      <th>foot</th>
-      <th>BOV</th>
-      <th>BP</th>
-      <th>Growth</th>
-      <th>Joined</th>
-      <th>Loan Date End</th>
-      <th>Value</th>
-      <th>Wage</th>
-      <th>Release Clause</th>
-      <th>Attacking</th>
-      <th>Crossing</th>
-      <th>Finishing</th>
-      <th>Heading Accuracy</th>
-      <th>Short Passing</th>
-      <th>Volleys</th>
-      <th>Skill</th>
-      <th>Dribbling</th>
-      <th>Curve</th>
-      <th>FK Accuracy</th>
-      <th>Long Passing</th>
-      <th>Ball Control</th>
-      <th>Movement</th>
-      <th>Acceleration</th>
-      <th>Sprint Speed</th>
-      <th>Agility</th>
-      <th>Reactions</th>
-      <th>Balance</th>
-      <th>Power</th>
-      <th>Shot Power</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Long Shots</th>
-      <th>Mentality</th>
-      <th>Aggression</th>
-      <th>Interceptions</th>
-      <th>Positioning</th>
-      <th>Vision</th>
-      <th>Penalties</th>
-      <th>Composure</th>
-      <th>Defending</th>
-      <th>Marking</th>
-      <th>Standing Tackle</th>
-      <th>Sliding Tackle</th>
-      <th>Goalkeeping</th>
-      <th>GK Diving</th>
-      <th>GK Handling</th>
-      <th>GK Kicking</th>
-      <th>GK Positioning</th>
-      <th>GK Reflexes</th>
-      <th>Total Stats</th>
-      <th>Base Stats</th>
-      <th>W/F</th>
-      <th>SM</th>
-      <th>A/W</th>
-      <th>D/W</th>
-      <th>IR</th>
-      <th>PAC</th>
-      <th>SHO</th>
-      <th>PAS</th>
-      <th>DRI</th>
+      <th>...</th>
       <th>DEF</th>
       <th>PHY</th>
       <th>Hits</th>
@@ -7960,78 +3332,7 @@ fifa_df.loc[difference_series > 10]
       <td>Lionel Messi</td>
       <td>http://sofifa.com/player/158023/lionel-messi/2...</td>
       <td>Argentina</td>
-      <td>RW ST CF</td>
-      <td>L. Messi</td>
-      <td>33</td>
-      <td>93</td>
-      <td>93</td>
-      <td>FC Barcelona</td>
-      <td>2004</td>
-      <td>2021</td>
-      <td>158023</td>
-      <td>1.70</td>
-      <td>72</td>
-      <td>Left</td>
-      <td>93</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>Jul 1, 2004</td>
-      <td>NaN</td>
-      <td>€67.5M</td>
-      <td>€560K</td>
-      <td>€138.4M</td>
-      <td>429</td>
-      <td>85</td>
-      <td>95</td>
-      <td>70</td>
-      <td>91</td>
-      <td>88</td>
-      <td>470</td>
-      <td>96</td>
-      <td>93</td>
-      <td>94</td>
-      <td>91</td>
-      <td>96</td>
-      <td>451</td>
-      <td>91</td>
-      <td>80</td>
-      <td>91</td>
-      <td>94</td>
-      <td>95</td>
-      <td>389</td>
-      <td>86</td>
-      <td>68</td>
-      <td>72</td>
-      <td>69</td>
-      <td>94</td>
-      <td>347</td>
-      <td>44</td>
-      <td>40</td>
-      <td>93</td>
-      <td>95</td>
-      <td>75</td>
-      <td>96</td>
-      <td>91</td>
-      <td>32</td>
-      <td>35</td>
-      <td>24</td>
-      <td>54</td>
-      <td>6</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>8</td>
-      <td>2231</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>85</td>
-      <td>92</td>
-      <td>91</td>
-      <td>95</td>
+      <td>...</td>
       <td>38</td>
       <td>65</td>
       <td>372</td>
@@ -8041,78 +3342,7 @@ fifa_df.loc[difference_series > 10]
       <td>Manuel Neuer</td>
       <td>http://sofifa.com/player/167495/manuel-neuer/2...</td>
       <td>Germany</td>
-      <td>GK</td>
-      <td>M. Neuer</td>
-      <td>34</td>
-      <td>89</td>
-      <td>89</td>
-      <td>FC Bayern München</td>
-      <td>2011</td>
-      <td>2023</td>
-      <td>167495</td>
-      <td>1.93</td>
-      <td>92</td>
-      <td>Right</td>
-      <td>89</td>
-      <td>GK</td>
-      <td>0</td>
-      <td>Jul 1, 2011</td>
-      <td>NaN</td>
-      <td>€29M</td>
-      <td>€125K</td>
-      <td>€47.9M</td>
-      <td>119</td>
-      <td>15</td>
-      <td>13</td>
-      <td>25</td>
-      <td>55</td>
-      <td>11</td>
-      <td>160</td>
-      <td>30</td>
-      <td>14</td>
-      <td>11</td>
-      <td>59</td>
-      <td>46</td>
-      <td>286</td>
-      <td>54</td>
-      <td>60</td>
-      <td>51</td>
-      <td>86</td>
-      <td>35</td>
-      <td>284</td>
-      <td>68</td>
-      <td>77</td>
-      <td>43</td>
-      <td>80</td>
-      <td>16</td>
-      <td>188</td>
-      <td>29</td>
-      <td>30</td>
-      <td>12</td>
-      <td>70</td>
-      <td>47</td>
-      <td>70</td>
-      <td>38</td>
-      <td>17</td>
-      <td>10</td>
-      <td>11</td>
-      <td>440</td>
-      <td>87</td>
-      <td>87</td>
-      <td>91</td>
-      <td>86</td>
-      <td>89</td>
-      <td>1515</td>
-      <td>497</td>
-      <td>4 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>5 ★</td>
-      <td>87</td>
-      <td>87</td>
-      <td>91</td>
-      <td>89</td>
+      <td>...</td>
       <td>57</td>
       <td>86</td>
       <td>90</td>
@@ -8122,78 +3352,7 @@ fifa_df.loc[difference_series > 10]
       <td>Karim Benzema</td>
       <td>http://sofifa.com/player/165153/karim-benzema/...</td>
       <td>France</td>
-      <td>CF ST</td>
-      <td>K. Benzema</td>
-      <td>32</td>
-      <td>89</td>
-      <td>89</td>
-      <td>Real Madrid</td>
-      <td>2009</td>
-      <td>2022</td>
-      <td>165153</td>
-      <td>1.86</td>
-      <td>81</td>
-      <td>Right</td>
-      <td>89</td>
-      <td>CF</td>
-      <td>0</td>
-      <td>Jul 9, 2009</td>
-      <td>NaN</td>
-      <td>€53M</td>
-      <td>€350K</td>
-      <td>€108.7M</td>
-      <td>426</td>
-      <td>75</td>
-      <td>88</td>
-      <td>91</td>
-      <td>86</td>
-      <td>86</td>
-      <td>404</td>
-      <td>87</td>
-      <td>81</td>
-      <td>73</td>
-      <td>73</td>
-      <td>90</td>
-      <td>388</td>
-      <td>77</td>
-      <td>72</td>
-      <td>79</td>
-      <td>91</td>
-      <td>69</td>
-      <td>400</td>
-      <td>84</td>
-      <td>79</td>
-      <td>78</td>
-      <td>80</td>
-      <td>79</td>
-      <td>363</td>
-      <td>63</td>
-      <td>39</td>
-      <td>90</td>
-      <td>87</td>
-      <td>84</td>
-      <td>90</td>
-      <td>89</td>
-      <td>47</td>
-      <td>24</td>
-      <td>18</td>
-      <td>41</td>
-      <td>13</td>
-      <td>11</td>
-      <td>5</td>
-      <td>5</td>
-      <td>7</td>
-      <td>2111</td>
-      <td>442</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>4 ★</td>
-      <td>74</td>
-      <td>85</td>
-      <td>81</td>
-      <td>86</td>
+      <td>...</td>
       <td>40</td>
       <td>76</td>
       <td>169</td>
@@ -8203,78 +3362,7 @@ fifa_df.loc[difference_series > 10]
       <td>Sergio Ramos García</td>
       <td>http://sofifa.com/player/155862/sergio-ramos-g...</td>
       <td>Spain</td>
-      <td>CB</td>
-      <td>Sergio Ramos</td>
-      <td>34</td>
-      <td>89</td>
-      <td>89</td>
-      <td>Real Madrid</td>
-      <td>2005</td>
-      <td>2021</td>
-      <td>155862</td>
-      <td>1.83</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>89</td>
-      <td>CB</td>
-      <td>0</td>
-      <td>Aug 1, 2005</td>
-      <td>NaN</td>
-      <td>€24.5M</td>
-      <td>€300K</td>
-      <td>€50.2M</td>
-      <td>374</td>
-      <td>66</td>
-      <td>65</td>
-      <td>92</td>
-      <td>82</td>
-      <td>69</td>
-      <td>381</td>
-      <td>65</td>
-      <td>74</td>
-      <td>76</td>
-      <td>83</td>
-      <td>83</td>
-      <td>378</td>
-      <td>72</td>
-      <td>70</td>
-      <td>78</td>
-      <td>92</td>
-      <td>66</td>
-      <td>402</td>
-      <td>79</td>
-      <td>93</td>
-      <td>81</td>
-      <td>85</td>
-      <td>64</td>
-      <td>414</td>
-      <td>90</td>
-      <td>88</td>
-      <td>73</td>
-      <td>71</td>
-      <td>92</td>
-      <td>88</td>
-      <td>263</td>
-      <td>85</td>
-      <td>88</td>
-      <td>90</td>
-      <td>46</td>
-      <td>11</td>
-      <td>8</td>
-      <td>9</td>
-      <td>7</td>
-      <td>11</td>
-      <td>2258</td>
-      <td>463</td>
-      <td>3 ★</td>
-      <td>3★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>71</td>
-      <td>70</td>
-      <td>76</td>
-      <td>73</td>
+      <td>...</td>
       <td>88</td>
       <td>85</td>
       <td>187</td>
@@ -8284,78 +3372,7 @@ fifa_df.loc[difference_series > 10]
       <td>Harry Kane</td>
       <td>http://sofifa.com/player/202126/harry-kane/210...</td>
       <td>England</td>
-      <td>ST</td>
-      <td>H. Kane</td>
-      <td>26</td>
-      <td>88</td>
-      <td>89</td>
-      <td>Tottenham Hotspur</td>
-      <td>2010</td>
-      <td>2024</td>
-      <td>202126</td>
-      <td>1.88</td>
-      <td>88</td>
-      <td>Right</td>
-      <td>88</td>
-      <td>ST</td>
-      <td>1</td>
-      <td>Jul 1, 2010</td>
-      <td>NaN</td>
-      <td>€71M</td>
-      <td>€220K</td>
-      <td>€140.2M</td>
-      <td>420</td>
-      <td>75</td>
-      <td>94</td>
-      <td>85</td>
-      <td>81</td>
-      <td>85</td>
-      <td>395</td>
-      <td>80</td>
-      <td>80</td>
-      <td>68</td>
-      <td>83</td>
-      <td>84</td>
-      <td>367</td>
-      <td>66</td>
-      <td>69</td>
-      <td>69</td>
-      <td>90</td>
-      <td>73</td>
-      <td>424</td>
-      <td>91</td>
-      <td>79</td>
-      <td>84</td>
-      <td>84</td>
-      <td>86</td>
-      <td>382</td>
-      <td>81</td>
-      <td>35</td>
-      <td>93</td>
-      <td>83</td>
-      <td>90</td>
-      <td>91</td>
-      <td>130</td>
-      <td>56</td>
-      <td>36</td>
-      <td>38</td>
-      <td>54</td>
-      <td>8</td>
-      <td>10</td>
-      <td>11</td>
-      <td>14</td>
-      <td>11</td>
-      <td>2172</td>
-      <td>449</td>
-      <td>4 ★</td>
-      <td>3★</td>
-      <td>High</td>
-      <td>High</td>
-      <td>3 ★</td>
-      <td>68</td>
-      <td>91</td>
-      <td>80</td>
-      <td>80</td>
+      <td>...</td>
       <td>47</td>
       <td>83</td>
       <td>229</td>
@@ -8369,155 +3386,13 @@ fifa_df.loc[difference_series > 10]
       <td>...</td>
       <td>...</td>
       <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
     </tr>
     <tr>
       <th>16121</th>
       <td>Kazuyoshi Miura</td>
       <td>http://sofifa.com/player/254704/kazuyoshi-miur...</td>
       <td>Japan</td>
-      <td>ST</td>
-      <td>K. Miura</td>
-      <td>53</td>
-      <td>59</td>
-      <td>59</td>
-      <td>Yokohama FC</td>
-      <td>2005</td>
-      <td>2021</td>
-      <td>254704</td>
-      <td>1.55</td>
-      <td>72</td>
-      <td>Right</td>
-      <td>60</td>
-      <td>CF</td>
-      <td>0</td>
-      <td>Jul 1, 2005</td>
-      <td>NaN</td>
-      <td>€0</td>
-      <td>€850</td>
-      <td>€0</td>
-      <td>289</td>
-      <td>44</td>
-      <td>66</td>
-      <td>56</td>
-      <td>61</td>
-      <td>62</td>
-      <td>290</td>
-      <td>63</td>
-      <td>69</td>
-      <td>54</td>
-      <td>36</td>
-      <td>68</td>
-      <td>187</td>
-      <td>24</td>
-      <td>26</td>
-      <td>27</td>
-      <td>48</td>
-      <td>62</td>
-      <td>235</td>
-      <td>59</td>
-      <td>32</td>
-      <td>21</td>
-      <td>62</td>
-      <td>61</td>
-      <td>257</td>
-      <td>45</td>
-      <td>16</td>
-      <td>71</td>
-      <td>66</td>
-      <td>59</td>
-      <td>77</td>
-      <td>42</td>
-      <td>16</td>
-      <td>13</td>
-      <td>13</td>
-      <td>41</td>
-      <td>6</td>
-      <td>14</td>
-      <td>8</td>
-      <td>6</td>
-      <td>7</td>
-      <td>1341</td>
-      <td>269</td>
-      <td>4 ★</td>
-      <td>2★</td>
-      <td>Low</td>
-      <td>Low</td>
-      <td>1 ★</td>
-      <td>25</td>
-      <td>63</td>
-      <td>55</td>
-      <td>60</td>
+      <td>...</td>
       <td>19</td>
       <td>47</td>
       <td>96</td>
@@ -8527,78 +3402,7 @@ fifa_df.loc[difference_series > 10]
       <td>Soner Dikmen</td>
       <td>http://sofifa.com/player/252807/soner-dikmen/2...</td>
       <td>Turkey</td>
-      <td>CDM</td>
-      <td>S. Dikmen</td>
-      <td>26</td>
-      <td>58</td>
-      <td>60</td>
-      <td>Gençlerbirliği SK</td>
-      <td>2011</td>
-      <td>2022</td>
-      <td>252807</td>
-      <td>1.55</td>
-      <td>74</td>
-      <td>Right</td>
-      <td>59</td>
-      <td>CDM</td>
-      <td>2</td>
-      <td>May 5, 2011</td>
-      <td>NaN</td>
-      <td>€140K</td>
-      <td>€3K</td>
-      <td>€291K</td>
-      <td>256</td>
-      <td>55</td>
-      <td>41</td>
-      <td>55</td>
-      <td>66</td>
-      <td>39</td>
-      <td>265</td>
-      <td>60</td>
-      <td>41</td>
-      <td>40</td>
-      <td>67</td>
-      <td>57</td>
-      <td>288</td>
-      <td>60</td>
-      <td>60</td>
-      <td>50</td>
-      <td>54</td>
-      <td>64</td>
-      <td>260</td>
-      <td>53</td>
-      <td>64</td>
-      <td>48</td>
-      <td>57</td>
-      <td>38</td>
-      <td>242</td>
-      <td>65</td>
-      <td>49</td>
-      <td>34</td>
-      <td>42</td>
-      <td>52</td>
-      <td>41</td>
-      <td>170</td>
-      <td>52</td>
-      <td>58</td>
-      <td>60</td>
-      <td>55</td>
-      <td>9</td>
-      <td>9</td>
-      <td>14</td>
-      <td>15</td>
-      <td>8</td>
-      <td>1536</td>
-      <td>329</td>
-      <td>3 ★</td>
-      <td>2★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>1 ★</td>
-      <td>60</td>
-      <td>43</td>
-      <td>57</td>
-      <td>58</td>
+      <td>...</td>
       <td>54</td>
       <td>57</td>
       <td>1</td>
@@ -8608,78 +3412,7 @@ fifa_df.loc[difference_series > 10]
       <td>John Popelard</td>
       <td>http://sofifa.com/player/248760/john-popelard/...</td>
       <td>France</td>
-      <td>CM LM</td>
-      <td>J. Popelard</td>
-      <td>34</td>
-      <td>58</td>
-      <td>58</td>
-      <td>FC Chambly Oise</td>
-      <td>2010</td>
-      <td>2021</td>
-      <td>248760</td>
-      <td>1.55</td>
-      <td>76</td>
-      <td>Right</td>
-      <td>58</td>
-      <td>CM</td>
-      <td>0</td>
-      <td>Jul 1, 2010</td>
-      <td>NaN</td>
-      <td>€60K</td>
-      <td>€1K</td>
-      <td>€105K</td>
-      <td>229</td>
-      <td>45</td>
-      <td>47</td>
-      <td>42</td>
-      <td>64</td>
-      <td>31</td>
-      <td>235</td>
-      <td>53</td>
-      <td>36</td>
-      <td>32</td>
-      <td>54</td>
-      <td>60</td>
-      <td>288</td>
-      <td>48</td>
-      <td>58</td>
-      <td>58</td>
-      <td>59</td>
-      <td>65</td>
-      <td>272</td>
-      <td>46</td>
-      <td>65</td>
-      <td>60</td>
-      <td>59</td>
-      <td>42</td>
-      <td>270</td>
-      <td>56</td>
-      <td>56</td>
-      <td>59</td>
-      <td>61</td>
-      <td>38</td>
-      <td>42</td>
-      <td>144</td>
-      <td>38</td>
-      <td>56</td>
-      <td>50</td>
-      <td>61</td>
-      <td>10</td>
-      <td>14</td>
-      <td>13</td>
-      <td>10</td>
-      <td>14</td>
-      <td>1499</td>
-      <td>319</td>
-      <td>3 ★</td>
-      <td>3★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>1 ★</td>
-      <td>54</td>
-      <td>45</td>
-      <td>55</td>
-      <td>57</td>
+      <td>...</td>
       <td>49</td>
       <td>59</td>
       <td>1</td>
@@ -8689,78 +3422,7 @@ fifa_df.loc[difference_series > 10]
       <td>Mohammed Al Wakid</td>
       <td>http://sofifa.com/player/219936/mohammed-al-wa...</td>
       <td>Saudi Arabia</td>
-      <td>GK</td>
-      <td>M. Al Wakid</td>
-      <td>28</td>
-      <td>57</td>
-      <td>57</td>
-      <td>Al Hilal</td>
-      <td>2009</td>
-      <td>2025</td>
-      <td>219936</td>
-      <td>1.83</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>57</td>
-      <td>GK</td>
-      <td>0</td>
-      <td>Oct 1, 2009</td>
-      <td>NaN</td>
-      <td>€80K</td>
-      <td>€4K</td>
-      <td>€136K</td>
-      <td>97</td>
-      <td>17</td>
-      <td>14</td>
-      <td>18</td>
-      <td>28</td>
-      <td>20</td>
-      <td>117</td>
-      <td>18</td>
-      <td>16</td>
-      <td>20</td>
-      <td>41</td>
-      <td>22</td>
-      <td>232</td>
-      <td>41</td>
-      <td>43</td>
-      <td>38</td>
-      <td>58</td>
-      <td>52</td>
-      <td>177</td>
-      <td>40</td>
-      <td>50</td>
-      <td>31</td>
-      <td>42</td>
-      <td>14</td>
-      <td>134</td>
-      <td>20</td>
-      <td>19</td>
-      <td>12</td>
-      <td>60</td>
-      <td>23</td>
-      <td>45</td>
-      <td>64</td>
-      <td>30</td>
-      <td>16</td>
-      <td>18</td>
-      <td>278</td>
-      <td>58</td>
-      <td>57</td>
-      <td>53</td>
-      <td>55</td>
-      <td>55</td>
-      <td>1099</td>
-      <td>320</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>1 ★</td>
-      <td>58</td>
-      <td>57</td>
-      <td>53</td>
-      <td>55</td>
+      <td>...</td>
       <td>42</td>
       <td>55</td>
       <td>1</td>
@@ -8770,78 +3432,7 @@ fifa_df.loc[difference_series > 10]
       <td>Abdullah Al Yousif</td>
       <td>http://sofifa.com/player/235710/abdullah-al-yo...</td>
       <td>Saudi Arabia</td>
-      <td>LB</td>
-      <td>A. Al Yousif</td>
-      <td>23</td>
-      <td>57</td>
-      <td>66</td>
-      <td>Al Fateh</td>
-      <td>2013</td>
-      <td>2024</td>
-      <td>235710</td>
-      <td>1.86</td>
-      <td>73</td>
-      <td>Left</td>
-      <td>57</td>
-      <td>LB</td>
-      <td>9</td>
-      <td>Jul 1, 2013</td>
-      <td>NaN</td>
-      <td>€140K</td>
-      <td>€4K</td>
-      <td>€259K</td>
-      <td>220</td>
-      <td>50</td>
-      <td>35</td>
-      <td>52</td>
-      <td>52</td>
-      <td>31</td>
-      <td>245</td>
-      <td>46</td>
-      <td>46</td>
-      <td>55</td>
-      <td>45</td>
-      <td>53</td>
-      <td>313</td>
-      <td>72</td>
-      <td>71</td>
-      <td>66</td>
-      <td>51</td>
-      <td>53</td>
-      <td>262</td>
-      <td>48</td>
-      <td>52</td>
-      <td>59</td>
-      <td>64</td>
-      <td>39</td>
-      <td>247</td>
-      <td>58</td>
-      <td>58</td>
-      <td>41</td>
-      <td>48</td>
-      <td>42</td>
-      <td>50</td>
-      <td>154</td>
-      <td>50</td>
-      <td>54</td>
-      <td>50</td>
-      <td>46</td>
-      <td>9</td>
-      <td>7</td>
-      <td>12</td>
-      <td>6</td>
-      <td>12</td>
-      <td>1487</td>
-      <td>325</td>
-      <td>3 ★</td>
-      <td>2★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>1 ★</td>
-      <td>71</td>
-      <td>39</td>
-      <td>50</td>
-      <td>51</td>
+      <td>...</td>
       <td>53</td>
       <td>61</td>
       <td>1</td>
@@ -8902,78 +3493,7 @@ fifa_df.head(6)
       <th>LongName</th>
       <th>playerUrl</th>
       <th>Nationality</th>
-      <th>Positions</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>↓OVA</th>
-      <th>POT</th>
-      <th>Team</th>
-      <th>Start of Contract</th>
-      <th>End of Contract</th>
-      <th>ID</th>
-      <th>Height(mts)</th>
-      <th>Weight(kg)</th>
-      <th>foot</th>
-      <th>BOV</th>
-      <th>BP</th>
-      <th>Growth</th>
-      <th>Joined</th>
-      <th>Loan Date End</th>
-      <th>Value</th>
-      <th>Wage</th>
-      <th>Release Clause</th>
-      <th>Attacking</th>
-      <th>Crossing</th>
-      <th>Finishing</th>
-      <th>Heading Accuracy</th>
-      <th>Short Passing</th>
-      <th>Volleys</th>
-      <th>Skill</th>
-      <th>Dribbling</th>
-      <th>Curve</th>
-      <th>FK Accuracy</th>
-      <th>Long Passing</th>
-      <th>Ball Control</th>
-      <th>Movement</th>
-      <th>Acceleration</th>
-      <th>Sprint Speed</th>
-      <th>Agility</th>
-      <th>Reactions</th>
-      <th>Balance</th>
-      <th>Power</th>
-      <th>Shot Power</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Long Shots</th>
-      <th>Mentality</th>
-      <th>Aggression</th>
-      <th>Interceptions</th>
-      <th>Positioning</th>
-      <th>Vision</th>
-      <th>Penalties</th>
-      <th>Composure</th>
-      <th>Defending</th>
-      <th>Marking</th>
-      <th>Standing Tackle</th>
-      <th>Sliding Tackle</th>
-      <th>Goalkeeping</th>
-      <th>GK Diving</th>
-      <th>GK Handling</th>
-      <th>GK Kicking</th>
-      <th>GK Positioning</th>
-      <th>GK Reflexes</th>
-      <th>Total Stats</th>
-      <th>Base Stats</th>
-      <th>W/F</th>
-      <th>SM</th>
-      <th>A/W</th>
-      <th>D/W</th>
-      <th>IR</th>
-      <th>PAC</th>
-      <th>SHO</th>
-      <th>PAS</th>
-      <th>DRI</th>
+      <th>...</th>
       <th>DEF</th>
       <th>PHY</th>
       <th>Hits</th>
@@ -8985,78 +3505,7 @@ fifa_df.head(6)
       <td>Lionel Messi</td>
       <td>http://sofifa.com/player/158023/lionel-messi/2...</td>
       <td>Argentina</td>
-      <td>RW ST CF</td>
-      <td>L. Messi</td>
-      <td>33</td>
-      <td>93</td>
-      <td>93</td>
-      <td>FC Barcelona</td>
-      <td>2004</td>
-      <td>2021</td>
-      <td>158023</td>
-      <td>1.70</td>
-      <td>72</td>
-      <td>Left</td>
-      <td>93</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>2004-07-01</td>
-      <td>NaN</td>
-      <td>€67.5M</td>
-      <td>€560K</td>
-      <td>€138.4M</td>
-      <td>429</td>
-      <td>85</td>
-      <td>95</td>
-      <td>70</td>
-      <td>91</td>
-      <td>88</td>
-      <td>470</td>
-      <td>96</td>
-      <td>93</td>
-      <td>94</td>
-      <td>91</td>
-      <td>96</td>
-      <td>451</td>
-      <td>91</td>
-      <td>80</td>
-      <td>91</td>
-      <td>94</td>
-      <td>95</td>
-      <td>389</td>
-      <td>86</td>
-      <td>68</td>
-      <td>72</td>
-      <td>69</td>
-      <td>94</td>
-      <td>347</td>
-      <td>44</td>
-      <td>40</td>
-      <td>93</td>
-      <td>95</td>
-      <td>75</td>
-      <td>96</td>
-      <td>91</td>
-      <td>32</td>
-      <td>35</td>
-      <td>24</td>
-      <td>54</td>
-      <td>6</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>8</td>
-      <td>2231</td>
-      <td>466</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>85</td>
-      <td>92</td>
-      <td>91</td>
-      <td>95</td>
+      <td>...</td>
       <td>38</td>
       <td>65</td>
       <td>372</td>
@@ -9066,78 +3515,7 @@ fifa_df.head(6)
       <td>C. Ronaldo dos Santos Aveiro</td>
       <td>http://sofifa.com/player/20801/c-ronaldo-dos-s...</td>
       <td>Portugal</td>
-      <td>ST LW</td>
-      <td>Cristiano Ronaldo</td>
-      <td>35</td>
-      <td>92</td>
-      <td>92</td>
-      <td>Juventus</td>
-      <td>2018</td>
-      <td>2022</td>
-      <td>20801</td>
-      <td>1.88</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>92</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>2018-07-10</td>
-      <td>NaN</td>
-      <td>€46M</td>
-      <td>€220K</td>
-      <td>€75.9M</td>
-      <td>437</td>
-      <td>84</td>
-      <td>95</td>
-      <td>90</td>
-      <td>82</td>
-      <td>86</td>
-      <td>414</td>
-      <td>88</td>
-      <td>81</td>
-      <td>76</td>
-      <td>77</td>
-      <td>92</td>
-      <td>431</td>
-      <td>87</td>
-      <td>91</td>
-      <td>87</td>
-      <td>95</td>
-      <td>71</td>
-      <td>444</td>
-      <td>94</td>
-      <td>95</td>
-      <td>84</td>
-      <td>78</td>
-      <td>93</td>
-      <td>353</td>
-      <td>63</td>
-      <td>29</td>
-      <td>95</td>
-      <td>82</td>
-      <td>84</td>
-      <td>95</td>
-      <td>84</td>
-      <td>28</td>
-      <td>32</td>
-      <td>24</td>
-      <td>58</td>
-      <td>7</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>11</td>
-      <td>2221</td>
-      <td>464</td>
-      <td>4 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>5 ★</td>
-      <td>89</td>
-      <td>93</td>
-      <td>81</td>
-      <td>89</td>
+      <td>...</td>
       <td>35</td>
       <td>77</td>
       <td>344</td>
@@ -9147,78 +3525,7 @@ fifa_df.head(6)
       <td>Jan Oblak</td>
       <td>http://sofifa.com/player/200389/jan-oblak/210005/</td>
       <td>Slovenia</td>
-      <td>GK</td>
-      <td>J. Oblak</td>
-      <td>27</td>
-      <td>91</td>
-      <td>93</td>
-      <td>Atlético Madrid</td>
-      <td>2014</td>
-      <td>2023</td>
-      <td>200389</td>
-      <td>1.88</td>
-      <td>87</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>GK</td>
-      <td>2</td>
-      <td>2014-07-16</td>
-      <td>NaN</td>
-      <td>€75M</td>
-      <td>€125K</td>
-      <td>€159.4M</td>
-      <td>95</td>
-      <td>13</td>
-      <td>11</td>
-      <td>15</td>
-      <td>43</td>
-      <td>13</td>
-      <td>109</td>
-      <td>12</td>
-      <td>13</td>
-      <td>14</td>
-      <td>40</td>
-      <td>30</td>
-      <td>307</td>
-      <td>43</td>
-      <td>60</td>
-      <td>67</td>
-      <td>88</td>
-      <td>49</td>
-      <td>268</td>
-      <td>59</td>
-      <td>78</td>
-      <td>41</td>
-      <td>78</td>
-      <td>12</td>
-      <td>140</td>
-      <td>34</td>
-      <td>19</td>
-      <td>11</td>
-      <td>65</td>
-      <td>11</td>
-      <td>68</td>
-      <td>57</td>
-      <td>27</td>
-      <td>12</td>
-      <td>18</td>
-      <td>437</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
-      <td>90</td>
-      <td>1413</td>
-      <td>489</td>
-      <td>3 ★</td>
-      <td>1★</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3 ★</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
+      <td>...</td>
       <td>52</td>
       <td>90</td>
       <td>86</td>
@@ -9228,78 +3535,7 @@ fifa_df.head(6)
       <td>Kevin De Bruyne</td>
       <td>http://sofifa.com/player/192985/kevin-de-bruyn...</td>
       <td>Belgium</td>
-      <td>CAM CM</td>
-      <td>K. De Bruyne</td>
-      <td>29</td>
-      <td>91</td>
-      <td>91</td>
-      <td>Manchester City</td>
-      <td>2015</td>
-      <td>2023</td>
-      <td>192985</td>
-      <td>1.55</td>
-      <td>69</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>CAM</td>
-      <td>0</td>
-      <td>2015-08-30</td>
-      <td>NaN</td>
-      <td>€87M</td>
-      <td>€370K</td>
-      <td>€161M</td>
-      <td>407</td>
-      <td>94</td>
-      <td>82</td>
-      <td>55</td>
-      <td>94</td>
-      <td>82</td>
-      <td>441</td>
-      <td>88</td>
-      <td>85</td>
-      <td>83</td>
-      <td>93</td>
-      <td>92</td>
-      <td>398</td>
-      <td>77</td>
-      <td>76</td>
-      <td>78</td>
-      <td>91</td>
-      <td>76</td>
-      <td>408</td>
-      <td>91</td>
-      <td>63</td>
-      <td>89</td>
-      <td>74</td>
-      <td>91</td>
-      <td>408</td>
-      <td>76</td>
-      <td>66</td>
-      <td>88</td>
-      <td>94</td>
-      <td>84</td>
-      <td>91</td>
-      <td>186</td>
-      <td>68</td>
-      <td>65</td>
-      <td>53</td>
-      <td>56</td>
-      <td>15</td>
-      <td>13</td>
-      <td>5</td>
-      <td>10</td>
-      <td>13</td>
-      <td>2304</td>
-      <td>485</td>
-      <td>5 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>High</td>
-      <td>4 ★</td>
-      <td>76</td>
-      <td>86</td>
-      <td>93</td>
-      <td>88</td>
+      <td>...</td>
       <td>64</td>
       <td>78</td>
       <td>163</td>
@@ -9309,78 +3545,7 @@ fifa_df.head(6)
       <td>Neymar da Silva Santos Jr.</td>
       <td>http://sofifa.com/player/190871/neymar-da-silv...</td>
       <td>Brazil</td>
-      <td>LW CAM</td>
-      <td>Neymar Jr</td>
-      <td>28</td>
-      <td>91</td>
-      <td>91</td>
-      <td>Paris Saint-Germain</td>
-      <td>2017</td>
-      <td>2022</td>
-      <td>190871</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>2017-08-03</td>
-      <td>NaN</td>
-      <td>€90M</td>
-      <td>€270K</td>
-      <td>€166.5M</td>
-      <td>408</td>
-      <td>85</td>
-      <td>87</td>
-      <td>62</td>
-      <td>87</td>
-      <td>87</td>
-      <td>448</td>
-      <td>95</td>
-      <td>88</td>
-      <td>89</td>
-      <td>81</td>
-      <td>95</td>
-      <td>453</td>
-      <td>94</td>
-      <td>89</td>
-      <td>96</td>
-      <td>91</td>
-      <td>83</td>
-      <td>357</td>
-      <td>80</td>
-      <td>62</td>
-      <td>81</td>
-      <td>50</td>
-      <td>84</td>
-      <td>356</td>
-      <td>51</td>
-      <td>36</td>
-      <td>87</td>
-      <td>90</td>
-      <td>92</td>
-      <td>93</td>
-      <td>94</td>
-      <td>35</td>
-      <td>30</td>
-      <td>29</td>
-      <td>59</td>
-      <td>9</td>
-      <td>9</td>
-      <td>15</td>
-      <td>15</td>
-      <td>11</td>
-      <td>2175</td>
-      <td>451</td>
-      <td>5 ★</td>
-      <td>5★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>5 ★</td>
-      <td>91</td>
-      <td>85</td>
-      <td>86</td>
-      <td>94</td>
+      <td>...</td>
       <td>36</td>
       <td>59</td>
       <td>273</td>
@@ -9390,84 +3555,14 @@ fifa_df.head(6)
       <td>Robert Lewandowski</td>
       <td>http://sofifa.com/player/188545/robert-lewando...</td>
       <td>Poland</td>
-      <td>ST</td>
-      <td>R. Lewandowski</td>
-      <td>31</td>
-      <td>91</td>
-      <td>91</td>
-      <td>FC Bayern München</td>
-      <td>2014</td>
-      <td>2023</td>
-      <td>188545</td>
-      <td>1.83</td>
-      <td>79</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>2014-07-01</td>
-      <td>NaN</td>
-      <td>€80M</td>
-      <td>€240K</td>
-      <td>€132M</td>
-      <td>423</td>
-      <td>71</td>
-      <td>94</td>
-      <td>85</td>
-      <td>84</td>
-      <td>89</td>
-      <td>407</td>
-      <td>85</td>
-      <td>79</td>
-      <td>85</td>
-      <td>70</td>
-      <td>88</td>
-      <td>407</td>
-      <td>77</td>
-      <td>78</td>
-      <td>77</td>
-      <td>93</td>
-      <td>82</td>
-      <td>420</td>
-      <td>89</td>
-      <td>84</td>
-      <td>76</td>
-      <td>86</td>
-      <td>85</td>
-      <td>391</td>
-      <td>81</td>
-      <td>49</td>
-      <td>94</td>
-      <td>79</td>
-      <td>88</td>
-      <td>88</td>
-      <td>96</td>
-      <td>35</td>
-      <td>42</td>
-      <td>19</td>
-      <td>51</td>
-      <td>15</td>
-      <td>6</td>
-      <td>12</td>
-      <td>8</td>
-      <td>10</td>
-      <td>2195</td>
-      <td>457</td>
-      <td>4 ★</td>
-      <td>4★</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4 ★</td>
-      <td>78</td>
-      <td>91</td>
-      <td>78</td>
-      <td>85</td>
+      <td>...</td>
       <td>43</td>
       <td>82</td>
       <td>182</td>
     </tr>
   </tbody>
 </table>
+<p>6 rows × 78 columns</p>
 </div>
 
 
@@ -9598,7 +3693,7 @@ letter = fifa_df[colname].apply(f)
 print(set(letter['Value']), set(letter['Wage']), set(letter['Release Clause']))
 ```
 
-    {'K', '0', 'M'} {'K', '0'} {'K', '0', 'M'}
+    {'M', 'K', '0'} {'K', '0'} {'M', 'K', '0'}
 
 
 
@@ -9889,78 +3984,7 @@ fifa_df.head(10)
       <th>LongName</th>
       <th>playerUrl</th>
       <th>Nationality</th>
-      <th>Positions</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>↓OVA</th>
-      <th>POT</th>
-      <th>Team</th>
-      <th>Start of Contract</th>
-      <th>End of Contract</th>
-      <th>ID</th>
-      <th>Height(mts)</th>
-      <th>Weight(kg)</th>
-      <th>foot</th>
-      <th>BOV</th>
-      <th>BP</th>
-      <th>Growth</th>
-      <th>Joined</th>
-      <th>Loan Date End</th>
-      <th>Value</th>
-      <th>Wage</th>
-      <th>Release Clause</th>
-      <th>Attacking</th>
-      <th>Crossing</th>
-      <th>Finishing</th>
-      <th>Heading Accuracy</th>
-      <th>Short Passing</th>
-      <th>Volleys</th>
-      <th>Skill</th>
-      <th>Dribbling</th>
-      <th>Curve</th>
-      <th>FK Accuracy</th>
-      <th>Long Passing</th>
-      <th>Ball Control</th>
-      <th>Movement</th>
-      <th>Acceleration</th>
-      <th>Sprint Speed</th>
-      <th>Agility</th>
-      <th>Reactions</th>
-      <th>Balance</th>
-      <th>Power</th>
-      <th>Shot Power</th>
-      <th>Jumping</th>
-      <th>Stamina</th>
-      <th>Strength</th>
-      <th>Long Shots</th>
-      <th>Mentality</th>
-      <th>Aggression</th>
-      <th>Interceptions</th>
-      <th>Positioning</th>
-      <th>Vision</th>
-      <th>Penalties</th>
-      <th>Composure</th>
-      <th>Defending</th>
-      <th>Marking</th>
-      <th>Standing Tackle</th>
-      <th>Sliding Tackle</th>
-      <th>Goalkeeping</th>
-      <th>GK Diving</th>
-      <th>GK Handling</th>
-      <th>GK Kicking</th>
-      <th>GK Positioning</th>
-      <th>GK Reflexes</th>
-      <th>Total Stats</th>
-      <th>Base Stats</th>
-      <th>W/F</th>
-      <th>SM</th>
-      <th>A/W</th>
-      <th>D/W</th>
-      <th>IR</th>
-      <th>PAC</th>
-      <th>SHO</th>
-      <th>PAS</th>
-      <th>DRI</th>
+      <th>...</th>
       <th>DEF</th>
       <th>PHY</th>
       <th>Hits</th>
@@ -9972,78 +3996,7 @@ fifa_df.head(10)
       <td>Lionel Messi</td>
       <td>http://sofifa.com/player/158023/lionel-messi/2...</td>
       <td>Argentina</td>
-      <td>RW ST CF</td>
-      <td>L. Messi</td>
-      <td>33</td>
-      <td>93</td>
-      <td>93</td>
-      <td>FC Barcelona</td>
-      <td>2004</td>
-      <td>2021</td>
-      <td>158023</td>
-      <td>1.70</td>
-      <td>72</td>
-      <td>Left</td>
-      <td>93</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>2004-07-01</td>
-      <td>NaN</td>
-      <td>67500000</td>
-      <td>560000</td>
-      <td>138400000</td>
-      <td>429</td>
-      <td>85</td>
-      <td>95</td>
-      <td>70</td>
-      <td>91</td>
-      <td>88</td>
-      <td>470</td>
-      <td>96</td>
-      <td>93</td>
-      <td>94</td>
-      <td>91</td>
-      <td>96</td>
-      <td>451</td>
-      <td>91</td>
-      <td>80</td>
-      <td>91</td>
-      <td>94</td>
-      <td>95</td>
-      <td>389</td>
-      <td>86</td>
-      <td>68</td>
-      <td>72</td>
-      <td>69</td>
-      <td>94</td>
-      <td>347</td>
-      <td>44</td>
-      <td>40</td>
-      <td>93</td>
-      <td>95</td>
-      <td>75</td>
-      <td>96</td>
-      <td>91</td>
-      <td>32</td>
-      <td>35</td>
-      <td>24</td>
-      <td>54</td>
-      <td>6</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>8</td>
-      <td>2231</td>
-      <td>466</td>
-      <td>4</td>
-      <td>4</td>
-      <td>Medium</td>
-      <td>Low</td>
-      <td>5</td>
-      <td>85</td>
-      <td>92</td>
-      <td>91</td>
-      <td>95</td>
+      <td>...</td>
       <td>38</td>
       <td>65</td>
       <td>372</td>
@@ -10053,78 +4006,7 @@ fifa_df.head(10)
       <td>C. Ronaldo dos Santos Aveiro</td>
       <td>http://sofifa.com/player/20801/c-ronaldo-dos-s...</td>
       <td>Portugal</td>
-      <td>ST LW</td>
-      <td>Cristiano Ronaldo</td>
-      <td>35</td>
-      <td>92</td>
-      <td>92</td>
-      <td>Juventus</td>
-      <td>2018</td>
-      <td>2022</td>
-      <td>20801</td>
-      <td>1.88</td>
-      <td>82</td>
-      <td>Right</td>
-      <td>92</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>2018-07-10</td>
-      <td>NaN</td>
-      <td>46000000</td>
-      <td>220000</td>
-      <td>75900000</td>
-      <td>437</td>
-      <td>84</td>
-      <td>95</td>
-      <td>90</td>
-      <td>82</td>
-      <td>86</td>
-      <td>414</td>
-      <td>88</td>
-      <td>81</td>
-      <td>76</td>
-      <td>77</td>
-      <td>92</td>
-      <td>431</td>
-      <td>87</td>
-      <td>91</td>
-      <td>87</td>
-      <td>95</td>
-      <td>71</td>
-      <td>444</td>
-      <td>94</td>
-      <td>95</td>
-      <td>84</td>
-      <td>78</td>
-      <td>93</td>
-      <td>353</td>
-      <td>63</td>
-      <td>29</td>
-      <td>95</td>
-      <td>82</td>
-      <td>84</td>
-      <td>95</td>
-      <td>84</td>
-      <td>28</td>
-      <td>32</td>
-      <td>24</td>
-      <td>58</td>
-      <td>7</td>
-      <td>11</td>
-      <td>15</td>
-      <td>14</td>
-      <td>11</td>
-      <td>2221</td>
-      <td>464</td>
-      <td>4</td>
-      <td>5</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>5</td>
-      <td>89</td>
-      <td>93</td>
-      <td>81</td>
-      <td>89</td>
+      <td>...</td>
       <td>35</td>
       <td>77</td>
       <td>344</td>
@@ -10134,78 +4016,7 @@ fifa_df.head(10)
       <td>Jan Oblak</td>
       <td>http://sofifa.com/player/200389/jan-oblak/210005/</td>
       <td>Slovenia</td>
-      <td>GK</td>
-      <td>J. Oblak</td>
-      <td>27</td>
-      <td>91</td>
-      <td>93</td>
-      <td>Atlético Madrid</td>
-      <td>2014</td>
-      <td>2023</td>
-      <td>200389</td>
-      <td>1.88</td>
-      <td>87</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>GK</td>
-      <td>2</td>
-      <td>2014-07-16</td>
-      <td>NaN</td>
-      <td>75000000</td>
-      <td>125000</td>
-      <td>159400000</td>
-      <td>95</td>
-      <td>13</td>
-      <td>11</td>
-      <td>15</td>
-      <td>43</td>
-      <td>13</td>
-      <td>109</td>
-      <td>12</td>
-      <td>13</td>
-      <td>14</td>
-      <td>40</td>
-      <td>30</td>
-      <td>307</td>
-      <td>43</td>
-      <td>60</td>
-      <td>67</td>
-      <td>88</td>
-      <td>49</td>
-      <td>268</td>
-      <td>59</td>
-      <td>78</td>
-      <td>41</td>
-      <td>78</td>
-      <td>12</td>
-      <td>140</td>
-      <td>34</td>
-      <td>19</td>
-      <td>11</td>
-      <td>65</td>
-      <td>11</td>
-      <td>68</td>
-      <td>57</td>
-      <td>27</td>
-      <td>12</td>
-      <td>18</td>
-      <td>437</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
-      <td>90</td>
-      <td>1413</td>
-      <td>489</td>
-      <td>3</td>
-      <td>1</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3</td>
-      <td>87</td>
-      <td>92</td>
-      <td>78</td>
-      <td>90</td>
+      <td>...</td>
       <td>52</td>
       <td>90</td>
       <td>86</td>
@@ -10215,78 +4026,7 @@ fifa_df.head(10)
       <td>Kevin De Bruyne</td>
       <td>http://sofifa.com/player/192985/kevin-de-bruyn...</td>
       <td>Belgium</td>
-      <td>CAM CM</td>
-      <td>K. De Bruyne</td>
-      <td>29</td>
-      <td>91</td>
-      <td>91</td>
-      <td>Manchester City</td>
-      <td>2015</td>
-      <td>2023</td>
-      <td>192985</td>
-      <td>1.55</td>
-      <td>69</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>CAM</td>
-      <td>0</td>
-      <td>2015-08-30</td>
-      <td>NaN</td>
-      <td>87000000</td>
-      <td>370000</td>
-      <td>161000000</td>
-      <td>407</td>
-      <td>94</td>
-      <td>82</td>
-      <td>55</td>
-      <td>94</td>
-      <td>82</td>
-      <td>441</td>
-      <td>88</td>
-      <td>85</td>
-      <td>83</td>
-      <td>93</td>
-      <td>92</td>
-      <td>398</td>
-      <td>77</td>
-      <td>76</td>
-      <td>78</td>
-      <td>91</td>
-      <td>76</td>
-      <td>408</td>
-      <td>91</td>
-      <td>63</td>
-      <td>89</td>
-      <td>74</td>
-      <td>91</td>
-      <td>408</td>
-      <td>76</td>
-      <td>66</td>
-      <td>88</td>
-      <td>94</td>
-      <td>84</td>
-      <td>91</td>
-      <td>186</td>
-      <td>68</td>
-      <td>65</td>
-      <td>53</td>
-      <td>56</td>
-      <td>15</td>
-      <td>13</td>
-      <td>5</td>
-      <td>10</td>
-      <td>13</td>
-      <td>2304</td>
-      <td>485</td>
-      <td>5</td>
-      <td>4</td>
-      <td>High</td>
-      <td>High</td>
-      <td>4</td>
-      <td>76</td>
-      <td>86</td>
-      <td>93</td>
-      <td>88</td>
+      <td>...</td>
       <td>64</td>
       <td>78</td>
       <td>163</td>
@@ -10296,78 +4036,7 @@ fifa_df.head(10)
       <td>Neymar da Silva Santos Jr.</td>
       <td>http://sofifa.com/player/190871/neymar-da-silv...</td>
       <td>Brazil</td>
-      <td>LW CAM</td>
-      <td>Neymar Jr</td>
-      <td>28</td>
-      <td>91</td>
-      <td>91</td>
-      <td>Paris Saint-Germain</td>
-      <td>2017</td>
-      <td>2022</td>
-      <td>190871</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>2017-08-03</td>
-      <td>NaN</td>
-      <td>90000000</td>
-      <td>270000</td>
-      <td>166500000</td>
-      <td>408</td>
-      <td>85</td>
-      <td>87</td>
-      <td>62</td>
-      <td>87</td>
-      <td>87</td>
-      <td>448</td>
-      <td>95</td>
-      <td>88</td>
-      <td>89</td>
-      <td>81</td>
-      <td>95</td>
-      <td>453</td>
-      <td>94</td>
-      <td>89</td>
-      <td>96</td>
-      <td>91</td>
-      <td>83</td>
-      <td>357</td>
-      <td>80</td>
-      <td>62</td>
-      <td>81</td>
-      <td>50</td>
-      <td>84</td>
-      <td>356</td>
-      <td>51</td>
-      <td>36</td>
-      <td>87</td>
-      <td>90</td>
-      <td>92</td>
-      <td>93</td>
-      <td>94</td>
-      <td>35</td>
-      <td>30</td>
-      <td>29</td>
-      <td>59</td>
-      <td>9</td>
-      <td>9</td>
-      <td>15</td>
-      <td>15</td>
-      <td>11</td>
-      <td>2175</td>
-      <td>451</td>
-      <td>5</td>
-      <td>5</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>5</td>
-      <td>91</td>
-      <td>85</td>
-      <td>86</td>
-      <td>94</td>
+      <td>...</td>
       <td>36</td>
       <td>59</td>
       <td>273</td>
@@ -10377,78 +4046,7 @@ fifa_df.head(10)
       <td>Robert Lewandowski</td>
       <td>http://sofifa.com/player/188545/robert-lewando...</td>
       <td>Poland</td>
-      <td>ST</td>
-      <td>R. Lewandowski</td>
-      <td>31</td>
-      <td>91</td>
-      <td>91</td>
-      <td>FC Bayern München</td>
-      <td>2014</td>
-      <td>2023</td>
-      <td>188545</td>
-      <td>1.83</td>
-      <td>79</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>0</td>
-      <td>2014-07-01</td>
-      <td>NaN</td>
-      <td>80000000</td>
-      <td>240000</td>
-      <td>132000000</td>
-      <td>423</td>
-      <td>71</td>
-      <td>94</td>
-      <td>85</td>
-      <td>84</td>
-      <td>89</td>
-      <td>407</td>
-      <td>85</td>
-      <td>79</td>
-      <td>85</td>
-      <td>70</td>
-      <td>88</td>
-      <td>407</td>
-      <td>77</td>
-      <td>78</td>
-      <td>77</td>
-      <td>93</td>
-      <td>82</td>
-      <td>420</td>
-      <td>89</td>
-      <td>84</td>
-      <td>76</td>
-      <td>86</td>
-      <td>85</td>
-      <td>391</td>
-      <td>81</td>
-      <td>49</td>
-      <td>94</td>
-      <td>79</td>
-      <td>88</td>
-      <td>88</td>
-      <td>96</td>
-      <td>35</td>
-      <td>42</td>
-      <td>19</td>
-      <td>51</td>
-      <td>15</td>
-      <td>6</td>
-      <td>12</td>
-      <td>8</td>
-      <td>10</td>
-      <td>2195</td>
-      <td>457</td>
-      <td>4</td>
-      <td>4</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>4</td>
-      <td>78</td>
-      <td>91</td>
-      <td>78</td>
-      <td>85</td>
+      <td>...</td>
       <td>43</td>
       <td>82</td>
       <td>182</td>
@@ -10458,78 +4056,7 @@ fifa_df.head(10)
       <td>Kylian Mbappé</td>
       <td>http://sofifa.com/player/231747/kylian-mbappe/...</td>
       <td>France</td>
-      <td>ST LW RW</td>
-      <td>K. Mbappé</td>
-      <td>21</td>
-      <td>90</td>
-      <td>95</td>
-      <td>Paris Saint-Germain</td>
-      <td>2018</td>
-      <td>2022</td>
-      <td>231747</td>
-      <td>1.55</td>
-      <td>73</td>
-      <td>Right</td>
-      <td>91</td>
-      <td>ST</td>
-      <td>5</td>
-      <td>2018-07-01</td>
-      <td>NaN</td>
-      <td>105500000</td>
-      <td>160000</td>
-      <td>203100000</td>
-      <td>408</td>
-      <td>78</td>
-      <td>91</td>
-      <td>73</td>
-      <td>83</td>
-      <td>83</td>
-      <td>394</td>
-      <td>92</td>
-      <td>79</td>
-      <td>63</td>
-      <td>70</td>
-      <td>90</td>
-      <td>458</td>
-      <td>96</td>
-      <td>96</td>
-      <td>92</td>
-      <td>92</td>
-      <td>82</td>
-      <td>404</td>
-      <td>86</td>
-      <td>77</td>
-      <td>86</td>
-      <td>76</td>
-      <td>79</td>
-      <td>341</td>
-      <td>62</td>
-      <td>38</td>
-      <td>91</td>
-      <td>80</td>
-      <td>70</td>
-      <td>84</td>
-      <td>100</td>
-      <td>34</td>
-      <td>34</td>
-      <td>32</td>
-      <td>42</td>
-      <td>13</td>
-      <td>5</td>
-      <td>7</td>
-      <td>11</td>
-      <td>6</td>
-      <td>2147</td>
-      <td>466</td>
-      <td>4</td>
-      <td>5</td>
-      <td>High</td>
-      <td>Low</td>
-      <td>3</td>
-      <td>96</td>
-      <td>86</td>
-      <td>78</td>
-      <td>91</td>
+      <td>...</td>
       <td>39</td>
       <td>76</td>
       <td>646</td>
@@ -10539,78 +4066,7 @@ fifa_df.head(10)
       <td>Alisson Ramses Becker</td>
       <td>http://sofifa.com/player/212831/alisson-ramses...</td>
       <td>Brazil</td>
-      <td>GK</td>
-      <td>Alisson</td>
-      <td>27</td>
-      <td>90</td>
-      <td>91</td>
-      <td>Liverpool</td>
-      <td>2018</td>
-      <td>2024</td>
-      <td>212831</td>
-      <td>1.91</td>
-      <td>91</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>GK</td>
-      <td>1</td>
-      <td>2018-07-19</td>
-      <td>NaN</td>
-      <td>62500000</td>
-      <td>160000</td>
-      <td>120300000</td>
-      <td>114</td>
-      <td>17</td>
-      <td>13</td>
-      <td>19</td>
-      <td>45</td>
-      <td>20</td>
-      <td>138</td>
-      <td>27</td>
-      <td>19</td>
-      <td>18</td>
-      <td>44</td>
-      <td>30</td>
-      <td>268</td>
-      <td>56</td>
-      <td>47</td>
-      <td>40</td>
-      <td>88</td>
-      <td>37</td>
-      <td>240</td>
-      <td>64</td>
-      <td>52</td>
-      <td>32</td>
-      <td>78</td>
-      <td>14</td>
-      <td>140</td>
-      <td>27</td>
-      <td>11</td>
-      <td>13</td>
-      <td>66</td>
-      <td>23</td>
-      <td>65</td>
-      <td>50</td>
-      <td>15</td>
-      <td>19</td>
-      <td>16</td>
-      <td>439</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>91</td>
-      <td>89</td>
-      <td>1389</td>
-      <td>490</td>
-      <td>3</td>
-      <td>1</td>
-      <td>Medium</td>
-      <td>Medium</td>
-      <td>3</td>
-      <td>86</td>
-      <td>88</td>
-      <td>85</td>
-      <td>89</td>
+      <td>...</td>
       <td>51</td>
       <td>91</td>
       <td>79</td>
@@ -10620,78 +4076,7 @@ fifa_df.head(10)
       <td>Mohamed Salah</td>
       <td>http://sofifa.com/player/209331/mohamed-salah/...</td>
       <td>Egypt</td>
-      <td>RW</td>
-      <td>M. Salah</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>Liverpool</td>
-      <td>2017</td>
-      <td>2023</td>
-      <td>209331</td>
-      <td>1.75</td>
-      <td>71</td>
-      <td>Left</td>
-      <td>90</td>
-      <td>RW</td>
-      <td>0</td>
-      <td>2017-07-01</td>
-      <td>NaN</td>
-      <td>78000000</td>
-      <td>250000</td>
-      <td>144300000</td>
-      <td>392</td>
-      <td>79</td>
-      <td>91</td>
-      <td>59</td>
-      <td>84</td>
-      <td>79</td>
-      <td>406</td>
-      <td>90</td>
-      <td>83</td>
-      <td>69</td>
-      <td>75</td>
-      <td>89</td>
-      <td>460</td>
-      <td>94</td>
-      <td>92</td>
-      <td>91</td>
-      <td>92</td>
-      <td>91</td>
-      <td>393</td>
-      <td>80</td>
-      <td>69</td>
-      <td>85</td>
-      <td>75</td>
-      <td>84</td>
-      <td>376</td>
-      <td>63</td>
-      <td>55</td>
-      <td>91</td>
-      <td>84</td>
-      <td>83</td>
-      <td>90</td>
-      <td>122</td>
-      <td>38</td>
-      <td>43</td>
-      <td>41</td>
-      <td>62</td>
-      <td>14</td>
-      <td>14</td>
-      <td>9</td>
-      <td>11</td>
-      <td>14</td>
-      <td>2211</td>
-      <td>470</td>
-      <td>3</td>
-      <td>4</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3</td>
-      <td>93</td>
-      <td>86</td>
-      <td>81</td>
-      <td>90</td>
+      <td>...</td>
       <td>45</td>
       <td>75</td>
       <td>164</td>
@@ -10701,84 +4086,14 @@ fifa_df.head(10)
       <td>Sadio Mané</td>
       <td>http://sofifa.com/player/208722/sadio-mane/210...</td>
       <td>Senegal</td>
-      <td>LW</td>
-      <td>S. Mané</td>
-      <td>28</td>
-      <td>90</td>
-      <td>90</td>
-      <td>Liverpool</td>
-      <td>2016</td>
-      <td>2023</td>
-      <td>208722</td>
-      <td>1.75</td>
-      <td>68</td>
-      <td>Right</td>
-      <td>90</td>
-      <td>LW</td>
-      <td>0</td>
-      <td>2016-07-01</td>
-      <td>NaN</td>
-      <td>78000000</td>
-      <td>250000</td>
-      <td>144300000</td>
-      <td>410</td>
-      <td>76</td>
-      <td>90</td>
-      <td>84</td>
-      <td>85</td>
-      <td>75</td>
-      <td>391</td>
-      <td>91</td>
-      <td>76</td>
-      <td>64</td>
-      <td>71</td>
-      <td>89</td>
-      <td>460</td>
-      <td>95</td>
-      <td>93</td>
-      <td>93</td>
-      <td>93</td>
-      <td>86</td>
-      <td>406</td>
-      <td>84</td>
-      <td>86</td>
-      <td>88</td>
-      <td>70</td>
-      <td>78</td>
-      <td>358</td>
-      <td>75</td>
-      <td>35</td>
-      <td>92</td>
-      <td>85</td>
-      <td>71</td>
-      <td>84</td>
-      <td>122</td>
-      <td>42</td>
-      <td>42</td>
-      <td>38</td>
-      <td>56</td>
-      <td>10</td>
-      <td>10</td>
-      <td>15</td>
-      <td>7</td>
-      <td>14</td>
-      <td>2203</td>
-      <td>469</td>
-      <td>4</td>
-      <td>4</td>
-      <td>High</td>
-      <td>Medium</td>
-      <td>3</td>
-      <td>94</td>
-      <td>85</td>
-      <td>80</td>
-      <td>90</td>
+      <td>...</td>
       <td>44</td>
       <td>76</td>
       <td>170</td>
     </tr>
   </tbody>
 </table>
+<p>10 rows × 78 columns</p>
 </div>
 
 
