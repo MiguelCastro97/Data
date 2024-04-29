@@ -28,7 +28,7 @@ from sklearn.linear_model import LinearRegression
 pd.set_option('display.max_rows', 20)
 
 #This will make pandas show all columns of the dataframe
-pd.set_option('display.max_columns', None)
+pd.set_option('display.max_columns', 6)
 
 #I changed the color of the plots to have a dark theme
 plt.rcParams['axes.facecolor'] = 'black'
